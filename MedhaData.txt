@@ -54,3 +54,981 @@ How AI & ML Solve These Challenges:
  ii. AI for Mutation Identification: IBM Watson Genomics differentiates between critical and irrelevant mutations, enhancing precision medicine.
  iii. Real-Time Treatment Adjustments: AI models (e.g., Tempus AI) predict tumor evolution and recommend therapies within hours.
  iv. Cancer Biomarker Discovery: AI (e.g., DeepMind’s AlphaFold) identifies new cancer-related genes, accelerating drug discovery and early    detection.
+
+
+
+ ###---Copilot---###
+Title: AI-Driven Precision Oncology Model for Optimized Combination Chemotherapy and Targeted Radiation Therapy
+
+DESCRIPTION OF THE INVENTION
+A. Problem Addressed by the Invention
+Cancer treatment has long been challenged by the limitations of traditional chemotherapy and radiation therapy. The major problems include:
+
+Non-Specificity of Chemotherapy: Conventional chemotherapy drugs lack specificity, affecting both cancerous and healthy cells. This leads to severe side effects such as immune suppression, organ toxicity, and decreased quality of life.
+
+Damage to Healthy Tissues in Radiation Therapy: Radiation therapy often damages surrounding healthy tissues while targeting cancer cells, causing complications and prolonging recovery times.
+
+Lack of Personalization: Standardized treatment protocols do not account for individual patient differences like genetic profiles, tumor characteristics, and specific health conditions, leading to suboptimal outcomes.
+
+High Treatment Costs: The inefficiency of generalized treatments results in increased healthcare costs due to medication waste, extended hospital stays, and extensive rehabilitation needs.
+
+Limited Integration of Real-Time Data: Existing treatment models do not effectively utilize real-time patient data to adjust and optimize therapy plans dynamically.
+
+B. Objective of the Invention
+The primary objectives of the invention are:
+
+To Develop an AI-Driven Precision Oncology Model that leverages artificial intelligence to analyze comprehensive patient data for personalized cancer treatment.
+
+To Optimize Combination Chemotherapy Regimens by selecting and dosing drugs that specifically target cancer cells while minimizing harm to healthy cells and reducing side effects.
+
+To Design Targeted Radiation Therapy Plans that accurately focus on cancerous tissues, sparing surrounding healthy tissues, and thereby reducing complications.
+
+To Enhance Treatment Effectiveness and Efficiency by continuously learning from real-time patient data and adjusting treatment plans accordingly.
+
+To Provide a Cost-Effective Cancer Treatment Solution that reduces overall healthcare costs by optimizing resource allocation and improving patient outcomes.
+
+C. State of the Art / Research Gap / Novelty
+State of the Art
+Standard Treatment Protocols: Current cancer treatments often follow generalized protocols with limited personalization.
+
+Emerging AI Applications: Some AI models are being developed for specific aspects of cancer care, such as diagnostic imaging and predictive analytics.
+
+Limited Integration: Few existing solutions comprehensively integrate patient data to optimize both chemotherapy and radiation therapy.
+
+Research Gap
+Lack of Comprehensive Models: There is a gap in integrating AI to simultaneously optimize chemotherapy and radiation therapy based on individual patient data.
+
+Inadequate Real-Time Adaptation: Current models do not adequately adjust treatment plans in real-time based on patient responses.
+
+Cost Considerations: Existing solutions often overlook the importance of cost-effectiveness and resource optimization.
+
+Novelty
+Holistic AI-Driven Model: The invention introduces a comprehensive AI model that personalizes both chemotherapy and radiation therapy.
+
+Real-Time Monitoring and Adaptation: Incorporates continuous real-time data monitoring to dynamically adjust treatment plans.
+
+Cost Optimization: Emphasizes reducing treatment costs through efficient resource utilization and minimizing side effects.
+
+Advanced AI Techniques: Utilizes cutting-edge AI algorithms, including deep learning, reinforcement learning, and computer vision, to enhance precision and effectiveness.
+
+D. Detailed Description
+Overview
+The invention is an AI-driven precision oncology model designed to revolutionize cancer treatment by:
+
+Analyzing Individual Patient Data for personalized therapy.
+
+Optimizing Chemotherapy Regimens to target cancer cells specifically.
+
+Designing Targeted Radiation Plans that spare healthy tissues.
+
+Implementing Real-Time Monitoring for adaptive treatment adjustments.
+
+Reducing Treatment Costs through efficient resource allocation.
+
+System Architecture
+
+(Note: Figures and diagrams are referenced here. In the actual patent document, appropriate diagrams illustrating the system architecture, data flow, and process steps would be included.)
+
+Components
+Data Acquisition Module
+
+Collects comprehensive patient data.
+
+Interfaces with electronic health records (EHRs), imaging systems, and wearable devices.
+
+Data Processing and Integration Engine
+
+Preprocesses and integrates heterogeneous data sources.
+
+Employs data normalization and cleansing techniques.
+
+AI Analytics Core
+
+Machine Learning Models: For pattern recognition and predictive analytics.
+
+Deep Learning Networks: Analyze complex genetic and imaging data.
+
+Reinforcement Learning Algorithms: Enable adaptive learning based on patient responses.
+
+Natural Language Processing (NLP): Extracts insights from unstructured data.
+
+Treatment Optimization Module
+
+Chemotherapy Planner: Recommends drug combinations and dosages.
+
+Radiation Therapy Planner: Designs precise radiation delivery paths.
+
+Real-Time Monitoring and Feedback System
+
+Collects ongoing patient data during treatment.
+
+Adjusts treatment plans dynamically.
+
+User Interface for Clinicians
+
+Provides visualizations and reports.
+
+Allows clinicians to interact with and approve treatment plans.
+
+Process Flow
+1. Patient Data Collection and Integration
+Genetic Profiles: DNA sequencing results, identifying mutations and biomarkers.
+
+Tumor Characteristics: Imaging data (MRI, CT, PET scans), size, location.
+
+Medical History: Previous treatments, allergies, comorbidities.
+
+Real-Time Health Indicators: Vital signs, lab results, patient-reported symptoms.
+
+2. Data Analysis and Model Training
+Feature Extraction: Identify key predictors of treatment response.
+
+Model Training:
+
+Supervised learning with historical data.
+
+Unsupervised learning to discover new patterns.
+
+Validation: Cross-validation and testing with separate datasets.
+
+3. Treatment Plan Generation
+Chemotherapy Optimization:
+
+Drug selection based on tumor genetics and patient health.
+
+Dosage calculation to maximize efficacy and minimize toxicity.
+
+Radiation Therapy Design:
+
+AI-driven imaging analysis for accurate tumor mapping.
+
+Radiation dose planning targeting only cancerous cells.
+
+4. Implementation and Monitoring
+Treatment Delivery: Plans are executed under clinical supervision.
+
+Real-Time Monitoring:
+
+Collects data on patient responses.
+
+Uses feedback to adjust treatments.
+
+5. Adaptive Learning and Continuous Improvement
+Model Update: Incorporates new data into the AI model.
+
+Outcome Analysis: Measures effectiveness and side effects.
+
+Refinement: Adjusts algorithms to improve future predictions.
+
+Technological Innovations
+Artificial Intelligence Techniques
+Deep Learning Neural Networks: Handle high-dimensional genetic and imaging data.
+
+Reinforcement Learning: Optimize treatment strategies over time.
+
+Computer Vision: Enhance imaging diagnostics and radiation targeting.
+
+Generative Adversarial Networks (GANs): Improve data quality and simulate outcomes.
+
+Natural Language Processing (NLP): Extract information from clinical notes and literature.
+
+Data Security and Privacy
+Encryption Protocols: Secure data storage and transmission.
+
+Anonymization: Protect patient identity in data used for model training.
+
+Compliance: Adherence to HIPAA and other regulatory standards.
+
+Diagrams and Flowcharts
+Figure 1: System Architecture Flowchart
+
+Displays the interaction between data acquisition, AI analytics, treatment planning, and monitoring components.
+
+Figure 2: Data Processing Pipeline
+
+Illustrates steps from data collection to model training and validation.
+
+Figure 3: Treatment Optimization Process
+
+Shows how chemotherapy and radiation therapy plans are generated and adjusted.
+
+Figure 4: Real-Time Monitoring Framework
+
+Depicts how patient data is used to adapt treatment plans dynamically.
+
+E. Results and Advantages
+Results
+Personalized Treatment Plans: Successfully creates individualized chemotherapy and radiation therapy plans.
+
+Reduced Side Effects: Minimizes toxic effects by targeting only cancer cells.
+
+Improved Patient Outcomes: Increases survival rates and enhances quality of life.
+
+Cost Savings: Lowers overall treatment costs due to optimized resource use.
+
+Adaptive Learning: Continuously improves with more data and outcomes.
+
+Advantages
+Enhanced Precision: AI-driven analysis allows for highly accurate targeting of cancer cells.
+
+Minimization of Side Effects: By sparing healthy tissues, patients experience fewer adverse effects.
+
+Cost-Effectiveness: Optimized treatments reduce unnecessary expenses.
+
+Real-Time Adaptability: Treatment plans can be adjusted promptly in response to patient feedback.
+
+Scalability: The model can be applied to various cancer types and healthcare settings.
+
+Integration with Existing Systems: Compatible with current medical infrastructure.
+
+F. Expansion
+Future Developments
+Multi-Cancer Applications: Extend the model to treat different cancer types effectively.
+
+Global Health Integration: Adapt the system for use in diverse healthcare environments, including resource-limited settings.
+
+Telemedicine: Incorporate remote monitoring capabilities for wider patient reach.
+
+Collaboration Opportunities
+Research Institutions: Partnering for clinical trials and further model refinement.
+
+Pharmaceutical Companies: Collaborate on drug development and usage optimization.
+
+Healthcare Providers: Integration into hospitals and clinics for patient care enhancement.
+
+G. Working Prototype / Formulation
+Prototype Development
+Beta Version of AI Model: Developed and tested with retrospective patient data.
+
+Simulation Studies: Conducted to validate the model's predictions against known outcomes.
+
+Pilot Implementation: Small-scale trials initiated in a controlled clinical environment.
+
+Components of the Prototype
+Data Integration Platform
+
+Handles data from multiple sources.
+
+Ensures seamless data flow.
+
+AI Analytics Engine
+
+Core algorithms for treatment optimization.
+
+Includes machine learning models trained on initial datasets.
+
+User Interface
+
+Dashboards for clinicians.
+
+Visualization tools for treatment plans.
+
+Testing and Validation
+Validation Metrics: Accuracy, specificity, sensitivity, and predictive value.
+
+Feedback Mechanisms: Collect clinician and patient feedback to improve the system.
+
+G. Existing Data
+Not Applicable (NA)
+
+4. Use and Disclosure (Important)
+The invention described herein provides a novel approach to cancer treatment through an AI-driven precision oncology model. It is intended for use by:
+
+Healthcare Providers: For improving patient care through personalized treatment.
+
+Researchers: To further develop and refine AI applications in medicine.
+
+Pharmaceutical Industry: For designing targeted therapies and optimizing drug usage.
+
+Healthcare Policy Makers: To inform policies that encourage cost-effective and efficient treatments.
+
+Disclosure Considerations:
+
+Confidentiality: Details of the AI algorithms and proprietary data processing methods are confidential and proprietary.
+
+Regulatory Compliance: All use of patient data must comply with relevant privacy laws and regulations.
+
+Ethical Use: Ensure that the AI model is used ethically, with transparency and accountability.
+
+11. Keywords
+AI-Driven Precision Oncology
+
+Personalized Cancer Treatment
+
+Combination Chemotherapy Optimization
+
+Targeted Radiation Therapy
+
+Artificial Intelligence in Healthcare
+
+Machine Learning in Oncology
+
+Deep Learning for Cancer Treatment
+
+Real-Time Treatment Monitoring
+
+Cost-Effective Cancer Therapy
+
+Adaptive Treatment Planning
+
+Patient-Specific Treatment Plans
+
+Reinforcement Learning in Medicine
+
+Computer Vision in Medical Imaging
+
+Genetic Profiling in Cancer Care
+
+Medical Data Integration
+
+Conclusion
+The proposed AI-driven precision oncology model represents a significant advancement in cancer treatment by addressing the limitations of traditional therapies. By integrating comprehensive patient data and employing advanced AI techniques, the model offers personalized, efficient, and cost-effective treatment plans that specifically target cancer cells while sparing healthy tissues. The invention holds the potential to improve patient outcomes dramatically, reduce healthcare costs, and pave the way for future innovations in precision medicine.
+
+Note: This patent document includes references to figures and diagrams (e.g., flowcharts, system architecture diagrams). These visual elements should be created and included by a professional illustrator or diagram specialist in the final document. The descriptions provided here are intended to guide the creation of these visuals.
+
+Next Steps
+Review and Revision: Ensure all technical details accurately reflect the invention.
+
+Legal Consultation: Work with a patent attorney to finalize the patent application.
+
+Illustrations: Develop the referenced figures and diagrams for inclusion.
+
+Filing: Submit the patent application to the appropriate patent office.
+
+
+
+
+###------1st Patent-------##
+
+US 202101 18136Al 
+(19) United States
+(12) Patent Application Publication (10) Pub. No.: US 2021/0118136 Al
+	HASSAN-SHAFIQUE et al.	(43) Pub. Date:	Apr. 22, 2021
+ 
+ 
+(54) ARTIFICIAL INTELLIGENCE FOR PERSONALIZED ONCOLOGY
+(71)	Applicant: Novateur Research Solutions LLC, Ashburn, VA (US)
+(72)	Inventors: Khurram HASSAN-SHAFIQUE,
+Aldie, VA (US); Zeeshan RASHEED,
+Great Falls, VA (US); Jonathan Jacob
+AMAZON, Herndon, VA (US); Rashid
+	CIIOTANI, Great Falls, 	(US)
+(73)	Assignee: Novateur Research Solutions LLC, Ashburn, VA (US)
+(21)	Appl. No.: 17/078,012
+(22)	Filed:	Oct. 22, 2020
+Related U.S. Application Data
+(60) Provisional application No. 62/924,668, filed on Oct. 22, 2019.
+Publication Classification
+(51)	Int. Cl.
+G06T 7/00	(2006.01)
+(71611 30/20	(2006.01)
+(71611 50/20	(2006.01)
+(71611 10/60	(2006.01)
+G06F 16/535	(2006.01)
+(716B 40/00	(2006.01)
+(716B 50/00	(2006.01)
+(52)	U.S. Cl.
+CPC . G06T 7/0012 (2013.01); G1611 30/20 (2018.01); (71611 50/20 (2018.01); (71611 10/60 (2018.01); G06K 9/00147 (2013.01); G16B 40/00 (2019.02); G16B 50/00 (2019.02); G06T 2207/10056 (2013.01); G06T
+2207/20081 (2013.01); G06F 16/535
+(2019.01)
+(57)	ABSTRACT
+Techniques performed by a data processing system for operating a personalized oncology system herein include accessing a first histopathological image of a histopathological slide of a sample taken from a first patient; analyzing the first histopathological image using a first machine learning model configured to extract first features from the first histopathological image; searching a histological database that includes a plurality of second histopathological images and corresponding clinical data for a plurality of second patients to generate search results; analyzing the plurality of third histopathological images and the corresponding clinical data associated with the plurality of third histopathological images using statistical analysis techniques to generate associated statistics and metrics associated with mortality, morbidity, time-to-event, or a combination thereof for the plurality of third patients associated with the third histopathological images; and presenting an interactive visual representation of the associated statistics and metrics including information for the personalized therapeutic plan for treating the first patient.
+ 
+ 
+	0	o e eeeeee) 
+• •ŞŞ:Ş:.• •
+ 
+Patent Application Publication	Apr. 22, 2021 Sheet 4 of 19	US 2021/0118136 Al 
+Patent Application Publication	Apr. 22, 2021 Sheet 5 of 19	US 2021/0118136 Al 
+Patent Application Publication	Apr. 22, 2021 Sheet 6 of 19	US 2021/0118136 Al
+'ŞŞŞŞ
+Patent Application Publication	Apr. 22, 2021 Sheet 7 of 19	US 2021/0118136 Al
+		. .şl.•i	
+Patent Application Publication	Apr. 22, 2021 Sheet 8 of 19	US 2021/0118136 Al 
+Patent Application Publication	Apr. 22, 2021 Sheet 9 of 19	US 2021/0118136 Al 
+Patent Application Publication	Apr. 22, 2021 Sheet 10 of 19	US 2021/0118136 Al 
+Patent Application Publication	Apr. 22, 2021 Sheet 11 of 19	US 2021/0118136 Al
+ 
+Patent Application Publication	Apr. 22, 2021 Sheet 12 of 19	US 2021/0118136 Al
+ 
+ 
+Patent Application Publication	Apr. 22, 2021 Sheet 13 of 19	US 2021/0118136 Al 
+Patent Application Publication	Apr. 22, 2021 Sheet 14 of 19	US 2021/0118136 Al 
+Patent Application Publication Apr. 22, 2021 Sheet 15 of 19	US 2021/0118136 Al
+"Real I FakeT 
+Patent Application Publication	Apr. 22, 2021 Sheet 16 of 19	US 2021/0118136 Al
+VGG
+E:nccde::
+•epooea
+VGG
+Encoder
+Patent Application Publication	Apr. 22, 2021 Sheet 17 of 19	US 2021/0118136 Al 
+Patent Application Publication	Apr. 22, 2021 Sheet 18 of 19 US 2021/0118136 Al
+23
+00 
+Patent Application Publication	Apr. 22, 2021 Sheet 19 of 19	US 2021/0118136 Al
+1900
+Access a first histopathological image of a histopathological slide of a sample taken from a first patient	1910
+ 1920
+ 1930
+		
+Analyze the first histopathological image using a first machine learning model configured to extract first features from the first histopathological image, wherein the first features are indicative of cancerous tissue in the sample taken from the first patient	
+		
+Search a histological database that includes a plurality of second histopathological images and corresponding clinical data for a plurality of second patients to generate search results, wherein the search results include a plurality of third histopathological images and corresponding clinical data from the plurality of second histopathological images and corresponding clinical data that match the first features from the first histopathological image, and wherein the third histopathological images and corresponding clinical data are associated with a plurality of third patients of the plurality of second patients	
+		
+Analyze the plurality of third histopathological images and the corresponding clinical data associated with the plurality of third histopathological images using statistical analysis techniques to generate associated statistics and metrics associated with mortality, morbidity, time-to-event, or a combination thereof for the plurality of third patients associated with the third histopathological images	
+	1950
+		
+Present an interactive visual representation of the associated statistics and metrics on a display of the system	
+FIG. 19
+ 
+ARTIFICIAL INTELLIGENCE FOR
+PERSONALIZED ONCOLOGY
+CROSS-REFERENCE TO RELATED APPLICATION
+100011 This application claims the benefit of priority to U.S. Provisional Patent Application No. 62/924,668, filed on Oct. 22, 2019 and entitled "Artificial Intelligence for Personalized Oncology," the entirety of which is incorporated by reference herein in its entirety.
+BACKGROUND
+100021 Histopathology refers to microscopic examination of tissue to study the manifestation of disease. In histopathology, a pathologist examines a biopsy or surgical specimen that has been processed and placed on a slide for examination using a microscope. There are numerous histopathologic data sources which include digitally scanned slides that may be used as a reference for diagnosing oncological problems in patient. However, the sheer size and volume of this data makes it impractical for a pathologist, oncologist, or other doctor treating a patient to manually review these data sources. Some attempts to use machine learning models automate this comparison of these data sources with patient data has been attempted. However, these attempts have met with limit success due to numerous issues, including a lack of annotated training data that may be used to train such models and that most histopathologic data does not lend itself to such machine learning approaches due to the sheer size of most histopathologic slide data. Hence, there is a need for improved systems and methods of analyzing oncology data to provide personalized therapeutic plans for treating patients.
+SUMMARY
+[0003] An example system for personalized oncology according to the disclosure includes a processor and a memory in communication with the processor. The memory comprising executable instructions that, when executed by the processor, cause the processor to control the system to perlòrm lilnctions of: accessing a first histopathological image of a histopathological slide of a sample taken from a first patient; analyzing the first histopathological image using a first machine learning model configured to extract first lèatures from the first histopathological image, wherein the first lèatures are indicative of cancerous tissue in the sample taken from the first patient; searching a histological database that includes a plurality of second histopathological images and corresponding clinical data lòr a plurality of second patients to generate search results, wherein the search results include a plurality of third histopathological images and corresponding clinical data from the plurality of second histopathological images and corresponding clinical data that match the first lèatures from the first histopathological image, and wherein the third histopathological images and corresponding clinical data are associated with a plurality of third patients of the plurality of second patients; analyzing the plurality of third histopathological images and the corresponding clinical data associated with the plurality of third histopathological images using statislical analysis techniques 10 generate associated statistics and metrics associated with mortality, morbidity, lime-to-event, or a combination thereof Ibr the plurality of third patients associated with the third histopathological images; and presenting an interactive visual representation of the associated statistics and metrics on a display of the system. 100041 An example method of operating a personalized oncology system according to the disclosure includes accessing a first histopathological image of a histopathological slide of a sample taken from a first patient; analyzing the first histopathological image using a first machine learning model configured to extract first features from the first histopathological image, wherein the first features are indicative of cancerous tissue in the sample taken from the first patient; searching a histological database that includes a plurality of second histopathological images and corresponding clinical data for a plurality of second patients to generate search results, wherein the search results include a plurality of third histopathological images and corresponding clinical data from the plurality of second histopathological images and corresponding clinical data that match the first features from the first histopathological image, and wherein the third histopathological images and corresponding clinical data are associated with a plurality of third patients of the plurality of second patients; analyzing the plurality of third histopathological images and the corresponding clinical data associated with the plurality of third histopathological images using statistical analysis techniques to generate associated statistics and metrics associated with mortality, morbidity, time-to-event, or a combination thereof for the plurality of third patients associated with the third histopathological images; and presenting an interactive visual representation of the associated statistics and metrics on a display of the system.
+[00051 An example non-transitory computer readable medium according to the disclosure contains instructions which, when executed by a processor, cause a computer to perform functions of accessing a first histopathological image of a histopathological slide of a sample taken from a first patient; analyzing the first histopathological image using a first machine learning model configured to extract first features from the first histopathological image, wherein the first lèatures are indicative of cancerous tissue in the sample taken from the first patient; searching a histological database that includes a plurality of second histopathological images and corresponding clinical data Ibr a plurality of second patients to generate search results, wherein the search results include a plurality of third histopathological images and corresponding clinical data from the plurality of second histopathological images and corresponding clinical data that match the first lèatures from the first histopathological image, and wherein the third histopathological images and corresponding clinical data are associated with a plurality of third patients of the plurality of second patients; analyzing the plurality of third histopathological images and the corresponding clinical data associated with the plurality of third histopathological images using statistical analysis techniques to generate associated statistics and metrics associated with mortality, morbidity, time-to-event, or a combination thereof (Or the plurality of third patients associated with the third histopathological images; and presenting an interactive visual representation of the associaled statistics and metrics on a display of the system. 100061 This Summary is provided to introduce a selection of concepts in a simplified IOrm that are lilrlher described  below in the Detailed Description. This Summary is not  intended 10 identilý key lèalures or essential lèalures of the claimed subject matter, nor is it intended to be used to limit the scope of the claimed subject matter. Furthermore, the claimed subject matter is not limited to implementations that solve any or all disadvantages noted in any part of this disclosure.
+BRIEF DESCRIPTION OF THE DRAWINGS
+100071 The drawing figures depict one or more implementations in accord with the present teachings, by way of example only, not by way of limitation. In the figures, like reference numerals refer to the same or similar elements. Furthermore, it should be understood that the drawings are not necessarily to scale.
+100081 FIG. 1 is a block diagram showing an example computing environment in which an example personalized oncology system may be implemented.
+100091 FIG. 2 illustrates an implementation of a deep convolutional neural architecture for image feature learning and extraction.
+[00101 FIG. 3 shows high-resolution breast cancer histopathological images labeled by pathologists.
+[00111 FIG. 4 illustrates broad variability of high-resolution image appearances due to high coherency of cancerous cells, extensive inhomogeneity of color distribution, and inter-class variability.
+[00121 FIG. 5 shows example images of different grades of breast tumors which demonstrate examples of the wide variety of histological patterns that may be present in histopathological samples.
+[00131 FIG. 6 shows an implementation of a high-level workflow of the Al-based personalized oncology system. [0014] FIG. 7 shows a query patch being matched to a database slide indexed using patches at two different magnification.
+[0015] FIGS. 8, 9, and 10 show example user interfaces for searching and presenting search results that may provide a personalized therapeutic plan for a patient.
+100161 FIG. 11 is a block diagram showing an example computer system upon which aspects of this disclosure may be implemented.
+100171 FIG. 12 is a flow chart of an example process Ibr generating personalized therapeutic plan Ibr a patient requiring oncological treatment.
+100181 FIG. 13 is a block diagram that shows an example Siamese network.
+100191 FIG. 14 is a block diagram that shows an example of another Siamese network.
+ FIG. 15 is a block diagram that shows an example of a Generative Adversarial Network.
+100211 FIG. 16 is a block diagram that shows an example of a style-translèr network.
+100221 FIG. 17 is a diagram of a process Ibr lèalure computation, dictionary learning, and indexing of the image corpus of the historical database 150.
+100231 FIG. 18 is a diagram of an example process  Ibr perlòrming a query using the personalized oncology system shown in the preceding figures.
+100241 FIG. 19 is a flow chart of another example process  lòr generating personalized therapeutic plan lòr a patient requiring oncological treatment.
+DETAILED DESCRIPTION
+[00251 In the following detailed description, numerous specific details are set forth by way of examples in order to provide a thorough understanding of the relevant teachings. However, it should be apparent that the present teachings may be practiced without such details. In other instances, well known methods, procedures, components, and/or circuitry have been described at a relatively high-level, without detail, in order to avoid unnecessarily obscuring aspects of the present teachings.
+100261 Techniques provided herein provide technical solulions Iòr the problem of providing an optimized and personalized therapeutic plan for a patient requiring oncological treatment. The techniques disclosed herein utilize artificial intelligence models trained on histological and associated clinical data to infer the efficacy of various treatments for a patient and to provide the patient's oncologist with key insights about clinical outcomes of the treatments, including a survival rate, reoccurrence rate, time-to-reoccurrence, and/ or other factors associated with these treatments. The techniques provided herein provide a technical solution to the technical problem of the large amount of annotated training data required by current deep-learning approaches to analyzing image data. The technical solution leverages the knowledge and expertise of trained pathologists to recognize and interpret subtle histologic features and to guide the artificial intelligence system by identifying regions of interest (ROI) in a patient's histopathology imagery to be analyzed. This approach provides the technical benefit of significantly reducing the amount of image data that needs to be analyzed by the deep convolutional neural network.
+[0027] An artificial intelligence (Al)-based personalized oncology system is provided. The personalized oncology system utilizes a hybrid computer-human system approach that combines (i) the computational power and storage of modern computer systems to mine large histopathological imagery databases (ii) novel deep learning methods to extract meaningful features from histopathological images without requiring large amounts of annotated training data  (iii) recent advances in large-scale indexing and retrieval of image databases, and (iv) the knowledge and expertise of trained pathologists to recognize and interpret subtle histologic lèatures and to guide the artificial intelligence system. The personalized oncology system exploits histologic imagery and associated clinical data to provide oncologists key insights about clinical outcomes, such as but not limited to survival rate, reoccurrence rate, and time-to-reoccurrence, and the efficacy of treatments based on patient's histological and other personal factors. Thus, the personalized oncology system enables the oncologist 10 identilý optimal treatment  plan (Or the patient.
+100281 FIG. 1 is a block diagram showing an example computing environment 100 in which an example personalized oncology system 125 may be implemented. The computing environment 100 includes a slide scanner 120, a pathology database 110, a client device 105, and a historical database 150 in addition to the personalized oncology syslem 125. The personalized oncology system 125 may include a user inlerFace unit 135, a regions-ol L inleresl (ROD selection unit 140, a search unit 145, and a data processing unit 160. The personalized oncology system 125 may also include a model training unit 175, and the computing environment may include a training data store 170. [00291 The slide scanner 120 may be used by the pathologist to digitize histopathology slides. The slide scanner 120 may be a whole-slide digital scanner that may scan each slide in its entirety. The slide scanner 120 may output a digital image of each slide that is scanned to the pathology database 110.
+100301 The client device 105 is a computing device that may be implemented as a portable electronic device, such as a mobile phone, a tablet computer, a laptop computer, a portable digital assistant device, and/or other such device. The client device 105 may also be implemented in a compuling device having other form factors, such as a desktop computer, and/or other types of computing device. The client devices 105 may have different capabilities based on the hardware and/or software configuration of the respective client device. The example implementation illustrated in FIG. 1 includes a client device 105 that is separate from the personalized oncology system 125. In such an implementation, the client device 105 may access the personalized oncology system 125 over a network and/or over the Internet. The personalized oncology system 125 may include a personalized oncology system (POS) application 155 which may be configured to communicate with the personalized oncology system 125 to access the functionality provided by the personalized oncology system 125. In some implementations, the personalized oncology system 125 may be provided as a cloud-based service, and the POS application 155 may be a web-browser or a browser-enabled application that is configured to access the services of the personalized oncology system 125 as a web-based application. In other implementations the functionality of the personalized oncology system 125 may be implemented by the client device 105. In such implementations, the POS application 155 may implement the functionality of the personalized oncology system 125.
+[0031] The user interface unit 135 may be configured to render the various user interfaces described herein, such as those shown in FIGS. 8, 9, and 10, which are described in greater detail in the examples that follow.
+100321 The ROI selection unit 140 allows a user to select one or more regions of interest in a histopathological image [Or a patient. The user may request the histopathological image may be accessed from the pathology database 110. The ROI selection unit 140 may provide tools that enable the user to select one or more ROI. The ROI selection unit 140 may also implement an automated process Ibr selecting one or more ROI in the image. The automated ROI selection process may be implemented in addition to the manual ROI selection process and/or instead of the manual ROI selection process. Additional details of the ROI selection process are discussed in the examples which 10110w.
+100331 The search unit 145 may be configured to search the historical database 150 10 find histopathological imagery stored therein that is similar to the ROI identified by the user. The search unit 145 may also allow the user to select other search parameters related to the patient, such as the patient' s age, gender, ethnicity, comorbidities, treatments received, and/or other such criteria that may be used to identilý data in the historical database 150 that may be used 10 generate a personalized therapeutic plan lòr the patient. As will be discussed in the various examples which 10110w, the search unit 145 may implement one or more machine learning models which may be trained 10 identilý historical data that may be relevant based on the ROI inlòrnralion and other patient information provided in the search parameters. For example, the search unit may be configured to implement one or more deep convolutional neural networks (DCNNs). [00341 The historical database 150 may store historical histopathological imagery that has been collected from numerous patients. The historical database 150 may be provided by a third party which is separate from the entity which implements the personalized oncology system 125. The historical database 150 may be provided as a service in some implementations, which may be accessed by the personalized oncology system 125 via a network and/or via the Internet. The histopathological imagery stored in the historical database 150 may be associated with clinical data, which may include information associated with the patient associated with the selected historical imagery, such as but not limited to diagnoses, disease progression, clinical outcomes, time-to-events information. The personalized oncology system 125 may search through and analyze the histopathological imagery and clinical data stored in the historical database 150 to provide a patient with a personalized therapeutic plan as will be discussed in greater detail in the examples which follow.
+[00351 The model training unit 175 may be configured to use training data from the training data store 170 to train one or more models used by components of the personalized oncology system 125. The training data store 170 may be populated with data selected from one or more public histopathology data resources as will be discussed in the examples which follow.
+[00361 The data processing unit 160 may be configured to implement various data augmentation techniques that may be used to improve the training of the models used by the search unit 145. The data processing unit 160 may be configured to handle both histology-specific variations in images as well as rotations in imagery. The data processing unit 160 may be configured to use one or more generative machine learning models to generate new training data that may be used to refine the training of the models used by the search unit 145. The data processing unit 160 may be configured to store new training data in the training data store 170. Additional details of the implementations of the models used by the data processing unit 160 will be discussed in detail in the examples that 10110w.
+100371 FIG. 8 is an example user interFace 805 of the personalized oncology system 125 [Or searching the historical database 150. The user interFace 805 may be implemented by the user interFace unit 135 of the personalized oncology system 125. The user inlerFace 805 may be configured to conduct the search given a slide image from the pathology database 110 and user-specified search parameters. The search parameters 810 allow the user to enter select a gender-specific indicator, an age group indicator, a  race indicator, comorbidily inlòrnralion, treatment inlòrnration, a remission indicator, and a recurrence after remission indicator. The gender-specific indicator limits the search to the same gender as the patient (Or whom the search is being conducted. The age group indicator represents an age range to which the results should be limited. The age range may be an age range into which the patient's age Falls. The race inlòrnralion may be used 10 limit the search results 10 a  particular race or races. The comorbidity intòrmation may be used 10 limit the search 10 include patients having one or more additional conditions co-occurring with the primary condition. The treatment inlòrnralion may allow the user 10 select one or more treatments that may be provided to the patient in order to search the histopathological database for information associated with those treatments. The remission indicator may be selected if the patient is currently in remission, and recurrence after remission indicator may be selected to indicate that the patient has experienced a recurrence of the cancer after remission.
+100381 The survival rate information 815 provides surVival rate information for patients receiving each of a plurality of treatments. The survival rate information may be survival rates for patients that match the search parameters 810. The survival rate information 815 may include an "expand" button to cause the user interFace 805 to display additional details regarding the survival rate information. 100391 The duration of treatment information 820 displays information indicating how long each type of treatment was provided to the patient. In the example shown in FIG. 8, the duration of treatment information 820 may be displayed as a graph. The duration of treatment information 820 may include an "expand" button to cause the user interface 805 to display additional details regarding the duration of treatment information.
+[00401 The treatment type information 825 may show a percentage of patients that received a particular treatment. The treatment type information 825 may be broken down by gender to provide an indication how many male patients and how many female patients received a particular treatment. The treatment type information 825 may include an "expand" button to cause the user interface 805 to display additional details regarding the treatments that were given to the patients.
+[00411 The matched cases 830 include cases from the historical histopathological database. The matched cases 830 may include histopathological imagery that includes characteristics that the oncologist may compare with histopathological imagery of the patient. The matched cases 830 may show details of cases from the database that may help to guide the oncologist treating the patient by providing key insights and clinical outcomes based on the patient's own histological and other personal factors. The oncologist may use this information to identify an optimal therapeutic plan Ibr the patient.
+100421 The histopathological imagery stored in the pathology database 110 and the historical database 150 play a critical role in the cancer diagnosis process. Pathologists evaluate histopathological imagery [Or a number of characteristics, that include nuclear atypia, mitotic activity, cellular density, and tissue architecture to identity cancer cells as well as the stage of the cancer. This inlòrmation enables the patient's doctors 10 create optimal therapeutic schedules 10 ellèctively control the metastasis of tumor cells. Recent advent of whole-slide digital scanners [Or digitization of histopathology slides has lilrlher enabled the doctors 10 store, visualize, analyze, and share the digitized slide images using computational tools and to create large pathology imaging databases that continue to rapidly grow.
+100431 An example of such a pathology imaging database is maintained by Memorial Sloan Kettering Cancer Center ("MSKCC"). MSI<CC may be used 10 implement the hislorical database 150. MSI<CC creates approximately  digital slides per month. The average size of a digital slide is approximately 2 gigabytes of data. Thus, MSI<CC may generate more than I pelabyle of digital slide data over the course oflhe year al this single cancer center. Despite having access to this wealth of pathology imagery data, the utility of this data for cancel diagnosis and clinical decisionmaking is typically limited to that of the original patient due to a lack of automated methods that can effectively analyze the imagery data and provide actions insights into that data. Furthermore, the sheer volume of unstructured imagery data in the pathology imaging database and the complexity of the data present a significant challenge to doctors who wish to search the imagery database for content that may assist the doctors to provide an improved cancer diagnosis and therapelitic plan for treating their patients. Therefore, there is a long felt need to develop automated approaches for searching Iòr and analyzing the data stored in the imagery database to provide improved cancer diagnosis and clinical decisionmaking for treating their patients.
+100441 Automated analysis of histology images has long been a topic of interest in medical image processing. Several approaches have been reported for grading, and identification of lymph node metastases in multiple cancer types. Early medical image analysis approaches heavily relied on hard-coded features. Some examples of these approaches are scale-invariant feature transform (SIFT), histogram of oriented gradients (HOG), and Gray-Level Co-Occurrence Matrix (GLCM). These early approaches are used to explicitly identify and describe structures of interest that are believed to be predictive. These features were then used to train classification models that predict patient outcomes. However, these traditional methods only achieved limited success (with reported accuracies around 80% to 90%) to be viable for diagnosis and treatment in clinical settings.
+[00451 Recently supervised deep learning techniques and deep convolutional neural networks (CNNs) have shown remarkable success in visual image understanding, object detection, and classification, and have shattered performance benchmarks in many challenging applications. As opposed to traditional hand-designed features, the feature learning paradigm of CNNs adaptively learns to transform images into highly predictive features for a specific learning objective. The images and patient labels are presented to a network composed of interconnected layers of convolutional filters that highlight important patterns in the images, and the filters and other parameters of this network are mathematically adapted to minimize prediction error in a supervised Fashion, as shown in FIG. 2.
+100461 FIG. 2 shows an example of the structure of an example CNN 200 which may be implemented by the search unit 145 of the personalized oncology system 125. The CNN  200 includes an input image 205, which is a histopathology image to be analyzed. The histopathology image may be obtained from the pathology database 110 Ibr a patient Ibr whom a personalized therapeutic plan is being developed. The input image 205 may be quite large and include a scan  of an entire slide. However, as will be discussed in the examples which 10110w, "patches" of the input image 205 that correspond to one or more ROI identified by the user and/or automatically identified by the ROI selection unit 140 may be provided to the CNN 200 (Or analysis rather than the entire input image 205. This approach may significantly improve the results provided by the CNN 200 and may also significantly reduce the amount of training data required 10 train the CNN 200.
+100471 The first convolutional layer 210 applies fillers and/or lèalure detectors 10 the input image 205 and outputs lèalure maps. The first pooling layer 215 receives the lèalure maps of the first convolutional layer 210 and operates on each feature map independently to progressively reduce the spatial size of the representation to reduce the number of parameters and computation in the CNN 200. The first pooling layer 215 outputs pooled feature maps which are then input to the second convolutional layer 220. The second convolutional layer 220 applies filters to the pooled feature maps to generate a set of feature maps. These feature maps are input into the second pooling layer 225. The second pooling layer 225 analyzes the feature maps and outputs pooled feature maps. These pooled feature maps are then input to the fully connected layer 230. The fully connected layer 230 is a layer of fully connected neurons, which have full connections to all activations in the previous layers. The convolutional and pooling layers break down the input image 205 into features and analyze these features. The fully connected layer 230 makes a final classification decision and outputs a label 235 that describes the input image 205. The example implementation shown in FIG. 2 includes only two convolutional layers and two pooling layers, but other implementations may include more convolutional layers and pooling layers.
+[00481 Supervised feature learning, such as that provided by the CNN 200, avoids biased a priori definition of features and does not require the use of segmentation algorithms that are often confounded by artifacts and natural variations in image color and intensity. The ability of CNNs to learn predictive features rather than relying on hand-designed, hard-coded features has led to the use of supervised deeplearning based automated identification of disease from medical imagery. PathlA, Proscia, and Deep Lens are a few examples of companies that are applying machine learning and deep learning techniques to attempt to obtain more accurate diagnosis of disease.
+[0049] While feature learning using deep convolutional neural networks (DCNNs) has become the dominant paradigm in general image analysis tasks, histopathology imagery poses unique technical problems that are difficult to overcome and still limit the applicability of supervised techniques in clinical settings as follows. These technical problems include: (l) insufficient data (Or training of the models, (2) the large size of histopathology images, (3) variations in how histopathology images are IOrmed, (4) unstructured image regions-of-interest with ill-defined boundaries, (5) the non-Boolean nature of clinical diagnostic and management tasks, and (6) user's trust in black-box models Ibr clinical applications. Each of these technical problems is explored in greater detail below belOre describing the technical solutions provided by the techniques provided herein.
+ Insufficient data [Or training the models used by deep-learning is a significant problem that may limit the use of deep-learning lòr the analysis of histopathology imagery. The success of deep-learning approaches significantly relies on the availability of large amounts of training data to learn robust lèature representations (Or object classification. Even pre-training the DCNN on large-scale datasets, such as ImageNet, and line tuning the DCNN (Or the analysis of histopathology imagery requires lens oflhousands of labeled examples of the objects of interest. However, the access 10 massive high-quality datasets in precision oncology is highly constrained. There is a relative lack of large truth or relèrence datasets containing carelillly molecularly characlerized tumors and their corresponding detailed clinical annotations. For example, the TUPAC16 (Tumor Proliferation Assessment Challenge) dataset has only 821 whole slide images from The Cancer Genome Atlas ("TCGA"). While TCGA has tens of thousands of whole slide images available in total, these images are only hematoxylin and eosin (H&E) stained slides and only contain clinical annotations, such as text reports that apply to the whole-slide image as opposed to specific regions of the image, as shown in FIG. 3. FIG. 3 provides an example in which bounding boxes have been placed around regions of interest in the images. While annotation of imagery for deep learning is a tedious task for any application, reliable annotation of medical imagery can only be obtained from highly trained doctors who are not only very expensive, but also are generally not interested or motivated to perform such a tedious task. Data augmentation techniques as well as synthetic data have been used to alleviate some of these challenges. However, these approaches are not a substitute for high-quality annotations on real imagery. Therefore, there is a real need to develop novel models and technologies for automated histopathology data analysis that do not rely on such availability of large amount of annotated imagery.
+[00511 The large image size of presents another significant problem in histopathology imagery analysis. While many image classification and object detection models are capable of exploiting image-level labels, such as those found in the ImageNet dataset, to automatically identify regions of interest in the image, these models assume that the objects of interest, for which the labels are available, occupy a large portion of the image. In contrast, histopathology images are typically much larger than those found in other imaging specialties: a typical pathology slide digitized at high magnification can be as large as   pixels. Whereas a tumor in a pathology image may encompass only a few hundred pixels, a significantly small portion (about a millionth) of the total image area. While trained clinicians and researcher can visually search the image to locate the lesion, training a deep neural network model to identify these locations with such coarse annotation is extremely difficult as the network has no supervision as to which part of the image the label is relèrring. Furthermore, many pathology cases contain multiple images and do not generally have image-specific labels about the disease and its stage. These operational scenarios pose significant challenges to most existing deep learning approaches [Or image analysis and image-based prediction.
+100521 Variations in image Iòrmation processes present another significant problem in histopathology imagery analysis. Variations in staining color and intensity complicate quantitative tissue analysis. Example of such variations are shown in FIG. 4. FIG. 4 shows an example of cell coherency variations, color inhomogeneily variations, and  interclass variability variations. Such variations are due to inter-patient variation, high coherency of cancerous cells  and inconsistencies in the preparation of histology slides (e.g. staining duration, stain concentration, tissue thickness). While one would expect the neural networks to learn these variations, once again, such learning would require a large number of training images from a variety of settings. Furthermore, the lèatures learned by convolutional neural nelworks are generally not rotational invariant, and therelòre require additional mechanisms 10 handle rotational varialions in images.
+[00531 Unstructured image regions-of-interest with illdefined boundaries present another significant problem in histopathology imagery analysis. One common approach in dealing with small amount of training data is transfer learning, where features learned from one domain (where large amount of data is already available) are adapted to the target domain using limited training samples from target domain. Typically, these methods use pre-trained networks from large image databases, such as ImageNet, COCO, etc. However, the images and object categories in these datasets are generally well structured with well-defined boundaries. In contrast, histopathology images and features may or may not be as well-structured. For example, many regions-ofinterest (ROI) in histopathology images are characterized more by the texture-like features rather than presence of well-defined boundaries or structure in the imagery (e.g., FIG. 5). Noticeably, different classes have subtle differences and cancerous cells have high coherency. The features learned from ImageNet then do not transfer well to these cases. FIG. 6 shows example images of different grades of breast tumors, in which the images on the left show lowgrade tumor and the images on the right show high-grade tumors. The examples shown in FIG. 5 do not have welldefined structure, in contrast with the example imagery from ImageNet which includes images that contain structured objects with well-defined boundaries.
+[00541 The non-Boolean nature of clinical diagnostic and management tasks presents another significant problem in histopathology imagery analysis. As opposed to traditional classification problems, many important problems in the clinical management of cancer involve regression, for example, accurate prediction of overall survival and timeto-progression. Despite success in other applications, deep learning has not been widely applied to these problems. Some of the earlier work in this regard approached survival analysis as a binary classification problem, for example, by predicting binary survival outcomes (e.g., true/false) at a specific time interval (e.g., 5-year survival). However, this approach is limited as i) it is unable to use data from subjects with incomplete 10110w-ups and ii) does not allow probability of survival at arbitrary time values. Some of the more recent work tackled these limitations by adapting advanced deep neural networks to exploit time-to-evenl models such as Cox regression. However, due to the reasons outlined above, when predicting survival from histology, these approaches achieve only marginally better than random accuracy. The data challenges in time-to-event prediction are further intensified as (i) clinical 10110w-up is often difficult to obtain Ibr large cohorts, and (ii) tissue biopsy often contains a range of histologic patterns (high intra-tumoral heterogeneity) that correspond 10 varying degrees of disease progression or aggressiveness. Furthermore, risk is often reflected in subtle changes in multiple histologic criteria that
+can require years of specialized training Ibr human pathologisls 10 recognize and interpret. Developing an algorithm that can learn the continuum of risks associated with histology can be more challenging than (Or other learning tasks  like cell or region classification.
+100551 The user's trust in black-box models lòr clinical applications presents another significant problem in histopathology imagery analysis. CNNs are black-box models composed of millions of parameters that are dillicull 10 deconstruct. Therelòre, the prediction mechanisms used by the CNNs are dillicull 10 interpret. This is a nrclior concern in a variety of applications that include autonomous vehicles, military targeting systems, and clinical predictions where an error by the system can be extremely costly. Moreover, the users (doctors) also find it difficult to trust black-box models and base their clinical decisions purely on machine predictions. This lack of transparency and interpretability is one of the major impediments in commercialization of deep learning-based solutions for clinical applications.
+100561 The personalized oncology system 125 addresses the serious technical, logistical, and operational challenges described above associated with developing supervised deep learning-based systems that analyze histopathological imagery for automating clinical diagnostics and management tasks. Furthermore, many of these technical problems, such as reliability and interpretability of deep learning models for clinical decision making and the reliance on availability of large amount of annotated imagery, are so fundamentally tied to the state-of-the-art in deep learning that it would require another major paradigm shift to enable fully-automated clinical management from histopathological imagery. [00571 The personalized oncology system 125 disclosed herein provides technical solutions to the above-mentioned technical problems, by leveraging recent advances in deep learning, one-shot learning, and large-scale image-based retrieval for personalized clinical management of cancer patients. Instead of relying on a black-box system to provide the answers directly from histopathology images of a given patient, the success of an image-based clinical management system hinges upon creating an effective blend of (i) the power of automated systems to mine the vast amounts of available data sources, (ii) the ability of modern deep learning systems to learn, extract, and match image-features, and (iii) the perception and knowledge of a trained professional to identify the subtle patterns and shepherd the prediction and decision-making. The example implementation that follow describe the interaction between the pathologist and novel automated tools for knowledge discovery that enable finding informative features in imagery, pattern matching, data mining, and searching large databases of histopathology images and associated clinical data. 100581 FIG. 6 shows a high-level workflow process 600 Ibr providing a personalized therapeutic plan Iòr a patient. The process 600 may be implemented by the personalized oncology system 125. As discussed in the preceding examples, the user interface unit 135 of the personalized oncology system 125 may provide a user interface that allows a user to conduct a search through the historical database 150 of histopathology images and associated clinical data to create a personalized therapeutic plan Iòr a patient. The user is typically an oncologist, pathologist, or other doctor developing the therapeutic plan [Or the patient. 100591 The process 600 may include an operation 605 in  which a whole-slide image is accessed from the pathology database 110. As discussed in the preceding examples, the pathology database 110 may include whole-slide images of biopsy or surgical specimens taken from the patient which have been scanned using the slide scanner 120. The slide may then be scanned using a whole-slide digital scanner and  stored in the pathology database. The user interface provided  by the user intertàce unit 135 may provide a means tor searching the pathology database 1 10 by a patient identifier, patient name, and/or other inlòrnralion associated with the patient that may be used 10 identilý the slide image or images associated with a particular The user may select the whole-slide image from a pathology database 110 or other data store of patient information accessible to the personalized oncology system 105.
+100601 The process 600 may include an operation 610 in which the regions of interest (ROI) in the whole-slide image are selected. The user interface unit 135 of the personalized oncology system 125 may display the slide that was accessed in operation 605. The ROI selection unit 140 may provide tools on the user interface that enable the user to manually select one or more ROI. In the example shown in FIG. 6, the user may draw a square or rectangular region around an IROI. The ROI selection unit 140 may determine the coordinates of the selected ROI by mapping the square or rectangle drawn on the whole-slide image. The ROI selection unit 140 may also allow the user to draw other shapes around a ROI or draw a freehand shape around an ROI. The ROI selection unit 140 may also be configured to automatically detect one or more ROI. The system may include intelligent deep-learning based tools for segmentation and attention-based vision to assist the user in finding the ROI in a more efficient manner. The automated ROI search tools may be automatically invoked by the system when the whole-slide image is accessed or the user interface may provide a button or other user interface element that enables the user to invoke the automated ROI search tools. The automated ROI search tools may draw a border around each detected ROI similar to those which may be manually drawn around an ROI by the user. The ROI selection unit 140 may allow the user to deselect one or more of the ROI that were automatically selected by the automated ROI search tools. The ROI selection unit 140 may also provide means for manually adjusting the borders of the automated ROI by selecting a border of the ROI and dragging the border to cover a desired area. The ROI selection unit 140 may provide the user with an option to save the one or more ROI in the patient information associated with the slide in the pathology database to permit the user to later access the slide and view and/or manipulate the ROI associated with the slide. In some implementations, the user-selected ROI and the automatically-selected ROI may be highlighted using a dillèrenl color, border pattern, and/or other indicator to permit the user to dillèrenliate between the user-selected ROI and the automatically-selected IROI. The ROI selection unit 140 may also be configured to generate training data Ibr the models used to automatically select ROI based on the user-selected ROI and/or update one or more operating parameters of the models based on the user-selected ROI. This approach may help improve the models used by the ROI selection unit 140 to automatically select ROI that are similar 10 those that were selected by the user but not automatically selected by the ROI selection unit 140.
+100611 The process 600 may include an operation 615 in which the regions of interest (ROI) of the whole-slide image are provided to a DCNN of the search unit 145 of the personalized oncology system 125 (Or analysis. The DCNN  is configured to extract lèatures from the selected ROIs and match these lèatures with pre-indexed lèatures from the historic imagery stored in the historical histopathological database in operation 620. The matching historical imagery and associated clinical data are obtained from the historical histopathological database in operation 625 and provided 10 the personalized oncology system 125 lòr presentation 10 the user. The associated clinical data may include inlòrnralion associated with the patient associated with the selected historical imagery, such as but not limited to diagnoses, disease progression, clinical outcomes, time-to-events information.
+100621 The process 600 may include an operation 630 of presenting the matched imagery from operation 620 on the user interface of the client device 105. The user interface may be similar to that shown in FIG. 8 and may permit the user to view the matched imagery and clinical data and/or filter the matched data based on various parameters, such as but not limited to age, gender, race, comorbidity informalion, treatment options, and/or other filter criteria. The user may select one or more ofthese filter criteria to filter the data obtain historical information from other patients at a similar stage of a disease. The user may also filter the historical data for information for other patients who were given a particular treatment to predict a likelihood of survival and timeto-event information for the patient for whom the therapeutic plan is being developed.
+100631 The search-based techniques provided by the personalized oncology system 125 solve several major technical problems associated with deep-learning based systems that attempt to perform clinical predictions using supervised training. One technical problem that the personalized oncology system 125 solves is that the techniques implemented by the personalized oncology system 125 do not require the large amounts of annotated training data that is required by traditional deep-learning approaches. The traditional deeplearning approaches rely heavily on the availability of large amounts of annotated training data, because such supervised methods must learn a complex function with potentially millions of learned parameters that analyze raw-pixel data of histopathology images to infer clinical outcomes. However, such large amounts of annotated data required to train the deep learning models is typically unavailable. The techniques implemented by the personalized oncology system 125 solve this technical problem by utilizing the expertise of the pathologist to identify the regions of interest (ROI) in a patient's histopathology imagery. The ROI, also referred to herein as a "patch" of a histopathology image, is a portion of the whole-slide image. The CNNs ofthe system may then (l) analyze and reline the ROI data and (2) match the relined ROI data with the histopathology imagery and associated clinical data stored in the historical database 150. Because the personalized oncology system 125 uses a smaller ROI or patch rather than a whole-slide image when matching the historical data of the historical database 150, much less pre-annotated training data is required to train the machine learning models used by the search unit 145 to find matching historical data in the historical database 150. As will be discussed in greater detail below, the personalized oncology system 125 may utilize a one-shot learning approach in which the model may learn a class of object from a single labelled example.
+100641 The personalized oncology system 125 also provides a technical solution (Or handling the large image sizes of histopathological imagery. Current deep learning-based approaches cannot ellèctively handle such large image sizes. The techniques provided herein provide a technical solution  10 this problem in several ways. First, the expertise of the pathologist may be leveraged in identitÿing ROI and/or intelligent deep-learning based tools lòr segmentation and  attention-based vision may assist the user in finding the ROI  in a more ellicienl manner. As a result, a large amount of irrelevant data from the whole-slide image may be discarded. Second, as will be discussed in greater detail in the examples that follow, the personalized oncology system 125 may exploit a novel approach for rare-object detection in large satellite imagery. This approach utilizes robust template matching in large imagery and indexing large imagery for efficient search.
+100651 The personalized oncology system 125 also provide a technical solution to the technical problem of lack of transparency of deep learning methods. The black-box nature of current deep learning methods is a major challenge in commercializing these approaches in high-risk settings. Pathologists and patients may find it difficult to trust a prediction system that does not provide any visibility about underlying decision-making process. The techniques disclosed herein provide a solution to this and other technical problems by providing a glass-box approach that emphasizes transparency into the underlying decision process. Rather than being a decision-maker, the personalized oncology system 125 acts as a facilitator that enables the pathologists to make informed decisions by providing them key data points relevant to their subject. Furthermore, the personalized oncology system 125 provides the pathologists with all the supporting evidence (in the form of historical imagery, matched regions-of-interest, and associated clinical data) so that they can make confident predictions and clinical decisions.
+[00661 The techniques provided herein make histopathological imagery databases diagnostically useful. As opposed to supervised system that only utilize historic imagery that accompanies high-quality expert annotations, the searchbased approach of the personalized oncology system 125 enables exploitation of large histopathology image databases and associated clinical data for clinical diagnosis and decision-making. A technical benefit of the personalized oncology system 125 over traditional deep learning-based systems is that the personalized oncology system 125 enables personalized medicine (Or cancer treatment. Healthcare has traditionally IOcused on working out generalized solutions that can treat the largest number of patients with similar symptoms. For example, all cancer patients who are diagnosed with a similar [Orm of cancer, stage, and grade are treated using the same approach, which may include chemotherapy, surgery, radiation therapy, immunotherapy, or hormonal therapy. This is partly because there currently are limited options [Or doctors that enable them to identity a priori whether a treatment would work [Or a patient or not. Therelòre, doctors typically 10110w a standardized and most common approach Ibr cancer treatment. The personalized oncology system 125 enables oncologists to shift from this generalized treatment approach and move towards personalizalion and precision. By ellèclively exploiting historic histopathology imagery and finding the health records that best match the patient's histology as well as other physical characteristics (age, gender, race, co-morbidity, etc.), the personalized oncology system 125 provides oncologists actionable insights that include survival rates, remission rates, and reoccurrence rates, of similar patients based on dillèrenl treatment protocols. The oncologists can use these insights to (i) avoid unnecessary treatment that is less likely 10 work Ibr the given patient, (ii) avoid side ellècls, trauma, and risks or surgery, and (iii) determine optimal therapeutic schedules that are best suited lòr the cancer patient.
+[00671 The personalized oncology system 125 provides the technical benefits discussed above and address the limitations of the state-of-the-art in deep learning and content-based image retrieval (CBIR). A discussion of the technical limitations of current CBIR techniques and the improvements provided by the personalized oncology system 125 that address the shortcomings of these CBIR techniques.
+100681 Many techniques have been proposed for CBIR of medical imagery in general and histopathological imagery in particular in recent years. These techniques range from simple cross-correlation to hand-designed features and similarity metrics to deep networks of varying complexities. CBIR has been long dominated by hand-crafted local invariant feature-based methods, led by SIFT (and followed by similar descriptors such as speeded up robust features (SURF), Binary Robust Independent Elementary Features (BRIEF), Oriented FAST and Rotated BRIEF (ORB), and other application-specific morphological features). These methods provide decent matching performance when the ROI in the query image and the imagery in database are quite similar in appearance. However, these methods have several drawbacks when applied to general settings in intraclass variations (e.g., those shown in FIG. 4). While local features are somewhat invariant, they do not generalize well across large variations in data. Moreover, they are limited to mostly structured objects with well-defined edge surfaces and are not very suitable for matching a wide variety of histological patterns (e.g., those shown in FIG. 5). To handle this issue, texture-based representations (such as GLCMs, Gabor filters, and Steerable filters) have also been proposed. However, these representations do not generalize well to cases where morphology does provide key characteristics. Recently some deep learning-based approaches have also been applied to the problem of CBIR. However, these approaches also suffer from several limitations that must be resolved to enable a practical CBIR based personalized oncology system. These limitations include: the use of deep networks pre-trained on natural image datasets, the use of arbitrary distance metrics, the training methodology used by deep-embedding networks to learn similarity is not suitable Ibr patch matching, the similarity learned by deep-embedding networks is not suitable Ibr histology imagery, and inadequate handling of rotations and magnifications, and inadequate measure of success. The personalized oncology system 125 provides a technical solution that addresses these limitations.
+100691 Existing deep learning based CBIR approaches (Or histopathology imagery use deep convolutional networks that are pre-trained on natural image datasets, such as ImageNet. There are two significant drawbacks with this approach. First, as discussed earlier, the lèatures learned from natural images of well-structured objects do not correspond well 10 the lèalures in histopathological imagery (see e.g., FIGS. 6 and 7). Second, the lèatures are typically learned (Or the specific task of image classification on the ImageNet dataset, and thus, are not necessarily suitable (Or the task of retrieval of histopathological imagery.
+ Existing ("BIR approaches also use arbitrary dislance metrics. Except Ibr Similar Medical Images Like Yours (SMILY), almost all the existing approaches simply use deep convolutional neural networks as a lèalure extraclor and then apply traditional distance measures, such as  distance between computed lèalures, 10 find similarily. However, this approach is not reliable as the arbitrary distance of high dimensional feature vectors do not necessarily correspond to the cognitive similarity of imagery.
+100711 The training methodology used by deep-embedding networks to learn similarity is not suitable for patch matching (or ROI matching) as described herein. Among the existing deep learning-based system, SMILY uses deep embedding networks for similarity matching. Deep embedding networks or metric learning methods attempt to learn a representation space where distance is in correspondence with a notion of similarity. In other words, these deep embedding networks or metric learning methods use large amount of labeled training data in an attempt to learn representations and similarity metrics that allow direct matching of new input to the labeled examples in the similar vein as template matching in a generalized and invariant feature space. The DCNN-based metric learning approaches, such as MatchNet and the deep ranking network used by SMILY, generally rely on a two-branch structure inspired by Siamese neural networks (also referred to as "twin neural networks"). Siamese neural networks are given pairs of matching and nonmatching patches and learn to decide whether the patches in the network match each other. These methods offer several benefits. For example, they enable zero-shot learning, learn invariant features, and gracefully scale to instances with millions of classes. The main limitation of these methods is due to the way they assess similarity between the two images. All metric learning approaches must define a relationship between similarity and distance, which prescribes neighborhood structure. In existing approaches, similarity is canonically defined a-priori by integrating available supervised knowledge, for example, by enforcing semantic similarity based on class labels. However, this collapses intra-class variation and does not embrace shared structure between different classes. [0072] Another limitation of existing techniques is that similarly learned by deep-embedded networks is not suitable for histology imagery. Another limitation of the embedding network using in SMILY is that the network is once again trained on natural images (cats, dogs, etc.) and therefore sullèrs from the above-mentioned challenges. Furthermore, due to this training methodology, the learned similarity is not tied to the problem at hand. In other words, the learned similarity of natural object classes does not necessarily capture the peculiarities of matching regions-of-interest in histology. Therelòre, the network is unable to handle variations that are typical to histopathological data, e.g., variations due to diflèrences in staining, etc.
+100731 Another limitation of existing solutions is inadequate handling of rotations and magnifications. As mentioned earlier, convolutional neural networks are not rotation invariant. To tackle this challenge, SMIIN simply computes similarily on lour   rotations and their mirror images. This approach not only increases the database size (by 8>0, it also significantly increases the potential (Or False matches. Moreover, SMILY handles dillèrent magnifications (of input patches) by indexing non-overlapping patches of various magnifications (><4(), xl(), etc.). Only xl() magnification patches were used Ibr most of the evaluation. Once again, this strategy is flawed because of (i) arbitrary quantization of patches, (ii) missing data at diflèrent magnilicalions (due 10 non-overlapping patches). They can use overlapping patches Ibr real use-cases, however, like rotalion-handling, doing so will increase the complexity of database as well as the potential for false matches. These technical problems are inherent to the underlying random patch-based indexing approach used by SMILY, as there is no good way of chopping a large slide into small patches without losing information, such as, magnifications and neighboring features. However, it is impossible to know in advance which features and/or magnifications will be needed for a given search.
+100741 FIG. 7 illustrates an example of inadequate handling of magnifications. FIG. 7 shows a query patch 705 being matched to a database slide 705 indexed using patches at two different magnification. The grid 715 represents a first magnification and the grid 720 represents a second magnification. The query patch 705 may not be properly matched with the ideal match 725 due to loss of features at the grid boundaries.
+100751 Another limitation of existing solutions is that they provide an inadequate measure of success. A major difference between the personalized oncology system 125 and other CBIR techniques is how the success of the system is measured. Most of the existing CBIR systems measure success based on whether they find a good match for a given image. For example, SMILY uses the top-five score, which evaluates the ability of their system to correctly present at least one correct result in the top-five search results. While such a metric is suitable for traditional CBIR techniques and Internet searches where the users are satisfied as-long-as the search-results contain at least one item of their interest, this is not true for the use-case of clinical decision making outlined as discussed in the preceding examples. In clinical applications, finding one matching slide is not very useful  even if it is a perfect match. This is because (i) similar histology does not necessarily imply that other clinical data is consistent, (ii) it only provides one data point and is not very informative for the purpose of prediction of survival and time-to-outcome, or selection of treatments, which requires system to not only retrieve a large number of high quality matches but also score them appropriately.
+100761 The personalized oncology system 125 addresses the technical problems associated with the current CBIR systems discussed above. The technical solutions provided by the personalized oncology system 125 include: (i) a novel deep embedding network architecture and training methodology Ibr learning histology-specific lèatures and similarity measures from unlabeled imagery, (ii) data augmentation techniques [Or histology imagery, (iii) techniques [Or ellicient indexing and retrieval of whole-slide imagery, and (W) intuitive user-inlerFaces [Or pathologists.
+100771 The novel deep embedding network architecture and training methodology (Or learning histology-specific lèatures and similarity measures from unlabeled imagery is one technical solution provided by the personalized oncology system 125 that provides a solution to some of the technical problems associated with current CBIR systems. The search unit 145 of the personalized oncology system 125 includes a novel deep embedding network architecture along with a training approach that enables learning of domain-specific inlòrnralive lèalures and similarily measure from large amount of available histopathology imagery without the need tor supervisory signals from manual annotalions. The proposed approach treats the problem of compuling patch matching similarily as a patch-localization  problem and attempts 10 learn fillers from unlabeled histology imagery that maximize the correlation responses of the deep features at the matched locations in the image.
+[00781 The data processing unit 160 of the personalized oncology system 125 may be configured to provide data augmentation techniques for histology imagery. The personalized oncology system 125 may be configured to handle both histology-specific variations in images as well as rotations in imagery. The personalized oncology system 125 improves the training of deep embedding networks through novel data augmentation techniques for histology imagery. Typically, data augmentation techniques use pre-defined and hand-coded sets of geometric and image transformations to artificially generate new examples from a small number of training examples. In contrast, the data processing unit 160 of the personalized oncology system 125 may be configured to use deep networks, such as generative adversarial networks (GANs) and auto-encoder networks to learn generative models directly from histology imagery that encode domain-specific variations in histology data and use these networks to hallucinate new examples. The use of deep networks for data augmentation has several advantages. Since the deep networks learn image transformations directly from large number of histology images, they can learn models of a much larger invariance space and capture more complex and subtle variations in image patch representations.
+[00791 The search unit 145 of the personalized oncology system 125 may also provide for efficient indexing and retrieval of whole-slide imagery. The personalized oncology system 125 uses indexing of whole-slide imagery (as opposed to patch-based indexing used in current approaches). This indexing can be done by (i) computing pixel-level deep features with granularity as defined by the stride of the network for the whole slide image, (ii) creating a dictionary of deep features by clustering the features of a large number of slides, and (iii) indexing the locations in slide images using the learned dictionary. To enable searching the image database at arbitrary magnification levels  features may be computed at different layers of the deep networks (corresponding to different retinal fields or magnifications). These multi-scale lèatures can be indexed separately and will be retrieved based on the magnification of the query patch. The search unit 145 of the personalized oncology system 125 may also use additional techniques and software systems Iòr efficient retrieval of relevant slides and associated clinical data based on the lèatures computed from the query patch.
+ Existing public histopathology data resources may be identified and leveraged (Or the development of the various models used by the personalized oncology system 125. Several histopathology image analysis and CBIR syslems have published their results using The Cancer Genome Atlas (TC(iA) database. There are many slide images available in TCGA that can be used (Or training the models described herein. The slides available in the TCGA data portal are frozen specimens, which are not suitable (Or computational analysis. Instead, the Formalin-Fixed Paraffin-Embedded (FFPE) slides (Or corresponding patients that can also be downloaded from the TC(iA repository. Other high-quality histopathology databases that may also be utilized to obtain data that may be used to train the models include but are not limited to: i) Digital Pathology Associalion (l)PA)'s Whole Slide Imaging Repository that includes Johns Hopkins Surgical Pathology "Unknowns" case conference series spanning over 2000 whole slide images with meta-data on the diagnosis and clinical context; and ii) Juan Rosai's Collection that comprises digital images of original slide material of nearly 20,000 cases. The data identified from these resources may be used to train deep embedding networks as well as deep generative networks to learn histology-specific features as well as similarity metrics for patch matching which will be described in greater detail in the examples which follow. The whole slide imagery along with associated clinical metadata may be indexed in a database using the learned histology feature dictionaries as discussed in the examples which follow. The training data may be stored in the training data store 170.
+100811 The following examples provide additional details of the visual search and image retrieval infrastructure provided by the personalized oncology system 125. The personalized oncology system 125 may be implemented using an infrastructure that includes several containerized web services that interact to perform similarity search over a large corpus of imagery data, such as that stored in the historical database 150. The historical database 150 may be implemented as a SQL database, and the search unit 145 may implement a representational state transfer (REST) backend application programming interface (API). The user interface unit 135 may provide a web-based frontend for accessing the image processing service provided by the personalized oncology system 125. The image processing service may be implemented by the search unit 145 of the personalized oncology system 125. The historical database 150 may be configured to store the spatial features from the images that that may be searched/localized over as well as to keep track of the provenance of each feature, metadata associated with each image, and cluster indices for efficient lookup. The backend API may be configured to operate as a broker between the user and the internal data maintained by the personalized oncology system 125. The image processing service is the backbone of the search infrastructure and may be implemented using various machine learning techniques described herein. The image processing service may be configured to receive an image, such as the image 605  and to perlòrm a forward pass through the deep learning model described in the examples which 10110w to extract lèatures from the image. The large-scale search/localization may then proceed in two steps: (l) data ingestion and indexing, and (2) query. These steps will be described in greater detail in the examples which 10110w.
+100821 The personalized oncology system 125 provides a  highly modularized design (Or addressing the challenges presented by the visual search and localization problem. As will be discussed in the examples which Iòllow, the improvements to the lèature extractor model may be easily integrated into the personalized oncology system 125 by swapping out the implementation of the image processing search with a dillèrenl implementation. Furthermore, any improvements in the clustering algorithm or organization of the lèatures extracted from the images may be used to reindex the existing historical database 150.
+100831 Ifthe personalized oncology system 125 is warmed up with large amounts of existing data, then new data can  easily be incorporated through the backend API and be immediately available tor search. The frontend web service displays this functionality 10 the user in a web inlerFace that  can be iterated on and improved through lèedback and  testing as will be discussed in the examples which 10110w. [00841 The personalized oncology system 125 may implement a novel deep embedding network architecture that is capable of learning domain-specific informative features and similarity measures from unlabeled data. Deep embedding networks (metric learning) attempt to learn a feature space (from large training datasets) along with a distance metric in the learned space that enable inference on whether two images are similar. That is, given a set of image pairs  a, the goal is to identify a feature embedding (l) and a distance metric d, such that   is small for matching pairs and large for non-matching pairs. FIG. 13 illustrates an example this concept in which an example Siamese network 1300 is shown. Siamese networks use DCNNs, such as the DCNNs 1305a and 1305b, to learn an embedding (i) by minimizing a loss function, for example, contrastive loss: £ where m is a margin parameter that omits the penalization if the distance of non-matched pair is big enough and I is a training parameter that identifies the matching and non-matching images. There are many other variants based on how the loss is defined and how the embeddings are learned using different configurations of the DCNNs. The assumption is that, once the embedding is learned, the distance property 1315 will remain valid on unseen pairs of images. Most of the existing work on image similarity learning enforces category-level image similarity (or semantic similarity) for training, i.e., two images are considered similar (1=1) as long as they belong to the same category. However, this approach collapses the intra-class variations, even though many semantic labels are known to have considerable visual variability within the class. Moreover, this approach requires object-level annotations in the training data.
+[0085] To address the deficiencies of the current approach, the techniques provided herein treat the problem of similarity learning in the context of patch-localization in an image. In other words, the Siamese network 1400 may be trained to locate an exemplar image within a larger search image. The high-level architecture of the proposed network is shown in FIG. 14. Specifically, given an image patch 1405, p, and a large search image 1410, I, we want the deep network to output a correlation map (or a likelihood map) such that the correlation map has high score at the locations in the search image with high similarity to the given patch. To achieve this, we use convolutional embedding functions (like Siamese networks shown in FIG. 13) that translòrms the image data into a lèature space where similarity can be easily computed. 'Iýpically, the two branches of the Siamese networks (convolutional neural networks) share the weights, i.e., they use the same embedding lilnclion Ibr both the query and the search image and compute the distance directly on the spatial lèatures computed by the convolu(ional neural networks. However, having spatial inlòrnralion in the query makes it much more difficult to achieve rotation and scale invariance in similarity learning. Therelòre, in our case, we severe the weight-sharing between the branches and use an additional frilly connected network that collapses the query image into a single non-spatial lèature as shown in FIG. 14. The resulting lèalure maps Ah (p) and  
+ 1415b, are combined using a cross correlation layer 1430  The output of the network is a score map 1440, I(p, 2 defined on a finite 21) grid as shown in FIG. 14 where the value of the map I(x, y) corresponds 10 the likelihood that the patch p matches the image I al locations corresponding to (x, y). The size of f is smaller than the size of I and is based on the size of the embedding network and network parameters.
+100861 The Siamese network 1400 may be trained using unlabeled histopathology imagery as follows. For positive patch-image pairs, patches may be randomly selected from imagery, and the network 1400 may be trained to match the patch from the image from which the patch is taken from with high confidence. To make the network resilient to common variations in histology image, we use data augmentation techniques, which are described in greater detail in the examples which follow, to transform the given patch and find the translòrmed patch in the original image. For negative patch-image pairs, the network 1400 can be shown a patch and an image that does not contain the patch. Without annotated data, this can be done by intelligently choosing images and patch pairs in a way that minimizes random chance of finding a matching pair, for example, by choosing pairs from different domains and scenarios, or by using low-level feature analysis.
+[00871 Using the positive and negative training pairs, the network 1400 may use CenterNet loss to learn both the embedding functions as well as the correlation in an endto-end fashion. This CenterNet loss is a penalty-reduced pixel-wise logistic regression with focal loss.
+14k = — 
+where Yx is a heatmap created by using a Gaussian kernel over the locations of the input patch in the search image,
+ 
+Y xyc is the output map from the network, and cz and (3 are the hyper-parameters of the focal loss. The use of CenterNet loss drives the network to have a strong response only on pixels close to the center of an object of interest. This approach further reduces the difficulties in finding rotational/scale invariant representations, as the techniques disclosed herein are concerned only with getting a "hit" on the center of the query patch.
+100881 The personalized oncology system 125 disclosed herein may implement deep generative models [Or data augmentation of histology imagery. Human observers are capable of learning from one example or even a verbal description of the example. One explanation of this ability is that humans can use the provided example or verbal descriplion 10 easily visualize or imagine what the olliecls would  look like from dillèrent viewing points, illumination condi(ions, and other pose variations. To visualize new objects from dillèrenl perspectives, humans use prior knowledge about the observations of other known objects and can seamlessly map this knowledge to new concepts. For instance, humans can use the knowledge of how vehicles look when viewed from dillèrent perspective to visualize or hallucinate novel observations of a previously unseen vehicle. Similarly, a child does not need 10 see examples of all possible poses and viewing angles when he/she learns about a new animal, rather they can leverage a priori knowledge (latent space) about known animals 10 inlèr how the new animal would look like al dillèrenl poses and  viewing angles. This ability 10 hallucinate novel instances of concepts can be used to improve the performance of computer vision systems (by augmenting the training data with hallucinated examples).
+[00891 Data augmentation techniques are commonly used to improve the training of deep neural networks. Traditionally, this involves generation of new examples from existing data by applying various transformations to the original dataset. Examples of these transformations include random translations, rotations, flips, polynomial distortions, and color distortions. However, in real-world histopathology data, a number of parameters, such as coherency of cancerous cells, staining type and duration, and tissue thickness result in a large and complex space of image variations that is almost impossible to model using hand-designed rules and transformations. However, like human vision, given enough observations from the domain-specific imagery, common variations in image observations can be learned and applied to new observations.
+100901 Recently, Generative Adversarial Networks (GANs) have gained popularity to learn the latent space of image observations and to generate novel examples from the learned space. FIG. 15 is a diagram of an example GAN 1500. GANs, such as the GAN 1500, are generative deep models that pit two networks against one another: a generative model 1510 G that captures the data distribution and a discriminative model 1525 D that distinguishes between samples drawn from model 1520 G and images drawn from the training data by predicting a binary label 1535. The generative model 1510 can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model 1525 is analogous to the law enforcement, trying to detect the counterfeit currency. Competition in this game drives both teams to improve their methods until the counterfeits are indistinguishable from the genuine articles. The networks 1510 and 1525 are trained jointly using backprop on the label prediction loss in a mini-max fashion: simultaneously update model 1510 G to minimize the loss while also updating model 1525 D to maximize the loss (fooling the discriminator). Formally, generative adversarial learning can be seen as an approach to generate examples from density that matches the density of a training dataset D ={x x   x,v}. They learn this by minimizing a distribution discrepancy measure between the generated data and the true data. The generative model 1510 learnt by a GAN takes the Iòrm:   where f is implemented via a neural network, v are the vectors being generated (that in distribution, should match the data 'D and are the latent Gaussian variables that provide the variation in what is generated.
+100911 In the example shown in FIG. 15, the generator model 1510 may be provided an input 1505 that comprises white noise. The generator mode 1510 may generate a generated image 1520 based on the input 1505. The discriminator model 1525 may compare the generated image 1520 to real images 1530 to output a prediction 1535 whether the generated image 1520 is real or Fake.
+100921 It has been shown that GANs are capable of learning latent spaces directly from imagery and generate photorealistic images. Since a large amount of (unlabeled) histopathology imagery is already available, there is not a need 10 generate new histopathology images. Instead, the personalized oncology system 125 may leverage (LANs 10 learn natural variations in histopathology imagery 10 modilý existing patches in realistic Fashion 10 enable robust similarity learning. This can be done using a couple of different approaches that may be implemented by the personalized oncology system 125.
+100931 A first approach is to train style-transfer GANs using histology images. Instead of generating a brand new image from a random image (as in the example shown in FIG. 15), style-transfer GAN takes two images as input and transfers some of the high-level properties (style) while retaining low-level properties of the original image. Therefore, Style-Transfer GAN can be used to modulate the training patches to simulate variations in staining and other image-capture properties. FIG. 16 is a diagram showing an example of a style-translèr GAN 1600. The style-translèr GAN 1600 may be used to augment data based on image variations due to staining and/or other image capturing variables. The GAN 1600 takes two images 1605a and 1605b as input to the style transfer network 1510. The style transfer network 1610 outputs image 1615, which includes some of the high-level properties (style) of image 1605b while retaining low-level properties of the original image 1605a.
+[00941 A second approach is to use a recently proposed style-based generator architectures that combine the properties of traditional GANs and style-transfer GANs to learn latent spaces that allow control of image synthesis process at varying degrees of freedom. This architecture uses multiple style-transfer GANs at different scales, which leads to automatic, unsupervised separation of high-level attributes (e.g., staining) from stochastic variation (e.g., small variations in morphology) in the generated images, and enables intuitive scale-specific mixing and interpolation operations. The style-based generators discussed in these examples may be used by the personalized oncology system 125 to generate novel imagery for training and obtaining augmentations by varying the imagery by changing the control parameters of the latent space.
+[0095] The personalized oncology system 125 may be configured to provide (Or efficient indexing and retrieval of whole-slide imagery from the historical database 150. The search infrastructure described in the preceding examples may be leveraged to facilitate the efficient indexing processes. The process 1700 may be used to create the historical database 150 and/or to add new imagery data to the historical database 150. The process 1700 may be implemented by the data processing unit 160 of the personalized oncology system 125. FIG. 17 is a diagram showing an example process 1700 [Or lèature computation, dictionary learning, and indexing of the image corpus of the historical database  150. The process 1700 may be computationally intensive but  needs only be perlòrmed once on the image corpus. The process 1700 includes two indexing steps or stages. In a first indexing step, a corpus of imagery 1705 is identified over which the user would like to conduct searches and each of the images are processed by the image processor 1710. The image processor 1710 may be implemented by one of the various models, such as the DCNN discussed in the preceding examples, which may extract spatial lèature inlòrmation from the images of the image corpus 1705. The images of the image corpus 1705 and the spatial lèalures may be added  to the database 1740. The database 1740 may be implemenled by the historical database 150. The image and  position within the image of the spatial lèalures is tracked  Ibr later retrieval from the database 1740.
+[00961 A second indexing step may then be performed once all the data of the image corpus 1705 has been ingested and resolved into spatial features. The second step involves learning a dictionary of features by first clustering all the extracted features and then associating each computed feature with the closest cluster. This approach may significantly reduce the enormous number of features into a small number of cluster centroids (usually between 100,000 to 1,000,000 based on the data and application-at-hand). These centroids, commonly referred to as visual words, enable a search to proceed in a hierarchical fashion, greatly reducing the lookup time required for find high quality matches. This type of image indexing has been shown to perlòrm near real-time matching and retrieval in datasets of millions of images without any additional constraints on labels. To handle multiple magnifications, the data processing unit 160 may extract features from different layers (corresponding to different retinal fields or magnifications). Separate dictionaries may then be learned for each level of magnifications and visual words may be indexed accordingly.
+[00971 FIG. 18 is a diagram showing an example process 1800 for performing of the query step that may be performed using the personalized oncology system 125. The user may identify a portion or patch of an image 1805 that the user finds interesting and wishes to find similar looking objects and/or textures within the corpus of search data maintained by the historical database 150. The user may identify the portion of the image of interest using the ROI techniques discussed in the preceding examples. The image processing service, which may be implemented by the search unit 145  may be configured to compute a query feature in operation 1810 using a CNN or other machine learning model trained to identify features of the query image 1805. The query feature(s) are computed at appropriate magnification based on the magnification of the query image 1805. Similarly, the magnification of query image 1805 may be used by the search unit 145 to determine which learned dictionary and associated indexes are used in subsequent processing. For efficient retrieval, the search may be perlòrmed in two steps. (i) a coarse search step and (ii) a fine search step. In the coarse search step, the query lèature obtained in operation 1810 is converted into a visual word by comparing the query lèature to each cluster cenlroid (the visual words in the dictionary 1815) and assigning the closest visual word to the query image 1805. In the line search step, the candidates from the coarse search 1825 are densely ranked according to their similarity to the query using a correlation network in operation 1830, which may be the similarity network 1400 shown in FIG. 14. The ranked results may then be presented to the user on a user interface provided by the user interface unit 135. The ranked results may be presented with the source image 1840 and the position within the image 1845 from which the ranked results is [bund. Relevant metadata associated with the source image 1840 and/or the position within the image 1845 may also be presented 10 the user. 100981 The interaction model and the user interFace (UI) components of the personalized oncology system 125 enables pathologists and other users to explore questions, capture answers and understand the legacy and confidence levels lòr artificial intelligence-based image retrieval system. The web-based UI will provide users with a robust set of tools 10 query the system and retrieve actionable metrics. Pathologists will use the UI 10 view the matched image regions and associated clinical data and obtain associated statistics and metrics about mortality, morbidity, and timeto-event (FIGS. 6 and 8). As discussed in the preceding examples, the pathologists will be able to filter the results based on a number of clinical parameters (age, gender, race, co-morbidity, treatment plans, etc.). For a given image sample, the pathologist may be able to see graphical information on various statistics, for example, survival rates of matched patients based on, age-group (FIG. 9) broken-down by treatment type, survival rates by ethnicity for a particular treatment option (FIG. 10), average duration of treatment (for different treatment options), reoccurrence rate and average time-to-reoccurrence, and so on.
+100991 The user interface unit 135 of the personalized oncology system 125 may be configured to provide intuitive user interfaces for pathologists and other users to view the matched image regions and associated clinical data, filter the results based on a number of clinical parameters, such as but not limited to age, gender, and treatment plans, and obtain associated statistics and metrics about mortality, morbidity, and time-to-event. FIGS. 8, 9, and 10 show examples of user interfaces that may be implemented by the personalized oncology system 125 to provide pathologists key clinical insights (such as survival rate) based on a number of parameters that include patient's age, gender, race, comorbidity, and treatment plans.
+[01001 FIG. 9 is an example user interface 905 of the personalized oncology system 125 for displaying results obtained by searching the historical database 150. The user interface 905 may be implemented by the user interface unit 135 of the personalized oncology system 125. The user interface 905 that may be used to display additional details of the survival rate by age group. The user interface 905 may be displayed in response to the user clicking on the "expand" button shown on the survival rate information 815 section of the user interface 805 shown in FIG. 8. The user interface 905 breaks the survivor rate information into eight age groups: 0-10, 10-20, 20-30, 30-40, 40-50, 50-60, 60-70, and 80+ and provides survivor rate information for each of the three treatment options selected in the user interface 805 of FIG. 8: chemotherapy, surgery, and radiation treatment. [0101] FIG. 10 is an example user interface 1005 of the personalized oncology system 125 [Or displaying results obtained by searching the historical database 150. The user interFace 1005 may be implemented by the user interFace unit 135 of the personalized oncology system 125. The user interFace 1005 that provides a chart showing the survivor rate inlòrmation broken down by ethnicity [Or the chemotherapy treatment. The user interFace 1005 may be displayed in response to the user clicking on the "expand" button shown on the survival rate inlòrmation 815 section of the user interface 805 shown in FIG. 8.
+101021 The user interfaces 905 and 1005 are examples of user interfaces that the personalized oncology system 125 may provide to present patient inlòrmation and historical inlòrmation to the pathologist to aid the pathologist in developing a personalized therapeutic plan (Or the patient. The user interfaces provided by the personalized oncology system 125 are not limited to these examples, and other user inlerFaces that present detailed reports based on the patient  data and the historical data may be included. Additional reports may be automatically generated based on the search parameter 810 selected on the user inlerFace 805 of FIG. 8, and the user interface 805 may provide a means Ibr the pathologist 10 access these additional reports. Furthermore, the personalized oncology system 125 may automatically reports for various permutations of the search parameters 810 to provide the pathologist with reports that may assist the pathologist in developing a personalized therapeutic plan for the patient. For example, a first report may include survival rate information grouped by age and ethnicity and a second report may include survival rate information grouped by age and comorbidity.
+101031 FIG. 12 is a flow chart of an example process 1200 for generating a personalized therapeutic plan for a patient requiring oncological treatment. The process 1200 may be implemented by the personalized oncology system 125. The process 1200 may be implemented on the computing system 1100 shown in FIG. 11.
+101041 The process 1200 may include an operation of 1210 of accessing a first histopathological image of a histopathological slide of a sample taken from a first patient. The whole-slide image may be accessed from the pathology database 110 as discussed in the preceding examples. The slide may be accessed by a user via a user interface similar to the user interface 805 shown in FIG. 8.
+[01051 The process 1200 may include an operation of 1220 of receiving region-of-interest (ROI) information for the first histopathological image. The ROI information identifies one or more regions of the first histopathological image that include features to be searched for in a historical histological database that includes a plurality of second histopathological images and corresponding clinical data for a plurality of second patients. The features to be searched are indicative of cancerous tissue in the sample taken from the first patient. The ROI information may be received via a user via user interface, such as that shown in FIG. 6, and/or the ROI information may be automatically determined by the ROI selection unit 140 
+[0106] The process 1200 may include an operation of 1230 of analyzing one or more portions of the first histopathological image associated with the ROI information using a convolutional neural network (CNN) to identify a set of third histopathological images of the plurality of second histopathological images that match the ROI information. As discussed in the preceding examples, the portion or portions of the first histopathological image associated with the ROI inlòrmation may be provided to the CNN as an input. The remainder of the image may be discarded. This can significantly improve the ability of the CNN to match the image data associated with the ROI without requiring large amounts of annotated training data to train the machine models.
+101071 The process 1200 may include an operation of  1240 of presenting a visual representation of the set of third histopathological images that match the ROI inlòrmation on a display of the system [Or personalized oncology. As
+discussed with respect 10 the preceding examples, the visualizalion includes inlòrnralion Ibr a personalized therapeutic plan (Or the treating the patient. The visualization inlòrnralion may be rendered on a display of computer system on a user interface like those shown in FIGS. 8-10.
+101081 FIG. 19 is a flow chart of an example process 1900  lòr generating a personalized therapeutic plan Ibr a patient requiring oncological treatment. The process 1900 may be implemented by the personalized oncology system 125. The process 1900 may be implemented on the computing system  shown in FIG. 1 1. The process may be implemented by the search unit 145 and/or other components of the personalized oncology system 125 discussed in the preceding examples.
+[01091 The process 1900 may include an operation 1910 of accessing a first histopathological image of a histopathological slide of a sample taken from a first patient. The whole-slide image may be accessed from the pathology database 110 as discussed in the preceding examples. The slide may be accessed by a user via a user interface like the user interface 805 shown in FIG. 8.
+101101 The process 1900 may include an operation 1920 of analyzing the first histopathological image using a first machine learning model configured to extract first lèatures from the first histopathological image. The first features may be indicative of cancerous tissue in the sample taken from the first patient. The operation 1920 may be performed by the search unit 145 of the personalized oncology system 125. The first machine learning model may be a DCNN as described with respect to FIGS. 6 and 18.
+ 
+searching a histological database that includes a plurality of second histopathological images and corresponding clinical data for a plurality of second patients to generate search results. The search results may include a plurality of third histopathological images and corresponding clinical data from the plurality of second histopathological images and corresponding clinical data that match the first features from the first histopathological image. The third histopathological images and corresponding clinical data are associated with a plurality of third patients that are a subset of the plurality of second patients. This operation may match a subset of the histological images of the historical database 150 to match histopathological images that exhibit the same or similar histology of the first patient. The matching techniques
+disclosed herein may provide a much larger number of close matches (e.g. ten, hundreds, thousands, or more) than would be otherwise be possible with current approaches to finding matching slides. The current approaches may return one slide or a small number of slides, which is not useful for statistical analysis and predictions that may be used to guide a user in developing a therapeutic plan Ibr the first patient. 101121 The quality of the matches obtained in the operation 1930 may be improved or further relined through the use of genomics data. The historical database 150 may include genomics data associated with the histopathological image data stored therein. The search unit 145 of the personalized oncology system 125 may be configured to analyze the first genomic inlòrmation obtained from the first patient and to search the historical database 150 (Or second patients that have similar genomic inlòrnralion that may influence the treatments provided and/or the predicted outcomes of such treatments [Or the first patient. The search unit  145 may utilize a machine learning model trained 10 receive genomic inlòrmation (Or a patient as an input and/or lèatures extracted therefrom by a lèature extraction preprocessing operation. The model may be configured to analyze the genomic inlòrmation (Or the second patients included in the historical database 150 and to identity patients having similar lèalures in their genomic data that may influence the treatment plans provided 10 the first patient and/or the predicted outcomes of such treatments tor the first patient. In some implementations, the search unit 145 may be configured 10 narrow down the search results and/or 10 rank the search results obtained in operation 1930 that match based  on the histology of the first patient and the second patients by using the genomic information identify the search results that may be most relevant to the first patient.
+101131 The process 1900 may include an operation 1940 of analyzing the plurality of third histopathological images and the corresponding clinical data associated with the plurality of third histopathological images using statistical analysis techniques to generate associated statistics and metrics associated with mortality, morbidity, time-to-event, or a combination thereof. The associated statistics and metrics may include information for a plurality of subgroups of the plurality of third patients where each respective patient of a subgroup of the plurality of third patients shares one or more common factors with other patients within the subgroup. The common factors may include but are not limited to age, gender, comorbidity, treatments received, and/or other factors that may be indicative of and/or influence the survival rate, the treatment options, and/or other issues associated of the patients having those factors. The personalized oncology system 125 provides this statistical analysis of the histological data from the historical database 150 for patients having a similar histology as the first patient in order to provide informative and accurate information that may predict the survival rate of first patient. The data may be grouped by one or more of these common factors to provide information that predicts a common factor such as age or treatment plan may impact the prognosis and/or the recommended treatment plan for the first patient. Other combinations of common factors may also be determined in addition to or instead of the preceding example in order to provide the user with data that may be used to predict how these combinations of factors may impact the prognosis of the first patient and/or the recommended treatment plan.
+[0114] The process 1900 may include an operation 1950 of presenting an interactive visual representation of the associated statistics and metrics on a display of the system. The interactive visual representation of the associated statistics and metrics may include interactive reports that allow the user to select one or more common factors that influence survival rate and to obtain survival rate inlòrmation for the subgroup of third patients that share the one or more common Factors with the first patient. The user may interact with the interactive visual representation to develop a therapeutic plan that is tailored to the specific needs of the first patient which may include (i) avoiding unnecessary treatment that is less likely to work Ibr the given patient, (ii) avoiding side ellècts, trauma, and risks or surgery, and (iii) determining the optimal therapeutic schedules that are best suited (Or the first patient.
+101 151 The personalized oncology system 125 may automatically generate a treatment plan [Or the first patient based on common factors of the first patient and the plurality of third patients. The treatment plan may include recommended treatments (Or the first patient and inlòrmation indicating why each of the recommended treatments were recommended (Or the first patient. The treatment plan may include the inlòrmation indicating why a particular treatment was selected so that the first patient and the doctor or doctors treating the first patient have a clear understanding of why the recommendations were made. This approach in addition to the "glass box" nature of the models used 10 provide the recommendations can help 10 assure the first patient and the doctors that the recommendations are based on data that is relevant 10 the first user. The personalized oncology system 125 provides the doctors with all the supporting evidence (in the form of historical imagery, matched regions-of-interest, associated clinical data, and genomic data if available) so that the doctors can make confident predictions and clinical decisions.
+101161 FIG. 11 is a block diagram showing an example a computer system 1100 upon which aspects of this disclosure may be implemented. The computer system 1100 may include a bus 1102 or other communication mechanism for communicating information, and a processor 1104 coupled with the bus 1102 for processing information. The computer system 1100 may also include a main memory 1106, such as a random-access memory (RAM) or other dynamic storage device, coupled to the bus 1102 for storing information and instructions to be executed by the processor 1104. The main memory 1106 may also be used for storing temporary variables or other intermediate information during execution of instructions to be executed by the processor 1104. The computer system 1100 may implement, for example, the Al-based personalized oncology system 125.
+[01171 The computer system 1100 may further include a read only memory (ROM) 1108 or other static storage device coupled to the bus 1102 for storing static information and instructions for the processor 1104. A storage device 1110, such as a flash or other non-volatile memory may be coupled to the bus 1102 for storing information and instructions.
+[01181 The computer system 1100 may be coupled via the bus 1102 to a display 1112, such as a liquid crystal display (LCD), for displaying information. One or more user input devices, such as the example user input device 1114 may be coupled to the bus 1102, and may be configured for receiving various user inputs, such as user command selections and communicating these to the processor 1104, or to the main memory 1106. The user input device 1114 may include physical structure, or virtual implementation, or both, providing user input modes or options, for controlling, for example, a cursor, visible to a user through display 1112 or through other techniques, and such modes or operations may include, for example virtual mouse, trackball, or cursor direction keys. Some implementations may include a cursor control 1116 which is separate from the user input device 1114 Iòr controlling the cursor. In such implementations, the user input device 1114 may be configured to provide other input options, while the cursor control 1116 controls the movement of the cursor. The cursor control 1116 may be a mouse, trackball, or other such physical device Ibr controlling the cursor.
+101191 The computer system 1100 may include respective resources of the processor 1104 executing, in an overlapping or interleaved manner, respective program instructions. Instructions may be read into the main memory 1106 from another machine-readable medium, such as the storage device 1110. In some examples, hard-wired circuitry may be used in place of or in combination with software instructions. The term "machine-readable medium" as used herein relèrs to any medium that participates in providing data that causes a machine to operate in a specific Fashion. Such a medium may lake lòrms, including but not limited 10  non-volatile media, volatile media, and transmission media. Non-volatile media may include, tor example, optical or magnetic disks, such as storage device 1 1 10. Transmission  media may include optical paths, or electrical or acoustic signal propagation paths, and may include acoustic or light  waves, such as those generated during radio-wave and infra-red data communications, that are capable of carrying instructions detectable by a physical mechanism for input to a machine.
+101201 The computer system 1100 may also include a communication interface 1118 coupled to the bus 1102, for two-way data communication coupling to a network link 1120 connected to a local network 1122. The network link 1120 may provide data communication through one or more networks to other data devices. For example, the network link 1120 may provide a connection through the local network 1122 to a host computer 1124 or to data equipment operated by an Internet Service Provider (ISP) 1126 to access through the Internet 1128 a server 1130, for example, to obtain code for an application program.
+101211 While various embodiments have been described, the description is intended to be exemplary, rather than limiting, and it is understood that many more embodiments and implementations are possible that are within the scope of the embodiments. Although many possible combinations of features are shown in the accompanying figures and discussed in this detailed description, many other combinations of the disclosed features are possible. Any feature of any embodiment may be used in combination with or substituted for any other feature or element in any other embodiment unless specifically restricted. Therefore, it will be understood that any of the features shown and/or discussed in the present disclosure may be implemented together in any suitable combination. Accordingly, the embodiments are not to be restricted except in light of the attached summary statements and their equivalents. Also, various modifications and changes may be made within the scope of the attached summary statements.
+What is claimed is:
+1.	A system for personalized oncology, comprising: a processor; and a memory in communication with the processor, the memory comprising executable instructions that, when executed by the processor, cause the processor to control the system to perlòrm functions of:
+accessing a first histopathological image of a histopathological slide of a sample taken from a first patient; analyzing the first histopathological image using a first machine learning model configured to extract first lèatures from the first histopathological image, wherein the first lèatures are indicative of cancerous tissue in the sample taken from the first patient; searching a histological database that includes a plurality of second histopathological images and corresponding clinical data [Or a plurality of second patients to generate search results, wherein the search results include a plurality of third histopathological images and corresponding clinical data from the plurality of second histopathological images and corresponding clinical data that match the first ICatures from the first histopathological image, and wherein the third histopathological images and corresponding clinical data are associated with a pluralily of third patients of the plurality of second patients; analyzing the plurality of third histopathological images and the corresponding clinical data associtiled with the plurality of third histopathological images using statistical analysis techniques to generate associated statistics and metrics associated with mortality, morbidity, time-to-event, or a combination thereof for the plurality of third patients associated with the third histopathological images; and presenting an interactive visual representation of the associated statistics and metrics on a display of the system.
+2.	The system of claim 1, wherein the associated statistics and metrics include associated statistics and metrics for a plurality of subgroups of the plurality of third patients, and wherein each respective patient of a subgroup of the plurality of third patients shares one or more common factors with other patients within the subgroup.
+3.	The system of claim 1, wherein the one or more common factors include one or more of age, gender, race, comorbidity, genomic profiles, and treatments received.
+4.	The system of claim 1, further comprising:
+analyzing first genomic profile information associated with the first patient; and matching the first genomic profile information with genomic profile information associated with a subset of the plurality of second patients to generate the search results.
+5.	The system of claim 1, further comprising instructions configured to cause the processor to control the system to perform functions of:
+automatically generating a treatment plan for the first patient based on common factors of the first patient and the plurality of third patients.
+6.	The system of claim 1, further comprising instructions configured to cause the processor to control the system to perform functions of:
+receiving region-of-interest (ROI) information for the first histopathological image, the ROI information identifying one or more regions of the first histopathological image that include features to be searched for in the historical histological database  wherein to analyze the first histopathological image using the first machine learning model configured to extract the first lèatures from the first histopathological image, the memory further comprising instructions configured to cause the processor to control the system to perlòrm lilnctions of:
+analyzing the one or more regions of the first histopathological image associated with the ROI inlòrmation using the first machine learning model to extract the first lèatures.
+7.	The system of claim 6, wherein to receive the ROI inlòrnralion Ibr the first histopathological image, the memory further comprising instructions configured to cause the processor to control the system to perlòrm lilnctions of: displaying the first histopathological image on a first user interface of the system lòr personalized oncology; and  receiving, via the first user interFace, user input defining the ROI inlòrmation Ibr the one or more regions of the first histopathological image that include lèalures 10 be searched.
+8.	The system of claim 6, wherein to receive the ROI inlòrnralion Ibr the first histopathological image, the memory further comprising instructions configured 10 cause the processor 10 control the system 10 perlòrm lilnclions of: analyzing the first histopathological image using a second machine learning model trained to automatically identify areas of interest in the first histopathological image; and receiving the ROI information for the one or more regions of the first histopathological image that include features to be searched.
+9.	The system of claim 8, wherein to analyze the first histopathological image using the second machine learning model trained to automatically identify areas of interest in the first histopathological image further comprising instruc(ions configured to cause the processor to control the system to perform lilnctions of:
+automatically identilÿing the areas of interest based on characteristics including one or more of nuclear atypia, mitotic activity, cellular density, or tissue architecture to identify cancer cells.
+10.	The system of claim 1, further comprising instructions configured to cause the processor to control the system to perform functions of:
+receiving one or more search parameters associated with one or more clinical data elements associated with the first patient; filtering the set of third histopathological images based on the one or more search parameters and clinical data associated with the third histopathological images to generate a set of fourth histopathological images; and presenting the interactive visual representation of the set of fourth histopathological image data instead of the third histopathological images.
+11.	A method of operating a personalized oncology system, the method comprising:
+accessing a first histopathological image of a histopathological slide of a sample taken from a first patient; analyzing the first histopathological image using a first machine learning model configured to extract first features from the first histopathological image, wherein the first features are indicative of cancerous tissue in the sample taken from the first patient; searching a histological database that includes a plurality of second histopathological images and corresponding clinical data [Or a plurality of second patients to gencrate search results, wherein the search results include a plurality of third histopathological images and corresponding clinical data from the plurality of second histopathological images and corresponding clinical data that match the first lèatures from the first histopathological image, and wherein the third histopathological images and corresponding clinical data are associated with a plurality of third patients of the plurality of second patients; analyzing the plurality of third histopathological images and the corresponding clinical data associated with the plurality of third histopathological images using statistical analysis techniques to generate associated statistics and metrics associated with mortality, morbidity, time-to-event, or a combination thereof (Or the plurality of third patients associated with the third histopathological images; and presenting an interactive visual representation of the associated statistics and metrics on a display of the system.
+ 12. The method of claim 1 1, wherein the associated statistics and metrics include associated statistics and melrics for a plurality of subgroups of the plurality of third patients, and wherein each respective patient of a subgroup of the plurality of third patients shares one or more common factors with other patients within the subgroup, and wherein the one or more common factors include one or more of age, gender, race, comorbidity, and treatments received.
+13.	The system of claim 11, further comprising:
+receiving region-of-interest (ROI) information for the first histopathological image, the ROI information identifying one or more regions of the first histopathological image that include features to be searched for in the historical histological database, wherein analyzing the first histopathological image using the first machine learning model configured to extract the first features from the first histopathological image further comprises:
+analyzing the one or more regions of the first histopathological image associated with the ROI information using the first machine learning model to extract the first features.
+14.	The method of claim 13, wherein the first machine learning model is configured to perform feature extraction on the one or more regions of the first histopathological image to generate extracted features and to compare the extracted features to features of the plurality of second histopathological images.
+15.	The method of claim 14, wherein receiving the ROI information for the first histopathological image further comprises:
+displaying the first histopathological image on a first user interface of the system for personalized oncology; and receiving, via the first user interface, user input defining the ROI information for the one or more regions of the first histopathological image that include features to be searched.
+16.	The method of claim 14, wherein receiving the ROI information for the first histopathological image further comprises:
+analyzing the first histopathological image using a second machine learning model trained to automatically identilý areas of interest in the first histopathological image• and receiving the ROI inlòrmation Ibr the one or more regions of the first histopathological image that include lèatures to be searched.
+17.	The method of claim 16, wherein analyzing the first histopathological image using the second machine learning model trained to automatically identilý areas of interest in the first histopathological image lilrlher comprises:
+automatically identilýing the areas of interest based on  characteristics including one or more of nuclear atypia, mitotic activity, cellular density, or tissue architecture to identilÿ cancer cells.
+18.	The method of claim 14, lilt-ther comprising:
+receiving one or more search parameters associated with one or more clinical data elements associated with the first patient; filtering the set of third histopathological images based on the one or more search parameters and clinical data  associated with the third histopathological images 10 generate a set of tòurth histopathological images; and presenting the interactive visual representation of the set  of lòurlh histopathological image data instead of the third histopathological images.
+19.	A non-transitory computer readable medium containing instructions which, when executed by a processor, cause a computer to perform functions of:
+accessing a first histopathological image of a histopathological slide of a sample taken from a first patient; analyzing the first histopathological image using a first machine learning model configured to extract first features from the first histopathological image, wherein the first features are indicative of cancerous tissue in the sample taken from the first patient; searching a histological database that includes a plurality of second histopathological images and corresponding clinical data for a plurality of second patients to gencrate search results, wherein the search results include a plurality of third histopathological images and corresponding clinical data from the plurality of second histopathological images and corresponding clinical data that match the first features from the first histopathological image, and wherein the third histopathological images and corresponding clinical data are associated with a plurality of third patients of the plurality of second patients;
+analyzing the plurality of third histopathological images and the corresponding clinical data associated with the plurality of third histopathological images using statistical analysis techniques to generate associated statistics and metrics associated with mortality, morbidity, time-to-event, or a combination thereof for the plurality of third patients associated with the third histopathological images; and presenting an interactive visual representation of the associated statistics and metrics on a display of the system.
+20.	The non-transitory computer readable medium of claim 19, wherein the associated statistics and metrics include associated statistics and metrics for a plurality of subgroups of the plurality of third patients, and wherein each respective patient of a subgroup of the plurality of third patients shares one or more common factors with other patients within the subgroup, and wherein the one or more common factors include one or more of age, gender, race, comorbidity, and treatments received.
+
+###----2nd Patent----###
+
+(22)申请日 2019.04.23
+(65)同一申请的已公布的文献号申请公布号 CN 112041026 A
+(43)申请公布日 2020.12.04
+(30)优先权数据
+15/966,228 2018.04.30 US
+(85)PCT国际申请进入国家阶段日
+2020.10.29
+(86)PCT国际申请的申请数据
+PCT/US2019/028720 2019.04.23
+(87)PCT国际申请的公布数据
+WO2019/212804 EN 2019.11.07
+(73)专利权人 医科达有限公司地址 美国佐治亚州
+(72)发明人 林登·斯坦利·希巴德　公司 11227 专利代理师 杜诚　姚文杰
+(51)Int.Cl.
+A61N 5/10(2006.01)
+(56)对比文件
+WO 2018048575 A1,2018.03.15
+CN 106803082 A,2017.06.06 CN 107441637 A,2017.12.08
+US 2018101770 A1,2018.04.12
+CN 107072624 A,2017.08.18 CN 107451619 A,2017.12.08 CN 107358626 A,2017.11.17
+CHRIS MCINTOSG ET AL.Fully automated treatment planning for head and neck radiotherapy using a voxel-based dose prediction and dose mimicking method.
+《PHYSICS IN MEDICINE & BIOLOGE》.2016,
+审查员 纪莉莉
+ 
+ 
+ 
+(54)发明名称
+用于生成放射疗法剂量分布的方法和系统
+(57)摘要
+公开了用于生成放射疗法治疗计划并且建立用于生成和优化放射疗法剂量数据的机器学习模型的技术。一种用于使用在生成式对抗网络中训练的生成模型来生成放射疗法剂量分布的示例方法，包括：接收人类受试者的解剖数据，所述解剖数据指示用于放射疗法治疗的解剖区域的映射；当生成模型处理作为输入的解剖数据并且提供剂量数据作为输出时，利用经训练的生成模型来生成与映射相对应的放射疗法剂量数据；以及基于剂量数据来识别用于人类受试者的放射疗法治疗的放射疗法剂量分布。用于训练生成模型的另一示例方法包括：使用对抗训练，包括在条件生成式对抗网络布置中的对抗训练来确定生成式对抗网络的生成模型和判别模型的值。 1/5页
+1.一种用于使用经训练的模型来生成放射疗法剂量分布的计算机实现的方法，所述方法包括：
+接收人类受试者的解剖数据，所述解剖数据指示用于所述人类受试者的放射疗法治疗的解剖区域的映射；
+使用生成模型来生成与所述映射对应的放射疗法剂量数据，在生成式对抗网络中对所述生成模型进行训练，其中，所述生成模型被进一步训练以处理作为输入的所述解剖数据并且提供所述放射疗法剂量数据作为输出；以及
+基于所述放射疗法剂量数据来识别用于所述人类受试者的放射疗法治疗的所述放射疗法剂量分布；
+其中，所述解剖数据包括从所述人类受试者捕获的成像数据，其中，所述生成式对抗网络是包括所述生成模型和判别模型的条件生成式对抗网络，并且其中，从所述生成模型提供的预测值以从所述人类受试者捕获的成像数据为条件。
+2.根据权利要求1所述的方法，其中，所述生成式对抗网络被配置成使用判别模型来训练所述生成模型，
+其中，使用所述判别模型与所述生成模型之间的对抗训练来确定由所述生成模型和所述判别模型应用的值，以及其中，所述生成模型和所述判别模型包括相应的卷积神经网络。
+3.根据权利要求2所述的方法，
+其中，所述对抗训练包括：训练所述生成模型以根据指示至少一个治疗区域的输入图像来生成模拟放射疗法剂量分布图像，以及训练所述判别模型以将生成的放射疗法剂量分布图像分类为模拟训练数据或真实训练数据，以及
+其中，所述生成模型的输出用于训练所述判别模型，并且所述判别模型的输出用于训练所述生成模型。
+4.根据权利要求3所述的方法，其中，所述输入图像和所述模拟放射疗法剂量分布图像包括相应的三维图像。
+5.根据权利要求3所述的方法，
+其中，所述输入图像是二维图像，该二维图像包括使用相应图像通道或图像通道中的相应灰度值来表示所述至少一个治疗区域和至少一个治疗排除区域的相应区域，以及
+其中，所述模拟放射疗法剂量分布图像是二维图像，该二维图像包括使用相应图像颜色通道或图像通道中的相应值来表示剂量值的相应区域。
+6.根据权利要求5所述的方法，
+其中，所述生成模型被训练成接收作为RGB图像彩色图像的所述输入图像，所述RGB图像彩色图像包括利用至少两个彩色图像通道指示所述至少一个治疗区域和所述至少一个治疗排除区域的图像掩模，以及
+其中，所述生成模型被训练成产生作为灰度图像的所述模拟放射疗法剂量分布图像。
+7.根据权利要求3所述的方法，其中，所述输入图像包括根据成像方式产生的医学数字成像和通信(DICOM)格式图像。
+8.根据权利要求1所述的方法，其中，所述解剖数据以图像数据表示，并且其中，所述解剖区域的所述映射包括与被识别成接受所述放射疗法治疗的至少一个区域和被识别成避
+2/5页
+免所述放射疗法治疗的至少一个区域相对应的多个图像掩模。
+9.根据权利要求8所述的方法，
+其中，所述解剖数据包括所述解剖区域的三维体素数据，所述三维体素数据从根据至少一种成像方式捕获的所述人类受试者的至少一个图像导出，以及
+其中，所述多个图像掩模对应于相应的部分，所述相应的部分指示被识别为接收所述放射疗法治疗的至少一个区域和被识别为避免所述放射疗法治疗的至少一个处于危险中的器官。
+10.根据权利要求1所述的方法，
+其中，所述解剖数据包括图像，该图像包括至少一个二进制掩模或至少一个符号距离图，以及
+其中，所述放射疗法剂量数据包括图像，该图像是根据所归档的剂量数据的线性插值或最近邻插值产生的。
+11.根据权利要求1所述的方法，
+其中，所述解剖数据包括在所述解剖区域的坐标空间内的用于放射疗法治疗的坐标，以及
+其中，所述放射疗法剂量数据包括在所述解剖区域的坐标空间内的坐标处的放射疗法治疗的量的指示。
+12.根据权利要求1所述的方法，其中，从由所述生成式对抗网络训练的多个模型中识别出所述生成模型，以及其中，基于所述解剖区域或所述放射疗法治疗的类型来识别所述生成模型。
+13.根据权利要求1所述的方法，
+其中，所述生成模型和所述判别模型在训练过程中以预先分类的解剖结构数据为条件，以及
+其中，所述预先分类的解剖结构数据对应于放射疗法治疗的解剖区域。
+14.根据权利要求13所述的方法，其中，所述生成模型和所述判别模型还以与所述放射疗法剂量分布相关联的至少一个约束为条件。
+15.根据权利要求14所述的方法，其中，所述解剖数据是从所述人类受试者的解剖区域的三维图像集合中识别的，以及
+其中，所述生成模型被训练成基于从多个人类受试者获得的三维图像数据针对特定条件或解剖特征来生成所述放射疗法剂量数据。
+16.根据权利要求1所述的方法，其中，针对所述人类受试者的放射疗法治疗的后续事件进一步对所述生成模型进行训练，其操作包括：基于所述放射疗法剂量数据的批准、更改或使用来更新所述生成模型；以及
+使用经更新的生成模型来生成所述人类受试者的经更新的放射疗法剂量分布。
+17.根据权利要求1所述的方法，还包括：
+生成针对人类受试者的所述放射疗法治疗而识别的所述放射疗法剂量分布的至少一个剂量体积直方图，其中，所述剂量体积直方图指示至少一个计划治疗体积或至少一个处于危险中的器官的值；以及将所述放射疗法剂量分布的剂量体积直方图与针对对应于所述解剖区域的放射疗法
+3/5页
+治疗而识别的另一放射疗法剂量分布所生成的剂量体积直方图进行比较。
+18.根据权利要求1所述的方法，还包括：
+生成所述解剖区域的三维视觉表现，所述三维视觉表现指示针对人类受试者的所述放射疗法治疗而识别的所述放射疗法剂量分布。
+19.一种用于使用生成式对抗网络来产生用于生成放射疗法剂量分布的经训练模型的计算机实现的方法，所述方法包括：
+使用对抗训练来确定所述生成式对抗网络的生成模型和判别模型的值，所述对抗训练包括：训练所述生成模型以从输入图像生成模拟放射疗法剂量分布图像；以及
+训练所述判别模型以将所生成的放射疗法剂量分布图像分类为模拟训练数据或真实训练数据；
+其中，所述生成模型的输出用于训练所述判别模型，并且其中，所述判别模型的输出用于训练所述生成模型；以及
+输出所述生成模型以供在生成放射疗法剂量信息时使用，所述生成模型适于基于与用于所述放射疗法治疗的解剖结构的映射相对应的输入解剖数据来识别用于人类受试者的放射疗法治疗的放射疗法剂量数据；其中，所述生成式对抗网络是条件生成式对抗网络，以及
+其中，在训练期间使用预定的解剖结构数据来调节所述生成模型和所述判别模型，所述预定的解剖结构数据对应于与放射疗法治疗相关的解剖区域。
+20.根据权利要求19所述的方法，
+其中，所述生成模型和所述判别模型包括相应的卷积神经网络，
+其中，所述输入图像包括使用相应的图像通道或图像通道中相应的灰度值表示至少一个治疗区域和至少一个治疗排除区域的相应区域，以及
+其中，所述模拟放射疗法剂量分布图像包括使用相应的图像颜色通道或图像通道中的相应值表示剂量值的相应区域。
+21.根据权利要求19所述的方法，其中，所述解剖结构的所述映射包括多个图像掩模，所述多个图像掩模指示被识别用于放射疗法治疗的至少一个区域和被识别以避免所述放射疗法治疗的至少一个区域。
+22.根据权利要求19所述的方法，
+其中，所述生成模型被训练以基于来自多个人类受试者的图像数据针对特定条件或解剖特征来生成所述放射疗法剂量数据，
+其中，所述解剖数据包括来自所述多个人类受试者的相应解剖图像，所述相应解剖图像包括至少一个二进制图像掩模或符号距离图，以及
+其中，所述放射疗法剂量数据包括与所述解剖图像相对应的相应图像，所述放射疗法剂量数据由线性插值或最近邻插值产生。
+23.根据权利要求19所述的方法，其中，在用于相应的放射疗法治疗的多个解剖区域上训练所述生成模型。
+24.一种用于使用经训练的模型来生成放射疗法剂量分布的系统，所述系统包括：处理电路系统，所述处理电路系统包括至少一个处理器；以及
+4/5页包含指令的存储介质，所述指令在由所述至少一个处理器执行时使所述处理器进行如下操作：
+处理人类受试者的解剖数据，所述解剖数据指示用于所述人类受试者的放射疗法治疗的解剖区域的映射；
+使用生成模型来生成与所述映射对应的放射疗法剂量数据，所述生成模型在生成式对抗网络中进行训练，其中，所述生成模型被进一步训练以处理作为输入的所述解剖数据，并且提供所述放射疗法剂量数据作为输出；以及
+基于所述放射疗法剂量数据来识别所述人类受试者的放射疗法治疗的所述放射疗法剂量分布；
+其中，所述解剖数据包括从所述人类受试者捕获的成像数据，其中，所述生成式对抗网络是包括所述生成模型和判别模型的条件生成式对抗网络，以及
+其中，从所述生成模型提供的预测值以从所述人类受试者捕获的所述成像数据为条件。
+25.根据权利要求24所述的系统，其中，所述生成式对抗网络被配置成使用判别模型来训练所述生成模型，
+其中，利用所述判别模型与所述生成模型之间的对抗训练来确定由所述生成模型和所述判别模型应用的值，以及其中，所述生成模型和所述判别模型包括相应的卷积神经网络。
+26.根据权利要求25所述的系统，
+其中，所述对抗训练包括：训练所述生成模型以从指示至少一个治疗区域的输入图像生成模拟放射疗法剂量分布图像，以及训练所述判别模型以将生成的放射疗法剂量分布图像分类为模拟训练数据或真实训练数据；以及
+其中，所述生成模型的输出用于训练所述判别模型，并且所述判别模型的输出用于训练所述生成模型。
+27.根据权利要求26所述的系统，其中，所述输入图像和所述模拟放射疗法剂量分布图像包括相应的三维图像。
+28.根据权利要求26所述的系统，
+其中，所述输入图像是二维图像，该二维图像包括使用相应的图像通道或图像通道中的相应的灰度值来表示至少一个治疗区域和至少一个治疗排除区域的相应区域，以及
+其中，所述模拟放射疗法剂量分布图像是二维图像，该二维图像包括使用相应的图像颜色通道或图像通道中相应值来表示剂量值的相应区域。
+29.根据权利要求28所述的系统，
+其中，所述生成模型被训练成接收作为RGB图像彩色图像的所述输入图像，所述输入图像包括使用至少两个彩色图像通道指示至少一个治疗区域和至少一个治疗排除区域的图像掩模，以及其中，所述生成模型被训练成生成所述模拟放射疗法剂量分布图像作为灰度图像。
+30.根据权利要求26所述的系统，其中，所述输入图像包括根据成像方式产生的医学数字成像和通信(DICOM)格式图像。
+31.根据权利要求26所述的系统，其中，所述解剖数据以图像数据表示，并且其中，所述 5/5页解剖区域的映射包括与被识别成接受所述放射疗法治疗的至少一个区域和识别成避免所述放射疗法治疗的至少一个区域相对应的多个图像掩模。
+32.根据权利要求31所述的系统，
+其中，所述解剖数据包括所述解剖区域的三维体素数据，所述三维体素数据从根据至少一种成像方式捕获的所述人类受试者的至少一个图像导出，以及
+其中，所述多个图像掩模对应于相应的部分，所述相应的部分指示被识别成接受所述放射疗法治疗的至少一个区域以及识别成避免所述放射疗法治疗的至少一个处于危险中的器官。
+33.根据权利要求24所述的系统，
+其中，所述解剖数据包括图像，该图像包括至少一个二进制掩模或至少一个符号距离图，以及
+其中，所述放射疗法剂量数据图像，该图像包括根据所归档的剂量数据的线性插值或最近邻插值产生的图像。
+34.根据权利要求24所述的系统，
+其中，所述解剖数据包括在所述解剖区域的坐标空间内的用于放射疗法治疗的坐标，以及
+其中，所述放射疗法剂量数据包括在所述解剖区域的坐标空间内的所述坐标处的放射疗法治疗的量的指示。
+35.根据权利要求24所述的系统，
+其中，所述生成模型是从由所述生成式对抗网络训练的多个模型中识别的，以及其中，所述生成模型是基于所述解剖区域或所述放射疗法治疗的类型来识别的。
+36.根据权利要求24所述的系统，
+其中，所述生成模型和所述判别模型在训练过程中以预先分类的解剖结构数据为条件，以及其中，所述预先分类的解剖结构数据对应于用于放射疗法治疗的所述解剖区域。
+37.根据权利要求36所述的系统，其中，所述生成模型和所述判别模型还以与所述放射疗法剂量分布相关联的至少一个约束为条件。
+38.根据权利要求37所述的系统，其中，所述解剖数据是从所述人类受试者的解剖区域的三维图像集合中识别的，以及
+其中，所述生成模型被训练成基于从多个人类受试者获得的三维图像数据针对特定条件或解剖特征来生成所述放射疗法剂量数据。
+ 
+1/24页
+用于生成放射疗法剂量分布的方法和系统
+[0001] 优先权要求
+[0002] 本申请要求2018年4月30日提交的美国申请序列第15/966,228号的优先权的权益，在此通过引用将全部内容并于本文中。
+技术领域
+[0003] 本公开内容的实施方式总体上涉及医学数据和人工智能处理技术。特别地，本公开内容涉及适用于与放射疗法治疗计划工作流和系统操作一起使用的生成式对抗网络中的数据模型的生成和使用。
+背景技术
+[0004] 调强放射疗法(Intensity modulated radiotherapy，IMRT)和容积弧形调强治疗 (volumetric modulated arc therapy，VMAT)已成为现代癌症放射疗法中的护理标准。这些和其他形式的放射疗法的治疗计划涉及定制对要接受治疗的特定患者的特定放射照射量，因为要识别关键器官以及识别靶体积以供治疗。用于创建单个患者IMRT或VMAT治疗计划的许多方法都涉及人为决定的试验和误差过程，因为评估者执行靶剂量与器官保留之间的权衡，并且评估者调整程序约束，而其对剂量分布的影响难以预料。实际上，调整计划约束的顺序本身可能导致剂量差异。因此，即使是熟练的计划人员也常常无法保证定制设计的放射疗法计划最大可能地接近，以达到在靶体积上最大化放射治疗同时最大程度地减少周围器官和组织中的放射照射量的目标。因此，计划者当前无法确定少量还是大量的额外尝试将导致治疗计划的改进。
+[0005] 现有的研究已经使用两种通用方法调查放射疗法计划是否有效。首先，研究评估了与一维靶器官重叠测量(例如，剂量体积直方图(DVH)，重叠体积直方图(OVHs))相关联的计划质量，从而能够将此类重叠测量与已知的数据库中的高质量计划比较，以查找和比较治疗计划。其次，研究还探索了计划质量空间，以确定操作员可以选择用于治疗的最佳计划系列甚至帕累托最优计划系列。然而，这些方法均未提供或生成独立于任一计划过程的详细治疗计划模型。因此，特定放射疗法治疗的可行性和成功通常取决于在计划阶段可用并执行的人工判断。此外，在计划过程中对人类技能的依赖(以及与以前的人类创建的治疗计划的比较)妨碍了如下目标确定：新的治疗计划是否针对特定患者进行了充分优化并实现了最大可能的治疗目标。
+发明内容
+[0006] 本公开内容包括使用人工智能(AI)处理技术来开发、训练和利用放射疗法治疗计划的过程，所述人工智能技术包括生成式对抗网络(GAN)、深度神经网络(DNN)和其他形式的机器学习(ML)实现。本公开内容具体包括与在GAN内操作的判别器和发生器模型的使用有关的许多说明性示例，以学习针对特定癌症治疗的治疗计划模型，该模型预测针对特定患者的解剖定制的逐体素的3D剂量分布。作为用于计划和部署放射疗法治疗剂量的放射疗 2/24页法治疗工作流的一部分，这些示例还涉及在学习、训练、测试和验证阶段使用GAN模型。然而，明显的是，目前描述的作为GAN(以及其他公开的AI和ML技术)的一部分的成像数据、剂量数据和其他放射疗法相关信息的使用和分析可以并入用于各种诊断、评估、解释或治疗设置的其他医疗工作流中。
+[0007] 在示例中，作为经GAN训练的人工神经网络模型的预测或使用的一部分，用于生成放射疗法剂量分布的方法的实现包括以下操作：接收人类受试者的解剖数据，该数据指示供人类受试者的放射疗法治疗的解剖区域的映射；使用生成模型生成与该映射对应的放射疗法剂量数据，其中该生成模型在生成式对抗网络中进行训练；使用被进一步训练成处理作为输入的解剖学数据并提供放射疗法剂量数据作为输出的生成模型；以及基于放射疗法剂量数据来识别人类受试者的放射疗法治疗的放射疗法剂量分布。
+[0008] 生成放射疗法剂量分布的其他示例可以包括部署如下生成式对抗网络：该生成式对抗网络被配置成使用判别模型来改进生成模型，使得利用判别模型与生成模型之间的对抗性训练来确定由生成模型和判别模型应用的值。在另外的示例中，生成式对抗网络是包括生成模型和判别模型的条件生成式对抗网络，使得从生成模型提供的预测值以从人类受试者捕获的成像数据为条件。此外，生成模型和判别模型可以以在训练期间的预分类的解剖结构数据为条件，或者以与放射疗法剂量分布相关联的至少一个约束为条件。
+[0009] 另外在示例中，用于产生用于生成放射疗法剂量分布的训练模型的方法的实现可以包括：使用对抗训练来确定生成式对抗网络的生成模型和判别模型的值；调整对抗训练以包括训练生成模型以从输入图像生成模拟放射疗法剂量分布图像，以及训练判别模型以将生成的放射疗法剂量分布图像分类为模拟训练数据或真实训练数据，使得生成模型的输出用于训练判别模型，并且判别模型的输出用于训练生成模型；以及输出生成模型以用于生成放射疗法治疗剂量信息，因为该生成模型适于基于与用于放射疗法治疗的解剖结构的映射相对应的输入解剖数据来识别用于人类受试者的放射疗法治疗的放射疗法剂量数据。 [0010] 产生训练模型的其他示例可以包括使用条件生成式对抗网络，包括使用预定义的解剖结构数据在训练过程中对生成模型和判别模型定条件。在各种示例中，生成模型可以训练成基于图像数据或用于相应放射疗法治疗的多个解剖区域来生成针对特定状况或解剖特征的放射疗法剂量数据。还可以结合训练或使用经训练的模型来提供附加的约束、条件、输入和其他变化。
+[0011] 本文中描述的示例可以在各种各样的实施方式中实现。例如，一个实施方式包括一种计算装置，所述计算装置包括处理硬件(例如，处理器或其他处理电路系统)和存储器硬件(例如，存储装置或易失性存储器)，所述存储器硬件包括在其上实施的指令，使得所述指令在由处理硬件执行时使计算装置实现、执行或协调用于这些技术和系统配置的电子操作。本文讨论的另一实施方式包括一种例如可以由机器可读介质或其他存储装置实施的计算机程序产品，所述计算机程序产品提供用于实现、执行或协调用于这些技术和系统配置的电子操作的指令。本文讨论的另一实施方式包括一种方法，所述方法能够在计算装置的处理硬件上操作以实现、执行或协调用于这些技术和系统配置的电子操作。
+[0012] 在其他实施方式中，可以在分布式或集中式计算系统(包括关于诸如台式计算机或笔记本个人计算机的计算系统、诸如平板计算机、上网本和智能电话的移动装置、客户端终端和服务器托管的机器实例等的任何数量的形状因素)中提供实现上述电子操作的各方 3/24页面的逻辑、命令或指令。本文讨论的另一实施方式包括将本文中讨论的技术合并到其他形式中，包括其他形式的编程逻辑、硬件配置或者专用的部件或模块，包括具有执行这样的技术的功能的各个装置的设备。用于实现这样的技术的功能的各个算法可以包括上述电子操作的一些或全部的序列或者在附图和以下具体实施方式中所描绘的其他方面。
+[0013] 以上概述旨在提供本专利申请的主题的概述。并不旨在提供本发明的排他性或详尽的说明。具体实施方式被包括以提供关于本专利申请的更多信息。
+附图说明
+[0014] 在不一定按比例绘制的附图中，相同的附图标记在全部几幅图中描述基本上相似的部件。具有不同字母后缀的相同附图标记表示基本上相似的部件的不同实例。附图通过示例的方式而非通过限制的方式大体上示出了本文献中讨论的各种实施方式。
+[0015] 图1示出了适于执行治疗计划生成处理的示例性放射疗法系统。
+[0016] 图2示出了示例性的图像引导放射疗法装置。
+[0017] 图3示出了适于生成治疗剂量模型的示例性卷积神经网络模型。
+[0018] 图4示出了用于训练和使用适于生成治疗剂量模型的生成式对抗网络的示例性数据流。
+[0019] 图5示出了用于生成治疗剂量模型的生成式对抗网络的训练。
+[0020] 图6A、图6B和图6C示出了用于生成治疗剂量模型的条件生成式对抗网络的训练和使用。
+[0021] 图7示出了与训练和生成治疗剂量模型结合使用的解剖区域信息和输入图像的变化。
+[0022] 图8示出了设置在治疗剂量模型中的解剖区域信息和输出剂量表示对的变化。
+[0023] 图9示出了用于训练适于输出治疗剂量的生成模型的示例性操作的流程图。
+[0024] 图10示出了用于利用适于输出治疗剂量的生成模型的示例性操作的流程图。
+具体实施方式
+[0025] 在下面的详细描述中，参考附图，附图形成详细描述的一部分并且通过可以实践本发明的说明性实施方式示出。这些实施方式——在本文中也被称为“示例”——被足够详细地描述以使得本领域技术人员能够实践本发明，应当理解，这些实施方式可以被组合或者其他实施方式可以被利用，并且在不脱离本发明的范围的情况下，可以进行结构、逻辑和电气改变。因此，以下详细描述不是限制性的，并且本发明的范围由所附权利要求及其等同物限定。
+[0026] 本公开内容包括改进放射疗法治疗计划和数据处理的操作的各种技术，包括以与手动(例如，人类指引、人类辅助或人类引导)和常规的用于开发或部署放射疗法治疗计划的方法相比提供技术优势的方式。这些技术优势包括：减少了生成计划数据的处理时间，提高了数据分析操作的效率，后来开发的治疗计划数据和数据值的可重复性和细化改进，以及用于进行放射疗法治疗计划以及操作工作流活动的处理、存储器和网络资源的伴随改进。除了对管理支持此类治疗和诊断动作的数据的数据管理、可视化和控制系统的改进之外，这些改进的计划和工作流程活动还可适用于各种医学治疗和诊断设置以及在此类设置 4/24页中使用的信息技术系统。因此，除了这些技术益处之外，本技术还可以带来许多明显的医学治疗益处(包括提高放射疗法治疗的准确性，减少对意外辐射的照射量等)。
+[0027] 如本文中进一步讨论的，监督人工智能(AI)机器学习形式的生成式对抗网络 (GAN)的以下使用和部署能够实现通过学习模型来提高放射疗法治疗计划的准确性和实用性。在示例中，本技术输出预测的治疗计划，其可以指示如根据由成像数据指示的患者的具体解剖结构确定的以及根据由成像数据指示的患者的具体解剖结构定制的准确的针对新患者的放射疗法剂量的预测。本文中讨论的学习模型还可以使得能够在可以用于检查现有治疗计划的质量的系统中使用，发起定制治疗计划，以及协助在放射疗法治疗的许多不同阶段处的计划或验证。此外，学习模型可以帮助进行自动计划，这在使用自适应放射疗法协议的情况下是重要的，在该协议中使用重复的计划和调整。因此，本学习模型和自动化方法的使用可以为缺乏深厚的本地专业知识或资源(因此缺乏执行手动治疗计划过程的能力或技能)的医疗机构提供显著益处。
+[0028] 在示例中，使用一对在GAN中操作的深度神经网络生成学习模型：生成器(也称为
+“生成模型”)，其产生描述训练数据的概率分布的估计；以及判别器(也称为“判别模型”)，其将生成器样本分类为属于生成器或属于训练数据。生成器旨在尽可能完整地模拟训练数据的数据分布，从而最大程度地让判别器混淆(confuse)。因此，产生了被训练(本质上是
+“调整”)成使预测建模中的回归结果最大化的生成器。
+[0029] 在示例中，在针对特定放射疗法治疗的治疗计划模型上对GAN进行训练，以训练模型在给定解剖输入(例如，特定患者的解剖)的情况下生成逐体素的3D剂量分布。通过向GAN 模型提交配准的解剖和剂量数据对(例如，2D或3D图像，或其他基于空间的解剖和剂量数据表示)来学习模型，并通过使用训练中未使用的解剖/剂量图像对测试所得到的模型来验证模型。在其他示例中，可以使用测试过程来验证经训练的生成模型正在产生有用的结果。这样的过程可以包括：以3D形式重建测试剂量图像，以及相对于从包括训练数据的已知治疗计划中得出的剂量体积直方图(DVH)评估计划治疗体积(PTV)和处于危险中的器官(OAR)的
+DVH。
+[0030] 可以使用GAN双网络(生成器‑判别器)架构的使用来生成经训练的生成模型，该模型可以预测治疗剂量估计，优于以往的实现方式和DNN架构，包括神经网络中监督机器学习的现有方法。另外，将条件性GAN用于本技术可以提供另外的改进以改进针对特定解剖区域和解剖特征以及患者所经历的具体治疗类型和治疗约束或放射疗法治疗类型的训练。根据以下各部分，这些技术和功能益处以及其他各种技术和功能益处将变得明显。
+[0031] 本文中讨论的方法使得能够发现对于诊断和治疗处方的多种变化的放射疗法治疗计划和剂量的特性，从而基于在此数据中学习到的患者解剖分布、计划参数和约束来预测可能的剂量分布。这些方法使用GAN所采用的一种统计学习来获得相对于早期的深度学习方法而言患者解剖与约束之间的联系的更为详细的模型以及更准确的剂量预测。
+[0032] 通过采用这种强大的机器学习方法，本方法可以产生治疗计划过程的模型——该模型包括在计划创建过程中做出的许多主观决定——以产生可以直接使用的计划，或产生形成后续计划的模板(起点)的计划，或者预测哪些现有计划可能效果不佳，或者为缺乏深度专业知识的治疗诊所提供帮助，甚至使治疗计划本身自动化。鉴于越来越多地使用需要重复计划的自适应疗法，这尤其有吸引力。
+5/24页 [0033] 常规方法仅探索了深度学习网络(包括GAN实现方式)的基本用途，用于诸如对肺癌放射疗法方案建模和估计剂量递增效果的数据处理动作。然而，此类分析不是基于逐像素的成像模型，并且不使用逐像素的学习方法。此外，现有方法没有探索例如使用条件性
+GAN(例如，以图像数据或放射疗法操作约束为条件)改进GAN的操作和准确性的方法。
+[0034] 图1示出了示例性放射疗法系统，其适于使用本文中讨论的一个或更多个方法来执行放射疗法计划处理操作。这些放射疗法计划处理操作被执行以使得放射疗法系统能够基于捕获的医学成像数据和疗法剂量计算的特定方面向患者提供放射疗法。具体地，以下处理操作可以被实现为由治疗处理逻辑120实现的治疗计划生成工作流130和治疗计划训练工作流140的一部分。然而，将理解，可以提供以下经训练模型和治疗处理逻辑120的许多变化和使用实例，包括数据验证、可视化以及其他医学评估和诊断设置。
+[0035] 放射疗法系统包括托管治疗处理逻辑120的放射疗法处理计算系统110。放射疗法处理计算系统110可以连接至网络(未示出)，并且这样的网络可以连接至因特网。例如，网络可以将放射疗法处理计算系统110与一个或更多个医疗信息源(例如，放射信息系统 (RIS)、医疗记录系统(例如，电子医疗记录(EMR)/电子健康记录(EHR)系统)、肿瘤学信息系统(OIS))、一个或更多个图像数据源150、图像获取装置170(例如，成像方式)、治疗装置180 (例如，放射疗法装置)以及治疗数据源160连接。作为示例，放射疗法处理计算系统110可以被配置成通过执行来自治疗处理逻辑120的指令或数据来执行作为生成和定制要由治疗装置180使用的放射疗法治疗计划的操作的一部分的治疗计划设计、生成以及实现。
+[0036] 放射处理计算系统110可以包括处理电路系统112、存储器114、存储装置116以及诸如用户接口142、通信接口(未示出)等其他硬件和软件可操作的特征。存储装置116可以存储计算机可执行指令诸如操作系统、放射疗法治疗计划(例如，原始治疗计划、训练治疗计划、生成的治疗计划、经适配或修改的治疗计划等)、软件程序(例如，放射疗法治疗计划软件；图像或解剖可视化软件；诸如深度学习模型、机器学习模型和神经网络等提供的人工智能实现和算法)以及要由处理电路系统112执行的任何其他计算机可执行指令。
+[0037] 在示例中，处理电路系统112可以包括处理装置，例如诸如微处理器、中央处理单元(CPU)、图形处理单元(GPU)、加速处理单元(APU)等的一个或更多个通用处理装置。更特别地，处理电路系统112可以是复杂指令集计算(CISC)微处理器、精简指令集计算(RISC)微处理器、超长指令字(VLIW)微处理器、实现其他指令集的处理器或实现指令集的组合的处理器。处理电路系统112也可以由诸如专用集成电路(ASIC)、现场可编程门阵列(FPGA)、数字信号处理器(DSP)、片上系统(SoC)等的一个或更多个专用处理装置来实现。如本领域技术人员将理解的，在一些示例中，处理电路系统112可以是专用处理器而不是通用处理器。
+处理电路系统112可以包括一个或更多个已知的处理装置，例如来自由IntelTM制造的
+PentiumTM、CoreTM、XeonTM或 系列的微处理器以及来自由AMDTM制造的TurionTM、
+AthlonTM、SempronTM、OpteronTM、FXTM、PhenomTM系列的微处理器或者由Sun Microsystems制造的各种处理器中的任何处理器。处理电路系统112也可以包括诸如来自由NvidiaTM制造的 系列以及由IntelTM制造的GMA、IrisTM系列或由AMDTM制造的RadeonTM系列的GPU的图形处理单元。处理电路系统112还可以包括诸如由IntelTM制造的Xeon PhiTM系列的加速处理单元。所公开的实施方式不限于以其他方式被配置成满足识 6/24页别、分析、维护、生成和/或提供大量数据或操纵这种数据以执行本文中公开的方法的计算需求的任何类型的处理器。另外，术语“处理器”可以包括多于一个处理器，例如多核设计或每个都具有多核设计的多个处理器。处理电路系统112可以执行存储在存储器114中并且从存储装置116访问的计算机程序指令的序列，以执行将在下面更详细地说明的各种操作、过程、方法。
+[0038] 存储器114可以包括只读存储器(ROM)、相变随机存取存储器(PRAM)、静态随机存取存储器(SRAM)、闪存、随机存取存储器(RAM)、动态随机存取存储器(DRAM)例如同步DRAM (SDRAM)、电可擦除可编程只读存储器(EEPROM)、静态存储器(例如，闪存、闪存盘、静态随机存取存储器)以及其他类型的随机存取存储器、高速缓冲存储器、寄存器、光盘只读存储器 (CD‑ROM)、数字多功能光盘(DVD)或其他光存储装置、盒式磁带、其他磁存储装置或者可以被用来存储包括能够由处理电路系统112或任何其他类型的计算机装置访问的图像、数据或计算机可执行指令(例如，以任何格式存储)的信息的任何其他非暂态介质。例如，计算机程序指令可以由处理电路系统112访问，可以从ROM或任何其他合适的存储器位置被读取，并且可以被加载到RAM中以由处理电路系统112执行。
+[0039] 存储装置116可以构成包括计算机可读介质的驱动单元，在该计算机可读介质上存储有由本文中描述的方法或功能中的任何一个或更多个实施或利用的一个或更多个指令集和数据结构(例如，软件)(在各种示例中，包括治疗处理逻辑120和用户接口142)。在放射疗法处理计算系统110执行指令期间，指令还可以全部或至少部分地驻留在存储器114内和/或处理电路系统112内，其中存储器114和处理电路系统112也构成机器可读介质。
+[0040] 存储器装置114和存储装置116可以构成非暂态计算机可读介质。例如，存储器装置114和存储装置116可以在计算机可读介质上存储或加载用于一个或更多个软件应用的指令。利用存储器装置114和存储器装置116存储或加载的软件应用可以包括例如用于通用计算机系统以及用于软件控制的装置的操作系统。放射疗法处理计算系统110还可以操作包括用于实现治疗处理逻辑120和用户接口142的软件代码的各种软件程序。此外，存储器装置114和存储装置116可以存储或加载能够由处理电路系统112执行的整个软件应用、软件应用的一部分或者与软件应用相关联的代码或数据。在另一示例中，存储器装置114和存储装置116可以存储、加载和操纵一个或更多个放射疗法治疗计划、成像数据、分割数据、治疗可视化、直方图或测量值、AI模型数据(例如，权重和参数)、标记和映射数据等。可以预期，软件程序不仅可以被存储在存储装置116和存储器114上，而且可以被存储在诸如硬盘驱动器、计算机磁盘、CD‑ROM、DVD、蓝光DVD、USB闪存驱动器、SD卡、记忆棒的可移除计算机介质上或任何其他合适的介质上；也可以通过网络传送或接收这样的软件程序。
+[0041] 尽管未图示，但是放射疗法处理计算系统110可以包括通信接口、网络接口卡和通信电路系统。示例通信接口可以包括例如网络适配器、电缆连接器、串行连接器、USB连接器、并行连接器、高速数据传输适配器(例如，光纤、USB 3.0、雷电接口(thunderbolt)等)、无线网络适配器(例如，IEEE 802.11/Wi‑Fi适配器)、电信适配器(例如，与3G、4G/LTE和5G 网络等进行通信)等。这样的通信接口可以包括一个或更多个数字和/或模拟通信装置，所述一个或更多个数字和/或模拟通信装置允许机器经由网络与其他机器和装置例如位于远处的部件进行通信。网络可以提供局域网(LAN)、无线网络、云计算环境(例如，软件即服务、平台即服务、基础设施即服务等)、客户端‑服务器、广域网(WAN)等的功能。例如，网络可以 7/24页是可以包括其他系统(包括与医学成像或放射疗法操作相关联的附加图像处理计算系统或基于图像的部件)的LAN或WAN。
+[0042] 在示例中，放射疗法处理计算系统110可以从图像数据源150获得图像数据152，以托管在存储装置116和存储器114上。在示例中，在放射疗法处理计算系统110上运行的软件程序可以例如通过产生诸如伪CT图像的合成图像来将一种格式(例如，MRI)的医学图像转换成另一种格式(例如，CT)。在另一示例中，软件程序可以将患者医学图像(例如，CT图像或 MR图像)与该患者的放射疗法治疗的剂量分布(例如，也被表示为图像)配准或相关联，从而使得相应的图像体素和剂量体素适当地相关联。在又一示例中，软件程序可以代替患者图像的功能，例如强调图像信息的一些方面的图像的有符号距离功能或经处理的版本。这样的功能可能强调体素纹理的边缘或差异或者其他结构方面。在另一示例中，软件程序可以可视化、隐藏、强调或不强调医学图像内的解剖特征、分割的特征或者剂量或治疗信息的某些方面。存储装置116和存储器114可以存储和托管用于执行这些目的的数据，包括图像数据152、患者数据以及创建和实现放射疗法治疗计划和相关联的分割操作所需的其他数据。 [0043] 在示例中，放射疗法处理计算系统110可以从治疗数据源160获得计划数据162或将计划数据162传送至治疗数据源160，治疗数据源160例如为用于管理来自治疗装置180的放射疗法剂量和输出的数据储存库。在示例中，治疗数据源160包括针对多个人类受试者维护的计划数据，包括在不同时间针对各个患者的治疗计划参数(例如，剂量、测量值、治疗参数)。在示例中，治疗数据源160包括训练数据以及先前设计或批准的治疗计划和治疗映射
+(例如，基于安全性、功效、效率或其他医学评估而被识别为“黄金标准”或“最佳”的治疗计划)。在其他示例中，治疗数据源160接收或更新作为由治疗计划生成工作流130所生成的治疗计划的结果的计划数据162；治疗数据源160还可以提供或托管用于治疗计划训练工作流
+140的计划数据。
+[0044] 处理电路系统112可以通信地耦接至存储器114和存储装置116，并且处理电路系统112可以被配置成执行从存储器114或存储装置116存储在其上的计算机可执行指令。处理电路系统112可以执行指令以使得来自图像数据152的医学图像在存储器114中被接收或被获取并且使用治疗处理逻辑120被处理。例如，放射疗法处理计算系统110可以经由通信接口和网络从图像获取装置170或图像数据源150接收图像数据152以被存储或缓存在存储装置116中。处理电路系统112还可以经由通信接口将存储在存储器114或存储装置116中的医学图像发送或更新到另一数据库或数据存储(例如，医疗设备数据库)。在一些示例中，一个或更多个系统可以形成分布式计算/虚拟环境，该分布式计算/虚拟环境使用网络来协作地执行本文中描述的实施方式。另外，这样的网络可以连接至因特网，以与远程驻留在因特网上的服务器和客户端进行通信。
+[0045] 在另外的示例中，处理电路系统112可以利用软件程序(例如，治疗计划软件)以及图像数据152和其他患者数据来创建放射疗法治疗计划。在示例中，图像数据152可以包括或伴随解剖或诊断信息例如与患者解剖区域、器官或感兴趣的体积分割数据相关联的数据。患者数据可以包括信息诸如(1)功能器官建模数据(例如，串行器官与并行器官(serial versus parallel organs)、适当的剂量响应模型等)；(2)辐射剂量数据(例如，剂量‑体积直方图(DVH)信息、比较等)；或(3)关于患者和治疗过程的其他临床信息(例如，其他手术、化学疗法、先前的放射疗法等)。在另一示例中，计划数据162被具体地关联或链接至解剖特 8/24页征的分割或做标记以及用于这样的解剖特征的关联剂量信息，所述分割或做标记以及关联剂量信息特定于患者、患者集合、治疗的过程或类型、过程或治疗的集合、图像获取装置、医疗设施等。与以下示例一致，计划数据162和治疗数据源160以及关联的训练模型可以针对单个医学状况或放射疗法治疗或多种类型的医学状况或放射疗法治疗而被保持。
+[0046] 另外，处理电路系统112可以利用软件程序来生成中间数据例如更新数据以供神经网络模型、机器学习模型、治疗计划生成工作流130、治疗计划训练工作流140、或涉及如本文中讨论的利用GAN来生成治疗计划的其他方面使用。此外，基于使用本文中进一步讨论的技术确定的剂量信息，这样的软件程序可以利用治疗处理逻辑120来实现治疗计划生成工作流130，以产生用于部署至治疗数据源160的新的或更新的计划。然后，处理电路系统 112可以后续经由通信接口和网络将新的或更新的计划发送至治疗装置180，在该治疗装置 180中，放射疗法计划将被用于经由治疗装置180通过辐射对患者进行治疗，这与如使用工作流140训练的工作流130的结果一致。可以使用放射疗法处理计算系统110来发生软件程序和工作流130、140的其他输出和使用。
+[0047] 在本文中的示例中(例如，参考参照图3和图4讨论的生成式对抗网络处理以及参照图5至图8讨论的剂量和解剖数据处理)，处理电路系统112可以执行软件程序，所述软件程序调用治疗处理逻辑120，以实现机器学习、深度学习、神经网络以及用于治疗计划生成的自动处理和人工智能的其他方面的功能。例如，处理电路系统112可以执行软件程序，所述软件程序基于医学图像、医学图像推导、解剖区域映射、放射疗法治疗或治疗装置约束或如本文中讨论的治疗计划的其他考虑来训练、分析、预测和评估治疗计划(以及用于治疗计划的剂量信息)。
+[0048] 在示例中，图像数据152可以包括一个或更多个MRI图像(例如，2D MRI、3D MRI、2D 流式MRI、4D MRI、4D体积MRI、4D影像MRI等)、功能MRI图像(例如，fMRI、DCE‑MRI、扩散MRI)、计算机断层扫描(CT)图像(例如，2D CT、锥形束CT、3D CT、4D CT)、超声图像(例如，2D超声、
+3D超声、4D超声)、正电子发射断层扫描(PET)图像、X射线图像、荧光镜图像、放射疗法射野图像(radiotherapy portal image)、单光子发射计算机断层扫描(SPECT)图像、计算机生成的合成图像(例如，伪CT图像)等。此外，图像数据152还可以包括医学图像处理数据例如训练图像、真实图像(ground truth image)、轮廓图像和剂量图像或者与医学图像处理数据例如训练图像、真实图像、轮廓图像和剂量图像相关联。在其他示例中，可以以非图像格式(例如，坐标、映射等)来表示解剖区域的等效表示。
+[0049] 在示例中，可以从图像获取装置170接收图像数据152，并且将该图像数据152存储在图像数据源150(例如，图片存档和通信系统(PACS)、厂商中立归档(VNA)、医疗记录或信息系统、数据仓库等)中的一个或更多个中。因此，图像获取装置170可以包括MRI成像装置、
+CT成像装置、PET成像装置、超声成像装置、荧光镜装置、SPECT成像装置、集成的线性加速器和MRI成像装置或者用于获取患者的医学图像的其他医疗成像装置。图像数据152可以以图像获取装置170和放射疗法处理计算系统110可以用来执行与公开的实施方式一致的操作的任何类型的数据或任何类型的格式(例如，以医学数字成像和通信(DICOM)格式)被接收和被存储。此外，在一些示例中，本文中讨论的模型可以被训练成对原始图像数据格式或其变体进行处理。
+[0050] 在示例中，图像获取装置170可以与治疗装置180集成为单个设备(例如，与线性加 9/24页速器结合的MRI装置，也被称为“MRI‑Linac”)。这样的MRI‑Linac可以被用来例如确定患者体内的靶器官或靶肿瘤的位置，从而根据放射疗法治疗计划将放射疗法准确地引导至预定靶。例如，放射疗法治疗计划可以提供关于要施加至每个患者的特定辐射剂量的信息。放射疗法治疗计划还可以包括其他放射疗法信息，例如束角度、剂量‑体积直方图信息、在治疗期间要使用的辐射束的数量、每束的剂量等。在一些示例中，仅使用治疗计划生成工作流 130中的经GAN训练的模型来生成特定解剖区域中的剂量表示(例如，剂量的量)，并且使用其他工作流或逻辑(未示出)来将该剂量表示转换成用于完成放射疗法治疗的具体的束角度和放射物理。
+[0051] 放射疗法处理计算系统110可以通过网络与外部数据库进行通信，以发送/接收与图像处理和放射疗法操作有关的多个各种类型的数据。例如，外部数据库可以包括机器数据，该机器数据是与治疗装置180、图像获取装置170或者与放射疗法或医疗过程有关的其他机器相关联的信息。机器数据信息可以包括辐射束大小、弧放置、束开启和关闭持续时间、机器参数、段、多叶准直器(MLC)配置、机架速度、MRI脉冲序列等。外部数据库可以是存储装置并且可以配备有适当的数据库管理软件程序。此外，这样的数据库或数据源可以包括以中央式或分布式方式定位的多个装置或系统。
+[0052] 放射疗法处理计算系统110可以使用一个或更多个通信接口经由网络收集和获取数据并且与其他系统进行通信，所述一个或更多个通信接口可以通信地耦接至处理电路系统112和存储器114。例如，通信接口可以提供放射疗法处理计算系统110与放射疗法系统部件之间的通信连接(例如，允许与外部装置交换数据)。例如，在一些示例中，通信接口可以具有适当的与输出装置146或输入装置148的接口电路系统以连接至用户接口142，用户接口142可以是用户可以通过其将信息输入至放射疗法系统中的硬件键盘、小键盘或触摸屏。 [0053] 作为示例，输出装置146可以包括显示装置，该显示装置输出用户接口142的表示以及医学图像、治疗计划的一个或更多个方面、视觉表现或表示、以及这样的计划的训练、生成、验证或实现的状态。输出装置146可以包括一个或更多个显示屏，所述一个或更多个显示屏显示医学图像、界面信息、治疗计划参数(例如，轮廓、剂量、束角度、标记、映射等)治疗计划、靶、对靶进行定位和/或对靶进行跟踪或者任何与用户相关的信息。连接至用户接口142的输入装置148可以是键盘、小键盘、触摸屏或者用户可以向放射疗法系统输入信息的任何类型的装置。可替选地，输出装置146、输入装置148以及用户接口142的特征可以被集成到诸如智能电话或平板计算机(例如，Apple Lenovo Samsung
+ 等)的单个装置中。
+[0054] 此外，放射疗法系统的任何部件和所有部件都可以被实现为虚拟机(例如，经由 VMWare、Hyper‑V等虚拟化平台)。例如，虚拟机可以是充当硬件的软件。因此，虚拟机可以包括共同充当硬件的至少一个或更多个虚拟处理器、一个或更多个虚拟存储器以及一个或更多个虚拟通信接口。例如，放射疗法处理计算系统110、图像数据源150或类似部件可以被实现为虚拟机或被实现在基于云的虚拟化环境内。
+[0055] 治疗处理逻辑120或其他软件程序可以使计算系统与图像数据源150进行通信，以将图像读取到存储器114和存储装置116中，或者将图像或相关联的数据从存储器114或存储装置116存储到图像数据源150以及将图像或相关联的数据从图像数据源150存储到存储 10/24页器114或存储装置116。例如，在模型训练或生成使用实例中，图像数据源150可以被配置成：存储和提供图像数据源150托管的、来自经由图像获取装置170从一个或更多个患者获得的图像数据160中的图像集的多个图像(例如，3D MRI、4D MRI、2D MRI切片图像、CT图像、2D荧光透视图像、X射线图像、来自MR扫描或CT扫描的原始数据、医学数字成像和通信(DICOM)元数据等)。图像数据源150或其他数据库也可以存储数据，所述数据当执行创建、修改或估计放射疗法治疗计划的治疗计划操作的软件程序时供治疗处理逻辑120使用。此外，各种数据库可以存储由经训练的模型产生的数据，包括构成由生成式对抗网络模型138学习的模型的网络参数和得到的预测数据。与执行放射治疗或诊断操作有关，放射疗法处理计算系统 110因此可以从图像数据源150、图像获取装置170、治疗装置180(例如，MRI‑Linac)或其他信息系统获取和/或接收图像数据152(例如，2D MRI切片图像、CT图像、2D荧光透视图像、X 射线图像、3DMRI图像、4D MRI图像等)。
+[0056] 图像获取装置170可以被配置成：针对感兴趣的区域(例如，靶器官、靶肿瘤或二者)获取患者解剖结构的一个或更多个图像。每个图像——通常是2D图像或切片——可以包括一个或更多个参数(例如，2D切片厚度、取向和位置等)。在示例中，图像获取装置170可以获取任何取向的2D切片。例如，2D切片的取向可以包括矢状取向、冠状取向或轴向取向。处理电路系统112可以调整一个或更多个参数例如2D切片的厚度和/或取向，以包括靶器官和/或靶肿瘤。在示例中，可以根据诸如3D MRI体积的信息来确定2D切片。在患者正在接受放射疗法治疗时，例如当使用治疗装置180时，可以由图像获取装置170“近乎实时地”获取这样的2D切片(其中，“近乎实时地”意味着至少以数毫秒或更短的时间来获取数据)。
+[0057] 放射疗法处理计算系统110中的治疗处理逻辑120被描绘为实现涉及经训练的(经学习的)生成模型的使用的治疗计划生成工作流130(例如，实现下面参照图10描述的方法)。该生成模型可以由被训练为生成式对抗网络模型138的一部分的生成器138B来提供。在示例中，由治疗处理逻辑120操作的计划生成工作流130与如下的使用相整合：解剖数据处理132(例如，结合本文中讨论的生成模型来处理反映治疗的解剖区域的输入图像数据)、剂量数据处理134(例如，结合本文中讨论的生成模型产生反映映射至治疗的解剖区域的放射疗法剂量的输出图像数据)、以及计划数据处理136(例如，如本文所讨论的，基于映射的放射疗法剂量和其他约束来建立治疗计划)。未专门描绘的其他计划生成、评估和验证功能可以被结合到治疗计划工作流130中。
+[0058] 在示例中，生成器138B包括作为训练结果的所学习的权重和值，所述训练涉及GAN 138中的判别器138A和生成器138B的结合治疗计划训练工作流140的使用，治疗计划训练工作流140处理训练数据的配对(例如，模型或预定义的解剖数据和剂量数据的配对)。如上所述，该训练工作流140可以获得并利用来自数据源160、170的训练数据以及相关联的计划数据162和图像数据152。
+[0059] 在具有放射疗法治疗计划特征的软件程序(例如，由瑞典斯德哥尔摩的Elekta AB 制造的 )的使用中，治疗处理逻辑120和治疗计划生成工作流130可以在生成放射疗法治疗计划时被使用。为了生成放射疗法治疗计划，放射疗法处理计算系统110可以与图像获取装置170(例如，CT装置、MRI装置、PET装置、X射线装置、超声装置等)进行通信，以捕获和访问患者的图像并描绘靶(例如，肿瘤)。在一些示例中，可能需要描绘一个或更多个处于危险中的器官(OAR)，例如肿瘤周围或紧邻肿瘤的健康组织。因此，当OAR靠近靶肿瘤 11/24页时，可以进行OAR的分割。另外，如果靶肿瘤靠近OAR(例如，紧邻膀胱和直肠的前列腺)，则通过将OAR与肿瘤分割，放射疗法系统不仅可以研究靶中的剂量分布，还可以研究OAR中的剂量分布。
+[0060] 为了相对于OAR描绘靶器官或靶肿瘤，可以通过图像获取装置170非侵入性地获取正在接受放射疗法的患者的医学图像(例如，MRI图像、CT图像、PET图像、fMRI图像、X射线图像、超声图像、放射疗法射野图像、SPECT图像等)，以展现身体部位的内部结构。基于来自医学图像的信息，可以使用自动或人工辅助功能的任何组合来获取相关解剖部分的3D结构和分割、标记或其他识别。例如，可以结合治疗区域和受限区域(例如，避免治疗的区域)的识别来部署分割和标记，例如结合计划治疗体积(例如，向感兴趣的肿瘤或器官递送放射疗法)和OAR(例如，避免某些器官或组织区域中的放射疗法和辐射暴露)的识别和定义来部署分割和标记。图7中进一步描述了这些类型的分割和要避免的解剖区域或供治疗的靶的二维图示。
+[0061] 因此，在治疗计划过程期间，可以考虑许多参数以在靶肿瘤的有效治疗(例如，使得靶肿瘤接收足够的辐射剂量以用于有效治疗)与OAR的低辐照(例如，OAR接收尽可能低的辐射剂量)之间取得平衡。可以考虑的其他参数包括：靶器官和靶肿瘤的位置、OAR的位置以及靶相对于OAR的移动。例如，可以通过在MRI图像或CT图像的每个2D层或切片内勾画靶的轮廓或勾画OAR的轮廓并对每个2D层或切片的轮廓进行组合来获得3D结构。可以(例如，由医师、剂量师或医护人员使用程序(例如，由瑞典斯德哥尔摩的Elekta AB制造的MONACOTM)) 手动地生成或者(例如，使用诸如由瑞典斯德哥尔摩的Elekta AB制造的基于图谱集的自动分割软件 的程序)自动地生成轮廓。在某些示例中，可以由治疗计划软件自动地生
+成靶肿瘤或OAR的2D或3D结构。
+[0062] 在现有方法中，在已经定位并描绘了靶肿瘤和OAR之后，剂量师、医师或医护人员将确定要施加至靶肿瘤的辐射的具体剂量以及可能被邻近肿瘤的OAR(例如，左右腮腺、视神经、眼睛、晶状体、内耳、脊髓、脑干等)接收的任意最大量的剂量。在为每个解剖结构(例如，靶肿瘤、OAR)确定了辐射剂量之后，将执行被称为逆向计划的过程以确定将实现期望的辐射剂量分布的一个或更多个治疗计划参数。因此，这样的方法的有效性受限于应用于这样的计划活动的人类专业知识和能力。本文中讨论的治疗处理逻辑120和治疗计划生成工作流130的使用被设计成提供自动化机制，由此，AI和ML技术可以产生改进的对这样的剂量分布信息的估计或预测。
+[0063] 除了剂量的量之外，治疗计划参数(例如，可以由计划数据处理136或计划生成工作流130的其他功能生成的治疗计划参数)的附加示例包括：体积描绘参数(例如，其限定靶体积、轮廓敏感结构等)、靶肿瘤和OAR周围的边缘、束角度选择、准直器设置和束开启次数。
+因此，在计划过程期间，医师或其他医护人员可以限定剂量约束参数，其设定OAR可以接收多少辐射的限度(例如，对肿瘤靶，限定全剂量，对任何OAR，限定零剂量；对靶肿瘤，限定 95％的剂量；限定脊髓、脑干和视神经结构分别接收≤45Gy、≤55Gy和<54Gy)。这些功能或约束中的每个功能或约束可以通过使用本文讨论的治疗计划生成工作流130来替换、增强或加强。
+[0064] 治疗处理逻辑120和治疗计划生成工作流130的结果可以产生可以被存储并提供
+(例如，作为计划数据162被提供或提供至数据源160)的放射疗法治疗计划。这些治疗参数 12/24页中的一些可以与特定的治疗目标和尝试相关联或相配合。例如，调整一个参数(例如，针对不同目标的权重，例如增加至靶肿瘤的剂量)以试图改变治疗计划可能影响至少一个其他参数，这进而可以导致不同的治疗计划的开发。因此，放射疗法处理计算系统110可以生成考虑这些以及相似参数的定制放射疗法治疗计划，以便于治疗装置180向患者提供适当的放射疗法治疗。
+[0065] 图2示出了示例性图像引导放射疗法装置202，其包括诸如X射线源或线性加速器的辐射源、床216、成像检测器214和放射疗法输出部204。放射疗法装置202可以被配置成发射放射束208以向患者提供疗法。放射疗法输出部204可以包括一个或更多个衰减器或准直器，例如多叶准直器(MLC)。如将理解的，放射疗法输出部204可以被设置成与治疗处理逻辑 120相联系，治疗处理逻辑120实施治疗计划生成工作流130以及GAN的生成模型138B的治疗计划的相关使用。
+[0066] 作为示例，患者可以被定位在由治疗床216支承的区域212中，以根据放射疗法治疗计划(例如，由图1的放射疗法系统生成的治疗计划)接收放射疗法剂量。放射疗法输出部 204可以被安装或附接至台架206或其他机械支承件。当床216被插入到治疗区域中时，一个或更多个底盘马达(chassis motor)(未示出)可以使台架206和放射疗法输出部204绕床
+216旋转。在示例中，当床216被插入到治疗区域中时，台架206可以围绕床216连续地旋转。
+在另一个示例中，当床216被插入到治疗区域中时，台架206可以旋转到预定位置。例如，台架206可以被配置成使疗法输出部204绕轴线(“A”)旋转。床216和放射疗法输出部204二者均可以独立地移动至患者周围的其他位置，例如，可沿横向方向(“T”)移动、可沿侧向方向 (“L”)移动或者绕一个或更多个其他轴旋转例如绕横向轴(被表示为“R”)旋转。通信地连接至一个或更多个致动器(未示出)的控制器可以控制床216的移动或旋转，以便根据放射疗法治疗计划将患者适当地定位在辐射束208中或辐射束208外。由于床216和台架206二者都可以以多个自由度彼此独立地移动，这允许患者被定位成使得辐射束208可以精确地瞄准肿瘤。
+[0067] 图2中所示的坐标系(包括轴A、T和L)可以具有位于等中心210处的原点。等中心可以被定义为如下位置，在所述位置处，放射疗法束208的中心轴与坐标轴的原点相交例如以将规定的辐射剂量递送至患者上或患者体内的位置。可替选地，等中心210可以被定义为如下位置，在所述位置处，对于如由台架206定位的放射疗法输出部204围绕轴A的各种旋转位置，放射疗法束208的中心轴与患者相交。
+[0068] 台架206还可以具有附接的成像检测器214。成像检测器214优选地位于与放射源
+(输出部204)相对的位置，并且在示例中，成像检测器214可以位于疗法束208的场内。
+[0069] 成像检测器214可以优选地与放射疗法输出部204相对地安装在台架206上，例如以保持与疗法束208对准。随着台架206旋转，成像检测器214绕旋转轴旋转。在示例中，成像检测器214可以是平板检测器(例如，直接检测器或闪烁体检测器)。以这种方式，成像检测器214可以被用来监测疗法束208，或者成像检测器214可以用于对患者的解剖结构进行成像，例如射野成像。放射疗法装置202的控制电路系统可以集成在放射疗法系统内或者远离放射疗法系统。
+[0070] 在说明性示例中，床216、疗法输出部204或台架206中的一个或更多个可以自动地定位，并且疗法输出部204可以根据用于特定疗法递送实例的指定剂量来建立疗法束208。 13/24页可以根据放射疗法治疗计划——例如，使用台架206、床216或疗法输出部204的一个或更多个不同的取向或位置——来指定疗法递送的序列。疗法递送可以顺序地发生，但是可以在患者上或在患者体内的期望的疗法位点中例如在等中心210处交叉。由此，可以将放射疗法
+的规定累积剂量递送至疗法位点，同时可以减少或避免对疗法位点附近的组织的损害。
+[0071] 因此，图2具体地示出了放射疗法装置202的示例，该放射疗法装置202可操作成向患者提供放射疗法治疗，该放射疗法装置202具有放射疗法输出部可以围绕中心轴(例如，轴“A”)旋转的配置。可以使用其他放射疗法输出部配置。例如，放射疗法输出部可以被安装至具有多个自由度的机械臂或操纵器。在又一示例中，疗法输出部可以被固定，例如位于与患者侧向分开的区域中，并且可以使用支承患者的平台来使放射疗法等中心与患者体内的指定靶位点对准。在另一示例中，放射疗法装置可以是线性加速器和图像获取装置的组合。如本领域普通技术人员将认识到的，在一些示例中，图像获取装置可以是MRI、X射线、CT、 CBCT、螺旋CT、PET、SPECT、光学层析成像、荧光成像、超声成像或放射疗法射野成像装置等。 [0072] 作为放射疗法的具体示例，在当前放射疗法实践中通常使用调强放射疗法(IMRT) 和容积弧形调强治疗(VMAT)，并且调强放射疗法(IMRT)和容积弧形调强治疗(VMAT)被设计成与较早的治疗方法相比，对靶产生更精确的剂量，并相应地保留邻近的敏感组织。IMRT计划分两个阶段进行：1)创建描绘能量在患者体内的局部沉积的注量图，以及2)将每一束的注量转换成一系列塑造束边界并调节其强度分布的MLC孔径。这是静态调强(step‑andshoot)IMRT的基本过程。在第一阶段中，计划必须解决规定的靶剂量和器官保护的相冲突的约束。注量图优化(FMO)问题包括治疗计划特征和约束冲突。
+[0073] 在IMRT中，患者具有一组已限定的靶和敏感器官。体素接收的剂量是子束强度或权重的线性函数：
+[0074]  
+[0075] 其中，Djs(b)是从子束i以单位强度沉积在结构S中的体素j中的剂量，子束i的强度或权重用xi表示，n个子束权重的向量为b＝(b1，…，bn)T，其中上标T表示向量转置。S是结构总数，其中第一T是靶(T＜S)，vS是结构中体素的数量s∈S。结构S中的剂量分布为
+[0076]	Ds(b)＝(D1s(b)，…，Dvss(b))，s＝1，…，S(式2)
+[0077]	其可以代表vs维剂量空间中的一个点。
+[0078]	多准则优化已有效地应用于FMO问题。例如，一种已知方法提供以下FMO模型公式：
+[0079]	(P)：minx≥0F(D(b))
+[0080]	s.t.minx≥0G1(b)≤C1(b)
+[0081]	minx≥0G2(b)≤C2(b)
+[0082]	…
+[0083]	minx≥0GL(b)≤CL(b)
+[0084]	(式3)
+[0085]	其中，F(D(b))是其最小化受所列约束影响的剂量目标函数，其中特定化目标G(b)
+受剂量约束C(b)影响，并且L是约束的数量。目标F(D(b))将使计算为d(b)的剂量与规定剂 14/24页量之间的差最小化
+[0086]  
+[0087] 可以使用拉格朗日乘数法来获得FMO问题的另一种解决方案。鉴于上述目标和约束，拉格朗日函数定义为
+[0088]	Λ(b，λ)＝F(D(b))+∑l∈Lλl(Gl(b)‑Cl(b))，λ＝(λl，…，λL)T(式5)
+[0089]	或者，对于归一化约束函数gl(x)，
+[0090]	Λ(b，λ)＝F(D(b))+∑l∈Lλlgl(b)，gl(b)＝Gl(b)/Cl(b)‑1，λ＝(λ1，…，λL)T(式6)
+[0091])解：
+[0092]
+[0093] 其中个体λl的值根据条件λl＞0，∑l∈Lλl＝1而变化以获得解。通过共轭梯度下降迭代地求解现有等式(等式7)，以获得最大可能程度地满足该等式的子束权重集
+ 
+[0094] 各个约束是分类“95％的靶l应接收不小于处方剂量的95％”或“98％的靶l应接收处方剂量”或者“靶l内的最大允许剂量是处方剂量的107％到至少0.03cc的体积”的靶约束。因此，剂量要被限制的关键结构由分类“结构l的体积的不超过15％应超过80Gy”或者
+“结构l的平均剂量将小于或等于52Gy”的约束来描述。
+[0095] 总之，靶目标被最大化，关键结构约束被最小化(结构剂量小于约束剂量)，并且子束权重全部大于或等于零。实际上，靶和关键结构约束通常是冲突的，因为由于散射导致的靶剂量半影频繁地与附近的关键结构重叠。涉及迭代调整约束权重以产生期望3D剂量分布的计划可能产生非直观的结果，并且需要大量的规划时间和努力，因为每次权重调整之后必须进行梯度拉格朗日算子的重新求解。
+[0096] VMAT要解决的FMO问题类似于IMRT，不同之处在于子束被布置在患者周围的更多束中。通过围绕患者连续移动台架，并且利用对孔径进行整形并且改变孔径的强度模式的连续移动MLC叶片，来实施VMAT治疗。对于相同的肿瘤，VMAT治疗可以比IMRT治疗更快地实施，并且使用更少的监测单元(总的束接通时间)。由于有效束的数量更多，VMAT在靶覆盖范围和器官保留方面潜在地比等效IMRT治疗更精确。
+[0097] 最后，在此所述的获得的注量图仅是IMRT/VMAT计划的中间结果。根据3D注量图，计算必须满足台架和MLC叶片运动约束的3D剂量分布，以产生与注量图差异尽可能小的剂量图。这是计划过程的分割部分，并且也是约束优化问题。
+[0098] 放射疗法计划的这些操作可以利用涉及如本文所讨论的GAN的深度学习(DL)/机器学习(ML)方法来改进。AI、DL或ML都基于随机可变概率及其概率分布的数学分析。通常，随机变量作为对X，Y，{xi，yi}，i＝1，N被观察，其中对于每个值xi∈X，我们希望将其分配到由标量类别索引yi∈Y(分类)表示的类或类别，或者根据某一函数yi＝f(xi)(回归)向其分
+15/24页
+配数值。
+[0099] 所有分类或回归方法依赖于描述随机变量X，Y的概率分布的概念。随机变量X，p
+(x)(x是离散的或连续的)的概率分布必须满足：1)p(x)的域必须是x的所有可能值的集合，
+2)对于所有x∈X，p(x)≥0，以及3) 从分布p(x)中抽取的样本x被写为x～p(x)。
+X，Y的联合分布被写为p(x，y)，并且在联合分布p(x，y)的条件下的X，p(x)的边缘分布为p (x)＝∫p(x，y)dy。以Is的值为条件的观测概率。给定数据x的条件下观察的条件概率y被称为数据似然性。贝叶斯法则连接X，Y条件似然性为p(y|x)＝p(x|y)p(y)/p(x)。
+[0100] 统计学习的目标是确定将任何y与x关联的映射f：x→y。最重要的方法之一是最大
+似然估计。假定训练数据是由过程pdata(x，y)生成的。查找映射涉及学习模型过程pmodel(x； θ)，除了x之外，该模型过程还包括映射所依赖的参数θ。例如，θ可以包括神经网络层权重和偏差参数。最大似然估计提供x的最可能值的参数θL
+[0101]  
+[0102] 其中，E是方括号中的变元的期望值。由于概率分布难以估算，并且由于目标是 pdata(x)与pmodel(x；θ)分布之间的差异最小化，因此KL散度提供了一种数据驱动的替代方案，
+[0103]  
+[0104] 其中最大似然性相当于使模型与数据分布之间的差异最小化。log pdata(x)项与模型无关，因此要最小化DKL，需要使下式最小化，
+[0105]  
+[0106] 其与θ隐含在模型表达式中的式(8)相同。期望的映射为f(θ)：x～pmodel→y。
+[0107] 当前公开的用于放射疗法剂量分布建模和治疗计划估计的系统提供了现代神经网络技术对放射疗法治疗计划进行建模的有用应用。自60年代以来，一直在研究神经网络 (NN)，以解决分类问题(将观察到的数据x分配给两个或更多个类别yi，i＝1，...，n之一)和回归问题(将观察到的数据x与与该数据相关的参数值y相关联)的解决方案。可以将治疗参数和剂量分布的生成视为回归问题，这是通过使用通过GAN配置学习的NN生成模型而产生的。
+[0108] 简单的NN由输入层、中间层或隐藏层以及输出层组成，每个层都包含计算单元或节点。隐藏层节点具有来自所有输入层节点的输入，并且连接至输出层中的所有节点。这样的网络被称为“全连接”。每个节点根据其输入之和的非线性函数将信号传递至输出节点。对于分类器，输入层节点的数量通常等于要分类成多个类别的对象集合中的每个对象的特征数量，并且输出层节点的数量等于类别的数量。通过向网络呈现已知类对象的特征，并通过称为反向传播的算法来调整节点权重以减少训练误差，从而对网络进行训练。经过这样
+16/24页
+的训练，网络可以对类别未知的新对象进行分类。
+[0109] 神经网络具有发现数据与类别或回归值之间的关系的能力，并且在某些条件下可以模拟包括非线性函数在内的任何函数y＝f(x)。这与剂量预测和计划建模的问题特别相关，因为在剂量‑体积直方图和重叠‑体积直方图中捕获的靶和器官的形状或体积重叠关系是高度非线性的，并且已经证明是与剂量分布形状和计划质量相关。
+[0110] 在ML中，假设训练和测试数据二者都是通过相同的数据生成过程Pdata生成的，其中每个{xi，yi}样本相同且独立地分布(i.i.d.)。在ML中，目标是使训练误差最小化，并使训练误差与测试误差之间的差异尽可能小。如果训练误差太大，则会发生欠拟合；当训练‑测试误差差距太大时，会发生过拟合。两种类型的性能缺陷都与模型容量有关；大容量可能非常适合训练数据，但会导致过拟合；小容量可能会导致欠拟合。由于DNN具有巨大的容量，因此过拟合是机器学习中更常见的问题。
+[0111] 深度学习是一种机器学习方法，它使用具有大量隐藏层的DNN，输入和输出以复杂的方式排列，并在图像和语音识别任务上产生人类水平的表现。在本示例中，将训练DNN以确定观察到的数据X与输出Y之间的关系。数据x＝{x1，…，xn}是3D计划CT图像、解剖体素标签图和计划元数据(束台架角度、子束矢量等)的集合，并且输出是计划图像坐标系中剂量或注量的3D图。
+[0112] 在一些示例中，注量的映射可能比剂量优选，因为注量表示要建模的计划过程的产物。剂量是FMO加上孔径段生成的结果，算法独立于FMO过程。剂量图通常由治疗计划程序制作，而注量图并非始终可用。
+[0113] DNN的动作由函数f(·)象征性地捕获
+[0114] Y*＝f(X；Θ)(式11)
+[0115] 其中，Θ＝(θ1，…，θn)T是与经训练的NN有关的参数的向量，其中，Y*是训练中观察到的真实值Y的最近似值。使用图像和标签X以及已知剂量/注量图Y的数据集{X，Y}i，i＝
+1，…，N来训练DNN。训练使分类的成本函数J(Θ)最小化
+[0116] J(Θ*)＝arg minΘ||Y‑Y*||2(式12)
+[0117] 其中，Θ*是使实际值Y与估计值Y*之间的均方误差最小化的参数集。在深度学习中，成本函数通常将数据逼近函数表示为问题变量的概率函数，或者将给定X并受参数值Θ 影响来观察Y的条件似然性表示为P(Y|X；Θ)，为此，通过最大化似然性获得最优参数ΘML，
+[0118] ΘML＝arg maxΘP(Y|X；Θ)(式13)
+[0119] 或者，可替代地
+[0120]  
+[0121] 对训练数据的求和。
+[0122] 导致属于解剖类别的体素的识别的DNN输出是分类的示例。在这种情况下，DNN输出将是剂量图Y＝(y1，…，yM)T的实值元素yi，这意味着网络计算将是回归的示例。然后，该剂量图Y可用于若干目的：1)与现有的患者计划剂量图和用于质量保证的相应DVH进行比 17/24页较；2)提供后续计划或重新计划的起点；以及3)经过充分的训练和发展以提供自动计划。注量图可以达到相同的目的，不同之处在于将必须使用治疗计划程序来计算具有剂量分布的可交付计划的转换。如上所述，注量图可以提供更清晰的计划过程模型。
+[0123] DNN比基本NN实现方式具有更多的层(更深)，因为DNN通常包括数十或数百个层，每个层由数千至数十万的节点组成，其中这些层以复杂的几何形状排列。除了输入的加权和外，某些层还计算先前层输出上的其他运算，例如卷积。卷积和从中得到的滤波可以在图像中定位边缘，或在声音流中定位时间/音高(pitch)特征，随后的层发现由这些图元组成的较大结构。这种涉及卷积层的使用的经训练的DNN被称为卷积神经网络(CNN)。
+[0124] 重要的CNN架构创新是跳跃连接。最初是为了提高准确性和缩短训练而引入的，跳跃连接是将网络的一个级别上的节点数据与另一级别上的节点数据进行拼接。重要的示例是为医学图像分割开发的U‑Net架构。如下面进一步讨论的，“U”的“左”部分将图像数据编码为卷积滤波特征，并且“U”的“右”部分将这些特征解码为连续的高分辨率表示。跨相同网络层级的编码和解码特征的组合会导致更准确的分类。跳跃连接的另一种变体是在每个 CNN块中实现的，它强制对层输出之间的差异(残差)而不是直接对层输出进行训练。这种
+“ResNet”架构及其许多变体可以提高NN的准确性。
+[0125] 图3示出了根据本公开内容的适于生成治疗剂量模型的示例性CNN模型300。具体地，模型300描绘了“U‑Net”深度CNN的布置，其被设计用于基于输入训练集(例如，解剖区域表示302例如映射图像和剂量图304例如剂量映射图像)来生成输出数据集(输出剂量表示 306例如剂量图像)。该名称源自“U”配置，并且很好理解的是，这种形式的NN模型可以产生逐像素的分类或回归结果。
+[0126] 模型操作的左侧(“编码”操作312)学习特征集合，右侧(“解码”操作314)使用该特征集合来重建输出结果。U‑Net具有由conv/BN/ReLU(卷积/批量归一化/校正线性单元)块
+316组成的n个级别，并且每个块具有跳跃连接以实现残差学习。块大小在图3中由“S”和“F” 数量表示；输入图像的大小为S×S，特征层的数量等于F。每个块的输出是在与图像相同大小的阵列中的特征响应模式。
+[0127] 沿着编码路径前进，块的大小在每个级别处减少1/2或2‑1，而按惯例，特征大小增加2倍。网络的解码侧在规模上从S/2n回升，同时从左侧在相同级别处添加特征内容——这是复制/联结数据通信。图3中所示的输入图像302、304可以被提供用于训练网络以评估 conv/BN/ReLU层参数，原因是将没有输出图像。为了使用该模型进行推理或测试，输入将是解剖表示的单个图像(二进制掩模或符号距离图部分)，并且输出将是剂量估计图像306。
+[0128] 因此图3的模型300的表示示出了生成模型的训练和预测，该生成模型适于执行回归而不是分类。与本公开内容的实施方式一致，基于这样的模型的治疗建模方法、系统、装置和/或过程包括两个阶段：使用GAN中的判别器/生成器对来训练生成模型；以及使用经 GAN训练的生成器来对生成模型进行预测。在以下示例中详细讨论了涉及用于治疗计划图像的GAN和条件GAN(cGAN)的各种示例。将理解的是，还可以利用本技术来实现深度学习模型的类型和其他神经网络处理方法的其他变化和组合。此外，尽管参照图像和图像数据讨论了以下示例，但是将理解，以下网络和GAN可以使用其他非图像数据表示和格式来操作。
+[0129] 在深度CNN训练中，学习的模型是训练过程中确定的层节点参数θ(节点权重和层偏差)的值。训练采用最大似然性或训练数据与模型分布之间的交叉熵。表示这种关系的成
+18/24页本函数是
+[0130]  
+[0131] 具体问题的成本函数的确切形式取决于所用模型的性质。高斯模型pmodel(y|x)＝N
+(y：f(x；θ))隐含成本函数例如：
+[0132]  
+[0133] 其包括一个不依赖θ的常数项。因此，最小化J(θ)生成近似训练数据分布的映射。
+[0134] 图4示出了用于训练和使用适于生成治疗剂量模型的生成式对抗网络的示例性数据流。例如，图4的被训练以产生经训练的生成器模型460的生成器模型432可以被训练以实现作为图1的放射疗法系统中的放射疗法处理逻辑120的一部分提供的处理功能132、134、
+136。因此，GAN模型使用450的数据流(预测)在图4中被描绘为向经训练的生成器模型460提供新数据470(例如，来自新患者的输入图像)，以及使用经训练的生成器模型460来产生对生成结果480的预测或估计。
+[0135] GAN包括两个网络：被训练以执行分类或回归的生成式网络(例如，生成器模型 432)和对生成式网络的输出分布(例如，模拟输出436)进行采样并决定样本与真实测试分布是否相同或不同的判别网络(例如，判别器模型440)。该网络系统的目标是驱动生成器网络尽可能准确地学习地真实模型，以使判别器网络能够在50％的时间内猜测生成器样本的正确来源。判别器可以访问真实模型，但是生成器仅通过检测器对生成器输出的响应来访问训练数据。
+[0136] 图4的数据流4示出了训练输入410的接收，训练输入410包括模型参数412和训练数据420(这样的训练数据包括解剖区域422的患者成像数据和图像掩模或映射、解剖区域
+424的剂量分布数据和映射、约束或条件426)的各种值。训练输入被提供给GAN模型训练
+430，以产生在GAN模型使用450中使用的经训练的生成器模型460。
+[0137] 作为GAN模型训练430的一部分，生成器模型432在解剖图像数据和剂量图像数据对423、425(在图3中也被描绘为302、304)上被训练，以在CNN中产生并映射部分对。以这种方式，生成器模型432被训练成基于输入图来产生模拟的输出剂量图像表示436(在图3中也被描绘为306)。判别器模型440判定模拟表示436是来自训练数据还是来自生成器(例如，如生成器模型432与判别器模型440之间利用生成结果434和检测结果444所传达的那样)。该训练过程导致权重调整438、442的反向传播，以改进生成器模型432和判别器模型440。
+[0138] 因此，在该示例中，用于GAN模型训练430的数据准备需要解剖表示和剂量表示。在示例中，原始数据包括成对的CT图像集合和相应的3D剂量分布，并且这样的CT和剂量数据可以被配准并重新采样到公共坐标系以产生成对的解剖衍生的2D图像和剂量部分。将在下面参照图7和图8进一步说明和讨论这样的对(和这样的对的衍生)的具体解剖表示。
+[0139] 详细地，在GAN模型中，生成器(例如，生成器模型432)学习数据x上的分布pG(x)， 19/24页从具有分布pZ(z)的噪声输入开始，因为生成器学习映射G(z；θG)：pZ(z)→pG(x)，其中G是表示具有层权重和偏差参数θG的神经网络的可微函数。判别器D(x；θD)(例如，判别器模型440) 将生成器输出映射至二进制标量{真，假}，如果生成器输出来自实际数据分布pdata(x)则判定为真，如果来自生成器分布pG(x)则判定为假。也就是说，D(x)是x来自pdata(x)而不是来自 pG(x)的概率。
+[0140] 图5示出了根据本文讨论的示例技术的在GAN中训练以生成治疗剂量模型。图5具体示出了GAN判别器模型D520的操作流程500，该模型被设计成基于输入剂量图像510来产生确定值530(例如，真，假)。图5还示出了GAN生成器模型G560的操作流程500，该模型被设计成生成模拟的(例如，估计的，人工的等)输出剂量图像580作为输入解剖映射图像540的结果。
+[0141] 在GAN的背景下，基于在训练期间施加的经调整的训练权重570，对判别器D520进行训练以使将正确的标签分配给来自两个分布的样本的概率最大化，而对生成器560进行训练以使log(1‑D(G(z)))最小化。D，G可以视为使用如下所示的值函数V(D，G)进行二元极小极大博弈：
+[0142]  
+[0143] 在学习的早期，当G表现不佳时，log(1‑D(G(z)))项主导V(D，G)，并导致早期且错误的终止。除了训练G以使log(1‑D(G(z)))最小化之外，还可以训练G以使在训练早期产生更多信息梯度的log D(G(z))最大化。此外，研究还证明，随着训练的进行，分布pG(x)会收
+敛到真实的数据分布pdata(x)。
+[0144] GAN的有用扩展是条件GAN(cGAN)。cGAN将GAN模型扩展到条件分布，该条件分布取决于问题中可用的其他信息，包括使用x观察到的随机变量y。在生成器G中，先验输入噪声 pZ(z)和y可以包含联合隐藏表示，并且对抗框架可以灵活地容纳此额外信息。二元极小极大博弈值函数可以重写为
+[0145]  
+[0146] 以y为条件的值是条件分布，其与相应的非条件分布相比可能更紧凑，并且在模式周围可能更趋于峰值。对于条件GAN分类器，模型D(x|y)，G(z|y)将仅限于分布px～data x|y(x| y)，Gz～p(z|y)(z|y)，而不是限制较少的分布px～data(x)，Gz～p(z)(z)。期望条件分布更准确地表示对于相应y的x，z的具体变化。
+[0147] 图6A、图6B和图6C示出了用于生成治疗剂量模型的条件生成式对抗网络的训练和使用。以与以上讨论的操作流程500类似的方式，图6A示出了产生确定值622(例如，真，假) 的判别器D620的操作流程600。然而，该确定值622基于两个输入，即输入剂量图像612(类似于剂量图像510)和解剖映射图像614(条件)。同样以与以上讨论的操作流程550相似的方式，图6C示出了生成器G690的操作流程680，该生成器G690被设计成产生作为输入解剖映射图像682的结果的模拟的(例如，估计的，人工的等)输出剂量图像692。
+20/24页 [0148] 图6B的操作流程630示出了作为条件GAN布置中的训练的一部分的训练权重665如何在生成器G640和判别器D670之间通信。如图所示，发生器G650接收训练数据的集合，该训练数据的集合除了包括输入剂量图像642之外还包括解剖映射图像644A。如前所述，发生器
+G650适于从该输入剂量图像产生模拟的(例如，估计的，人工的等)输出剂量图像662。然而，判别器D670也适于接收与操作判别器D670时的条件相同的解剖区域信息644B的实例，其中该条件有助于判别器D670产生确定值672。然后，判别器D670和生成器G650调节作为该操作流程630的结果的训练权重665以改进彼此的结果。图6B示出了用于训练的组合网络的配置。图6C示出了单独操作以估计用于图像输入的剂量的经训练的生成器网络。
+[0149] 前面的示例提供了可以如何基于解剖映射图像和输出剂量图像、具体地来自2D图像切片中的图像数据的图像来训练GAN或条件GAN的示例。将理解，GAN或条件GAN可以处理其他形式的图像数据(例如，3D或其他多维图像)。在训练或预测用例中也可以使用表示解剖区域和其他治疗或诊断空间的其他形式的非图像数据。此外，尽管附图仅描绘了灰度(包括黑白)图像，但是将理解，如以下示例中所讨论的，GAN可以生成和/或处理彩色图像。
+[0150] 因此，用于训练的数据准备需要解剖表示和剂量表示。在示例中，用于训练的原始数据由成对的CT图像集合和相应的3D剂量分布组成。由于大多数当前的CNN平台都提供最适合2D图像的算法，因此可以将CT和剂量数据配准并重新采样到公共坐标系中，以生成成对的解剖衍生图像和剂量部分。
+[0151] 图7示出了结合训练和生成治疗剂量模型而使用的解剖区域信息和输入图像的变化。在图7中，示出了两个解剖表示。首先，在顶行中示出计划治疗体积靶(PTV‑1，PTV‑2)的二进制图像掩模702、704和集合OAR706。第二，在底行中示出了从这些图像导出的符号距离图712、714、716，其表示从空间中的任何点到最近的对象边界的距离。
+[0152] 在示例中，由处理CNN施加的附加约束涉及将三个解剖结构组合成单个数据表示 (例如，基于图像掩模702、704、706的组合图像708；或基于符号距离图712、714、716的组合图像718)。在图8的描绘示例中，三个解剖区域(例如，702、704、706；或712、714、716)的这种组合可以由单个图像通道中的相应值(例如，灰度图像中的不同灰度值)表示。在另一示例中，三个解剖区域(例如，702、704、706或712、714、716)的这种组合可以由单个8位RGB图像 (708、718，在图8中以灰度描绘)。其他解剖表示形式也是可以的，例如包括二进制掩模与原始CT图像的组合或其他衍生或组合。
+[0153] 图8示出了在治疗剂量模型中提供的成对的解剖区域信息和输出剂量表示的变化。如图所示，可以在与解剖图像相同的坐标处将重新采样的3D剂量分布切片到平面上，因为可以使用最近邻或线性插值对重新采样的剂量进行插值。图8示出了解剖结构的四个组合(具有线性插值804或最近邻814的二进制图图像802；以及具有线性插值824或最近邻834 的符号距离图图像812)。
+[0154] 在示例中，可以生成放射疗法剂量分布的估计作为训练cGAN网络的结果，并且作为DVH表示输出。网络可以例如通过使用cGAN算法的具体实现方式(例如，如TensorFlow中实现的)来执行式(18)所描述的二元极小极大博弈。可以在训练期间(例如在不同时期期间)在选择的时间点从cGAN网络生成放射疗法剂量估计的结果。也可以与经GAN训练的生成模型结合使用训练或预测结果的其他形式的视觉表现、比较或验证。
+[0155] 在另外的示例中，可以使用优化来在网络训练期间的选择时间点执行真实与cGAN 21/24页 DVH的比较。例如，可以生成和评估DVH，以验证OAR的避免。例如，对于前列腺癌治疗，附近最大的两个器官是膀胱和直肠。可以跟踪、比较和视觉表现每个训练时间点的膀胱和直肠的
+DVH(例如，以确定是否GAN估计的OAR DVH与真实DVH的差别不大)。
+[0156] 图9示出了用于训练适于输出治疗剂量的生成模型的示例性操作的过程流程图 900。从放射疗法治疗处理系统的角度示出了处理流程900，该放射疗法治疗处理系统使用如先前示例中所讨论的GAN来训练和利用生成模型。然而，相应的操作可以由其他装置或系统(包括在与特定放射疗法治疗工作流程或医学治疗分开的离线训练或验证设置中)执行。 [0157] 如图所示，流程图工作流的第一阶段开始于建立训练和模型操作的参数的先决条件操作(910，920)。流程图900开始于接收(例如，获得、提取、识别)训练图像数据的操作(操作910)以及用于训练的约束或条件(操作920)。在示例中，该训练图像数据可以包括来自多个人类受试者的、与特定状况、解剖特征或解剖区域有关的图像数据。同样在示例中，约束或条件可以与治疗装置、患者或医学治疗考虑有关。
+[0158] 流程图900的第二阶段继续进行训练操作，包括在生成式对抗网络中对生成模型和判别模型进行对抗训练(操作930)。在示例中，对抗训练包括训练生成模型从输入的解剖区域图像生成模拟放射疗法剂量分布图像(操作942)，以及训练判别模型将生成的放射疗法剂量分布图像分类为模拟的或真实的训练数据(操作944)。同样在该对抗训练中，生成模型的输出用于训练判别模型，并且判别模型的输出用于训练生成模型。在各个示例中，生成模型和判别模型包括相应的卷积神经网络(例如，如以上参考图3所讨论的)。在另外的示例中，生成式对抗网络是条件生成式对抗网络(例如，如以上参考图6A至图6C所讨论的)。
+[0159] 流程图900继续输出生成模型以用于生成放射疗法治疗剂量信息(操作950)，因为该生成模型适于基于与用于放射疗法治疗的解剖结构的映射对应的输入解剖结构来识别用于人类受试者的放射疗法治疗的放射疗法剂量数据。如下面在图10中描绘的流程图1000 中进一步讨论的，以这种方式利用经训练的生成模型来识别放射疗法剂量分布(操作960)。 [0160] 流程图900以实现对生成模型的更新的最后阶段结束，更新包括基于附加训练数据更新生成模型(操作970)以及输出经更新的经训练的生成模型(操作980)。在各种示例中，可以结合接收附加的训练图像数据和约束(例如，以类似于操作910、920的方式)或执行附加的对抗训练(例如，以类似于操作930、942、944的方式)来产生更新。在另外的示例中，可以具体基于放射疗法剂量数据的批准、改变或使用(例如，由医疗专业人员对剂量数据进行的修改、验证或改变产生)来更新生成模型。该流程图以使用经更新的经训练的生成模型 (操作990)结束，例如可以在使用经更新的生成模型以用于后续放射疗法治疗中使用经更新的经训练的生成模型。
+[0161] 图10示出了用于使用机器学习回归来执行深度学习辅助剂量估计以及与临床计划剂量进行比较的示例性操作的过程流程图1000。还从利用机器学习剂量估计器的放射疗法治疗处理系统的角度、使用经GAN训练的生成模型(例如，使用流程图900中的过程训练) 示出了过程流程图1000。然而，相应的操作可以由其他装置或系统(包括在提供医学诊断和评估功能的各种客户端系统中)执行或调用。
+[0162] 流程图1000开始于对人类受试者的解剖数据的接收和处理，其指示用于治疗的一个或更多个解剖区域的映射(操作1010)。在示例中，解剖数据以图像数据表示，并且解剖区域的映射包括与被识别成接收放射疗法治疗的至少一个区域和被识别成避免放射疗法治 22/24页疗的至少一个区域相对应的多个图像掩模。在另一示例中，解剖数据是从人类受试者的解剖区域的三维图像集合中识别的，或者解剖数据包括从通过至少一个成像方式所捕获的人类受试者的至少一个图像导出的解剖区域的三维体素数据，并且多个图像掩模与指示被识别成接受放射疗法治疗的至少一个区域和被识别成避免放射疗法治疗的至少一个处于危险中的器官的相应部分对应。在其他示例中，解剖数据包括图像，该图像包括至少一个二值掩模或至少一个符号距离图，或者解剖数据包括在解剖区域的坐标空间内用于放射疗法治疗的坐标。在具体示例中，图像包括根据成像方式产生的医学数字成像和通信(DICOM)格式图像。
+[0163] 流程图1000继续进行与一个或多个解剖区域的映射相对应的放射疗法剂量数据的生成，其中这样的生成是使用经训练的生成模型发生的。在示例中，在生成式对抗网络中训练生成模型，并且对生成模型进一步进行训练以处理作为输入的解剖数据，并提供放射疗法剂量数据作为输出。在另一示例中，生成式对抗网络被配置成使用判别模型来训练生成模型，并且使用判别模型与生成模型之间的对抗训练来确定由生成模型和判别模型应用的值。在另一示例中，如上所述，生成模型和判别模型包括相应的卷积神经网络。在又一示例中，对抗训练可以利用参照图9讨论的技术来进行。在另一示例中，从由生成式对抗网络训练的多个模型中识别生成模型，并且基于解剖区域或放射疗法治疗的类型来识别生成模型。
+[0164] 在具体示例中，输入图像是二维图像，该二维图像包括使用相应图像通道或图像通道中的相应灰度值表示模拟至少一个治疗区域和至少一个治疗排除区域的相应区域，并且模拟放射疗法剂量分布图像是二维图像，该二维图像包括使用相应图像颜色通道或图像通道中的相应值来表示剂量值的相应区域。在其他示例中，生成模型被训练成接收作为RGB 图像彩色图像的输入图像，该RGB图像彩色图像包括使用至少两个彩色图像通道指示至少一个治疗区域和至少一个治疗排除区域的图像掩模，并且生成模型被训练成产生模拟放射疗法剂量分布图像作为灰度图像。同样在另外的示例中，放射疗法剂量数据包括较低分辨率的从所归档的剂量数据的线性插值或最近邻插值产生的图像；或者，放射疗法剂量数据包括在解剖区域的坐标空间内的坐标处的放射疗法治疗处理量的指示。
+[0165] 如以上参考图6和图9所讨论的，生成式对抗网络可以是包括生成模型和判别模型的条件生成式对抗网络，并且从生成模型提供的预测值以从人类受试者捕获的成像数据为条件。例如，生成模型和判别模型可以在训练期间以预分类的解剖结构数据为条件，其中预分类的解剖结构数据对应于放射疗法治疗的解剖区域。同样，例如，条件生成式对抗网络的生成模型和判别模型还以与放射疗法剂量分布相关的至少一个约束为条件。作为示例，约束可以关联于或源自放射疗法治疗约束、解剖、治疗机器限制或相关联的参数和特征。在又一示例中，从由生成式对抗网络训练的多个模型中识别生成模型，并且基于解剖区域或放射疗法治疗的类型来识别生成模型。
+[0166] 流程图1000继续进行以下操作：基于放射疗法剂量数据来识别用于人类受试者的放射疗法治疗的放射疗法剂量分布(操作1030)。如前所述，将对生成模型进行训练以基于从多个人类受试者获得的数据(例如三维图像数据)来生成针对特定条件或解剖特征的放射疗法剂量数据。
+[0167] 在放射疗法剂量分布的识别之后，可以进行如下操作：生成针对人类受试者的放 23/24页射疗法治疗所识别的放射疗法剂量分布的至少一个剂量体积直方图(操作1040)，一个或更多个剂量体积直方图的使用指示至少一个计划治疗体积或至少一个处于危险中的器官的值；以及将放射疗法剂量分布的剂量体积直方图与针对另一放射疗法剂量分布生成的剂量体积直方图进行比较(操作1050)，其中针对放射疗法治疗识别的这样的分布与解剖区域相对应。此后可以是生成解剖区域的三维视觉表现(操作1060)的特征，其中三维视觉表现指示针对人类受试者的放射疗法治疗所识别的放射疗法剂量分布。
+[0168] 流程图1000以跟踪特征(操作1070)结束，该跟踪特征包括：基于放射疗法剂量数据的批准、改变或使用来更新生成模型；使用更新的生成模型来生成用于人类受试者的经更新的放射疗法剂量分布。用于放射疗法剂量数据的附加反馈、监测和利用的进一步变化可以整合到其他治疗或评估工作流中。
+[0169] 如先前所讨论的，各个电子计算系统或装置可以实现如本文中所讨论的方法或功能操作中的一个或更多个。在一个或更多个实施方式中，放射疗法处理计算系统110可以被配置成、适于或用于：控制或操作图像引导的放射疗法装置202；从模型300执行或实现训练或预测操作；操作经训练的生成器模型460；执行或实现数据流500、550、600、630、680；执行或实现流程图900、1000的操作；或者执行本文中讨论的其他方法中的任何一种或更多种方法(例如，作为治疗处理逻辑120和工作流130、140的一部分)。在各种实施方式中，这样的电子计算系统或装置操作为独立装置或者可以连接(例如，联网)至其他机器。例如，这样的计算系统或装置可以在服务器‑客户端网络环境中以服务器或客户端机器的能力进行操作，或者在对等(或分布式)网络环境中作为对等机器进行操作。计算系统或装置的特征可以由个人计算机(PC)、平板PC、个人数字助理(PDA)、蜂窝电话、网络设备或者能够执行指定要由该机器执行的动作的指令(顺序的或以其他方式)的任何机器来实施。
+[0170] 也如上所述，以上讨论的功能可以通过机器可读介质上的指令、逻辑或其他信息存储来实现。尽管可能已经在各种示例中参考单个介质描述了机器可读介质，但是术语“机器可读介质”可以包括存储一个或更多个指令或数据结构的单个介质或多个介质(例如，集中式或分布式数据库和/或相关联的高速缓冲存储器和服务器)。术语“机器可读介质”也应该被认为包括如下任何有形介质，所述任何有形介质能够存储、编码或携载由机器执行的指令并且使机器执行本发明的方法中的任何一种或更多种方法或者能够存储、编码或携载由这样的指令利用或与这样的指令相关联的数据结构。
+[0171] 以上的具体实施方式包括对附图的参照，附图形成具体实施方式的一部分。附图通过说明的方式而不是通过限制的方式示出了具体实施方式，在所述具体实施方式中可以实践本发明。这些实施方式在本文中也被称为“示例”。这样的示例可以包括除了示出的或描述的要素之外的要素。然而，发明人还预期了仅提供示出的或描述的那些要素的示例。此外，发明人还预期了使用关于特定示例(或者特定示例的一个或更多个方面)或关于在本文中示出或描述的其他示例(或者其他示例的一个或更多个方面)示出的或描述的那些要素
+(或者那些要素的一个或更多个方面)的任何组合或排列的示例。
+[0172] 本文献中参考的所有出版物、专利和专利文献都通过引用以其全部内容并入本文中，就好像通过引用单独地并入一样。如果在本文献与通过引用并入的那些文献之间存在不一致用法，则并入的(一个或多个)参考文献中的用法应该被视为对本文献的用法的补充；对于矛盾的不一致之处，请以本文献中的用法为准。
+24/24页 [0173] 在本文献中，在介绍本发明的各方面的要素或其实施方式中的要素时，如在专利文献中常见的那样，使用术语“一”、“一个”、“该”和“所述”以包括要素中的一个或多于一个或更多个，与“至少一个”或者“一个或更多个”的任何其他实例或用法无关。在本文献中，除非另有说明，否则术语“或”被用于指代非排他性或者使得“A或B”包括“A但不是B”、“B但不是A”以及“A和B”。
+[0174] 在所附权利要求中，术语“包括(including)”和“其中(in which)”被用作相应术语“包括(comprising)”和“其中(wherein)”的普通英语等同物。此外，在所附权利要求中，术语“包括(comprising)”、“包括(including)”和“具有”旨在是开放性的，以意指除了所列出的要素之外可能还存在其他要素，使得在权利要求中的这样的术语(例如，包括
+(comprising)、包括(including)、具有)之后的仍被认为落入该权利要求的范围内。此外，在以下权利要求中，术语“第一”、“第二”和“第三”等仅被用作标记，并不旨在对其对象施加数值要求。
+[0175] 本发明还涉及一种被适配、配置或操作成用于执行本文中的操作的计算系统。该系统可以是针对所需目的而专门构建的，或者该系统可以包括由存储在计算机中的计算机程序(例如，指令、代码等)选择性地启动或重新配置的通用计算机。除非另有说明，否则本文中示出和描述的本发明的实施方式中的操作的实行或执行的顺序不是必需的。也就是说，除非另有说明，否则可以以任何顺序执行操作，并且本发明的实施方式可以包括比本文中公开的这些操作更多或更少的操作。例如，可以预期的是，在另外的操作之前、与另外的操作同时或在另外的操作之后实行或执行特定操作在本发明的各方面的范围内。
+[0176] 鉴于以上，将看到，实现了本发明的若干目的并且获得了其他有利结果。已经详细地描述了本发明的各方面，将明显的是，在不脱离如在所附权利要求中限定的本发明的各方面的范围的情况下，修改和变化是可能的。由于在不脱离本发明的各方面的范围的情况下可以在上述构造、产品和方法中进行各种改变，所以旨在上面的描述中包含的以及附图中示出的所有内容应该被解释为说明性的而非限制性的。
+[0177] 上面的描述旨在是说明性的，而不是限制性的。例如，以上描述的示例(或示例的一个或更多个方面)可以彼此结合使用。另外，在不脱离本本发明的范围的情况下，可以做出许多修改以使特定情况或材料适应本发明的教导。尽管本文中描述的材料的尺寸、类型和示例参数、功能以及实现旨在限定本发明的参数，但是它们绝不是限制性的，而是示例性实施方式。在回顾以上描述之后，许多其他实施方式对本领域技术人员而言将是明显的。因此，应当参考所附权利要求以及这样的权利要求所赋予的等同物的全部范围来确定本发明的范围。
+[0178] 此外，在以上的具体实施方式中，可以将各种特征组合在一起以简化本公开内容。这不应该被解释为意欲：对于任何权利要求而言，未要求保护的公开特征均是必要的。而是，发明主题可能在于少于特定公开的实施方式的所有特征。因此，所附权利要求由此被并入具体实施方式中，其中每个权利要求独立地作为单独的实施方式。应当参考所附权利要求以及这样的权利要求所赋予的等同物的全部范围来确定本发明的范围。
+ 
+1/11页
+ 
+图1
+2/11页
+ 
+图2
+3/11页
+ 
+图3
+4/11页
+ 
+图4
+5/11页
+ 
+图5
+6/11页
+ 
+图6A
+ 
+图6B
+7/11页
+ 
+图6C 
+8/11页
+ 
+图7
+9/11页
+ 
+图8
+10/11页
+ 
+图9
+11/11页
+ 
+图10
+
