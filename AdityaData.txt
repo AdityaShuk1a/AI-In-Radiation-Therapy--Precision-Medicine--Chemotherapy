@@ -1,143 +1,390 @@
-Here’s a structured, refined version of the information with improved code, outputs, and a section addressing **shortcomings + solutions** in a concise format:
+### this is the format of the patent which is provided by the university and u have to change the content of the format which is provided after the end of format
 
----
 
-## **AI in Precision Medicine: Structured Guide**  
-*(Focused on Cancer Treatment Prediction)*  
+Annexure3b- Complete filing 
 
----
+INVENTION DISCLOSURE FORM
 
-### **What AI Can Do in Precision Medicine**  
-1. **Genetic Analysis**: Identify mutations (e.g., BRCA1) to predict treatment susceptibility.  
-2. **Drug Discovery**: Repurpose drugs based on genetic profiles (e.g., HER2 inhibitors).  
-3. **Predictive Modeling**: Forecast outcomes (e.g., tumor regression) using multi-modal data.  
-4. **Clinical Decision Support**: Recommend personalized therapies (e.g., immunotherapy vs. chemotherapy).  
+Details of Invention for better understanding:
 
----
+1.	TITLE:  Development of an AI-Driven Precision Oncology Model for Optimized Combination Chemotherapy and Targeted Radiation Therapy
+2. INTERNAL INVENTOR(S)/ STUDENT(S): All fields in this column are mandatory to be filled
+A.	    Full name	Aditya Shukla
+¬¬¬¬¬Mobile Number	9129276030
+Email (personal)	adityasarika0292004@gmail.com
+UID/Registration number	12312951
+Address of Internal Inventors	Lovely Professional University, Punjab-144411, India
+Signature (Mandatory)	 
 
-### **Steps to Build an AI Model**  
+B.	    Full name	Medha Jha
+¬¬¬¬¬Mobile Number	8709684588
+Email (personal)	medhajha810@gmail.com
+UID/Registration number	12305679
+Address of Internal Inventors	Lovely Professional University, Punjab-144411, India
+Signature (Mandatory)	 
 
-#### **1. Problem Definition**  
-**Goal**: Predict cancer treatment response (binary classification: *Positive* or *Negative*) using genetic, clinical, and imaging data.  
 
----
 
-#### **2. Dataset Selection**  
-**Example Datasets**:  
-- **Genetic**: TCGA (The Cancer Genome Atlas).  
-- **Clinical**: EHRs (Electronic Health Records).  
-- **Imaging**: TCIA (The Cancer Imaging Archive).  
 
-**Sample Features**:  
-- Age, gender, tumor size, gene expression, mutation status (e.g., BRCA1/2).  
-- **Target**: `treatment_response` (binary: 0/1).  
+C.	    Full name	Laukik Deshmukh
+¬¬¬¬¬Mobile Number	8623839776
+Email (personal)	deshmukhlaukik52@gmail.com
+UID/Registration number	12311170
+Address of Internal Inventors	Lovely Professional University, Punjab-144411, India
+Signature (Mandatory)	 
 
----
+EXTERNAL INVENTOR(S): (INVENTORS NOT WORKING IN LPU)
+A.	    Full name	NA
+Mobile Number	NA
+         Email	NA
+¬¬¬¬¬¬Address of External Affiliations 	NA
+Signature (Mandatory)	NA
 
-#### **3. Data Preprocessing**  
-**Refined Steps**:  
-1. **Handle Missing Data**: Impute missing values (e.g., `KNNImputer`).  
-2. **Normalize Features**: Use `StandardScaler` for numerical data.  
-3. **Encode Categorical Data**: One-hot encoding for variables like `treatment_type`.  
-4. **Feature Selection**: Use SHAP or permutation importance.  
 
----
+For External Inventors, NOC (No Objection Certificate) from the affiliated institute/university/Industry/lab etc. is mandatory for each individual inventor and their respective topic. For NOC, format is attached below.
 
-#### **4. Model Selection**  
-**Algorithms**:  
-- **Tabular Data**: XGBoost (better performance than vanilla RandomForest).  
-- **Multi-Modal Data**: Neural Networks (e.g., TabNet or custom architectures).  
-- **Imaging + Tabular**: Hybrid models (e.g., CNN for images + XGBoost for tabular).  
+3.	DESCRIPTION OF THE INVENTION: Challenges that cancer treatment faces include severe side effects from chemotherapy, damage to healthy tissues during radiation therapy, and high costs. This AI-driven precision model is going to revolutionize cancer care by combining artificial intelligence with personalized medicine. It collects and analyses patient-specific data, including genetic profiles, tumor characteristics, medical history, and treatment responses, to design optimized drug combinations and radiation plans. Using deep learning and machine learning, the system predicts the most effective chemotherapy dosages, minimizes toxic side effects, and ensures that radiation therapy targets only cancer cells without harming surrounding healthy tissues. Moreover, the model is continuously learning and improving through the monitoring of real-time patient responses, new medical research, and refinement of treatment strategies. It offers accurate treatments that decrease wasteful consumption of medicine, decrease lengths of stay within hospitals, and rehabilitations involved. Leverage AI with enhanced pattern recognition and natural language processes in conjunction with computer vision enhances this system to have the highly customized, efficient and cost-effective strategy in handling a patient in oncology towards more chances of surviving with higher life quality.
 
----
+A.	PROBLEM ADDRESSED BY THE INVENTION:  
+The primary problem addressed by the invention is the lack of personalized adaptability and real-time optimization in prosthetic implants, which often results in limited functionality, discomfort, and reduced quality of life for individuals with limb loss or impairment. Traditional prosthetics do not dynamically interact with the user's biological tissues and fail to account for the unique anatomical and biomechanical variations of each patient. As a result, these devices struggle to provide seamless integration with the human body, leading to issues such as poor fitting, inefficient movement, reduced comfort, and the need for frequent manual adjustments.
+This invention tackles the challenge by introducing AI-powered digital twins, which create virtual models of a patient’s anatomy. These models enable real-time monitoring and predictive analysis of prosthetic performance, ensuring continuous optimization based on sensor data and machine learning. By addressing biomechanical compatibility, patient-specific customization, and autonomous adaptability, the invention enhances prosthetic functionality, improves patient outcomes, and increases the overall quality of life for users.
 
-#### **5. Model Training & Evaluation**  
-**Refined Code**:  
-```python
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from xgboost import XGBClassifier
-from sklearn.metrics import classification_report, roc_auc_score
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
+B.	OBJECTIVE OF THE INVENTION 
+1. To Develop AI-Driven Digital Twins for Continuous Real-Time Prosthetic Monitoring and Adjustment:  
+   This objective focuses on creating digital twins that replicate the patient’s anatomy in real-time, using sensor data from the prosthetic device to monitor critical physiological parameters. The system is designed to detect and predict potential issues, such as misalignment or material stress, allowing for automatic adjustments to the prosthetic's movement, fit, and interaction with biological tissues without manual intervention.
 
-# Load data
-data = pd.read_csv("cancer_data.csv")
+2. To Utilize Machine Learning Algorithms for Personalized Prosthetic Optimization:  
+   The invention incorporates machine learning algorithms that analyse patient-specific data, including gait analysis, muscle engagement, and usage patterns. The system leverages this data to dynamically optimize the prosthetic’s performance and adapt its behaviour to suit the patient’s evolving biomechanical needs, ensuring maximum efficiency, comfort, and functionality.
 
-# Define features and target
-X = data.drop("treatment_response", axis=1)
-y = data["treatment_response"]
+3. To Enhance Biomechanical Compatibility through Sensor-Based Feedback Loops:  
+   The system integrates a variety of sensors to capture real-time biomechanical feedback from the prosthetic interface, including load distribution, joint angles, and muscle activity. This data is processed to ensure that the prosthetic device operates in harmony with the patient’s natural movements, providing improved comfort and reducing the risk of injury caused by misalignment or unnatural movement patterns.
 
-# Split data
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y, random_state=42)
+4. To Facilitate Material Innovation and Prosthetic Design through Predictive Analytics:  
+   Another objective is to employ predictive analytics powered by AI-driven digital twins to assess the wear and durability of prosthetic materials. This allows for real-time adjustments in material performance based on user activity, leading to the development of more durable and adaptive materials that can extend the lifespan of prosthetics and improve long-term patient outcomes.
 
-# Preprocessing pipeline
-numeric_features = ['age', 'tumor_size', 'gene_expression']
-numeric_transformer = Pipeline(steps=[
-    ('imputer', SimpleImputer(strategy='median')),
-    ('scaler', StandardScaler())])
+C.	STATE OF THE ART/ RESEARCH GAP/NOVELTY:  Describe your invention fulfil the research gap? 
+Sr. No.	Patent I’d	Abstract	Research Gap	Novelty
+1.		US9107586B2	A mobile system for a user includes a telephone having one or more sensors to capture fitness data or vital sign data, the telephone having a wireless transceiver coupled to the processor to communicate fitness or vital sign data over a personal area network; and a processor coupled to the personal area network to process the fitness or vital sign data.	This focuses on external application of sensors for signal communication, does not account for the prosthetic implants in human body, interaction with vitals, vice-versa.	NA
 
-categorical_features = ['gender', 'mutation_status']
-categorical_transformer = Pipeline(steps=[
-    ('imputer', SimpleImputer(strategy='most_frequent')),
-    ('onehot', OneHotEncoder(handle_unknown='ignore'))])
+D.	DETAILED DESCRIPTION:  
+System Design for AI-Powered Digital Twins in Prosthetic Implants
+The system design for integrating AI-powered digital twins in prosthetic implants is a multi-layered, interconnected architecture that combines advanced data acquisition, processing, and feedback mechanisms. The core components include sensor integration, data management systems, SCADA for real-time control, machine learning models for predictive analysis, and user interaction feedback for continuous improvement. Below is a comprehensive breakdown of the system design and its analytical components. The architecture of the AI-powered digital twin system comprises five key layers:
+Sensing Layer
 
-preprocessor = ColumnTransformer(
-    transformers=[
-        ('num', numeric_transformer, numeric_features),
-        ('cat', categorical_transformer, categorical_features)])
+This layer involves embedding a range of sensors within the prosthetic device to collect real-time data on its interaction with the human skeletal system and surrounding tissues. The types of sensors used include:
+- Pressure Sensors: Monitor the distribution of pressure exerted by the prosthetic on residual limbs.
+- Motion Sensors (IMU – Inertial Measurement Unit) : Track the kinematic movement of the prosthetic, including velocity, acceleration, and angular position.
+- Temperature Sensors: Measure the heat generated due to prosthetic friction or inflammation in biological tissues.
+- Biosensors: Measure biological factors such as muscle activity (electromyography or EMG) and skin response for more detailed insights into user adaptation and interaction.
+-Data Frequency and Sampling Rate Considerations:
+The data from these sensors are sampled at high frequencies (in the range of 100–500 Hz) to ensure real-time responsiveness and precision in capturing prosthetic interactions. Adaptive sampling algorithms can be used to dynamically adjust the sampling rates based on user activity (e.g., higher rates during movement, lower rates during rest).
+Data Acquisition and Transmission Layer
 
-# Build pipeline with XGBoost
-model = Pipeline(steps=[
-    ('preprocessor', preprocessor),
-    ('classifier', XGBClassifier(n_estimators=200, learning_rate=0.1, use_label_encoder=False, eval_metric='logloss'))
-])
+The data acquired from sensors must be efficiently transmitted to the computational resources for processing, including both cloud-based and edge computing options:
 
-# Train
-model.fit(X_train, y_train)
+- Wired/Wireless Data Transmission:  Wireless technologies such as Bluetooth Low Energy (BLE), Wi-Fi, or 5G enable seamless, low-latency communication between the prosthetic and the SCADA system.
+- Edge Computing: In cases where real-time responsiveness is critical (e.g., immediate feedback on malfunctions), edge computing platforms can process the data locally before sending it to the cloud for more extensive analysis.
+- Cloud Integration: Cloud platforms offer scalable resources for long-term data storage and higher-level analytics (e.g., training machine learning models).
 
-# Predict
-y_pred = model.predict(X_test)
-y_proba = model.predict_proba(X_test)[:, 1]
+Digital Twin Core
+The digital twin core is the heart of the system, responsible for creating a virtual replica of the patient's anatomy and prosthetic interaction. This core consists of two major subsystems:
+3D Modelling and Simulation Subsystem
+- Anatomical Model Creation: 3D models of the patient’s limb and surrounding skeletal structure are created based on imaging data (MRI, CT scans). These models are then integrated into the digital twin environment to simulate real-time prosthetic interaction.
+- Finite Element Analysis (FEA): FEA is used to simulate the stress, strain, and pressure distribution between the prosthetic and biological tissues. This helps assess biomechanical compatibility and optimize prosthetic design.
+- Kinematic and Dynamic Analysis: This subsystem performs simulations of how the prosthetic will move in conjunction with the skeletal structure, predicting outcomes such as energy efficiency and natural movement patterns.
 
-# Evaluate
-print(f"Accuracy: {model.score(X_test, y_test):.2f}")
-print(f"ROC-AUC: {roc_auc_score(y_test, y_proba):.2f}")
-print(classification_report(y_test, y_pred))
-```
+AI and Machine Learning Subsystem
+This subsystem processes real-time data through AI and machine learning techniques, providing predictive insights and optimizing prosthetic function.
+- Predictive Maintenance: Machine learning models, such as support vector machines (SVM) or deep learning neural networks, are trained on historical sensor data to predict prosthetic wear or malfunction. For example, models can forecast when components like joints or hinges may fail due to fatigue or high stress.
+- Adaptive Learning Algorithms: Algorithms are designed to learn from user feedback, continuously adjusting the interaction between the prosthetic and biological tissues to enhance comfort and functionality. Reinforcement learning models can adapt to user movements and environmental conditions, ensuring long-term adaptability.
+- Personalization: User-specific parameters, such as muscle strength, gait patterns, and prosthetic alignment, are continuously adjusted to ensure optimal performance and comfort. Neural networks may optimize these parameters in real time, reducing any discomfort or inefficiency.
 
-**Output**:  
-```
-Accuracy: 0.87
-ROC-AUC: 0.91
-              precision    recall  f1-score   support
+SCADA System Integration
+Data Acquisition Module
+- Data Aggregation: SCADA consolidates data from multiple sensors and provides a centralized view of the prosthetic’s performance and user activity.
+- Real-Time Visualization: It offers real-time dashboards for monitoring key metrics, including pressure distribution, motion dynamics, and prosthetic temperature.
+Control and Monitoring Module
+- Alert System: SCADA can trigger alerts in case of anomalies or deviations from expected prosthetic performance, such as overexertion of mechanical components or unusual temperature spikes in residual limbs.
+- User Interface: Both patients and healthcare professionals can interact with the SCADA system via a user-friendly interface, allowing them to review data and make adjustments based on insights from the digital twin.
+Feedback Loop and Learning
+- Continuous Feedback Loop: The system integrates real-time feedback from users regarding prosthetic comfort and performance. This feedback is used to refine the AI algorithms, improving future prosthetic responses.
+- Proactive Adjustments: Based on the feedback loop, SCADA can automatically implement minor adjustments (e.g., adjusting pressure distribution) or recommend rehabilitation strategies.
 
-           0       0.85      0.83      0.84        90
-           1       0.88      0.90      0.89       130
+Material and Design Optimization
+The digital twin system enables advanced simulations and testing to optimize prosthetic material and design.
 
-    accuracy                           0.87       220
-    macro avg       0.87      0.86      0.86       220
- weighted avg       0.87      0.87      0.87       220
-```
+- Material Testing via Digital Twins: Using simulations, the system can test different materials for the prosthetic, assessing their biocompatibility, durability, and performance under stress. For example, Carbon Fiber composites or lightweight polymers may be evaluated for their interaction with bone and muscle tissue.
+- Iterative Design Process : Simulation results feed into the prosthetic design process, where iterative improvements are made based on the digital twin’s recommendations. Finite element models can simulate various stress conditions (walking, running, standing) to ensure long-term durability.
+Application Layer
+The application layer provides interfaces for different stakeholders, including patients, clinicians, and prosthetic designers.
+- Patient Interface: A mobile app or wearable device provides patients with real-time updates on prosthetic performance, alerts for necessary adjustments, and personalized feedback on mobility.
+- Clinician Interface: Healthcare professionals can access detailed reports on prosthetic performance, view real-time data, and make data-driven decisions on rehabilitation or prosthetic adjustments.
+- Design Interface: Prosthetic designers can interact with the system to evaluate simulation data, enabling the development of more advanced prosthetics with optimal performance characteristics.
 
----
+System Design
+The proposed system integrates AI, machine learning, and SCADA technologies to create an intelligent, adaptive digital twin platform for prosthetic implants. Its real-time monitoring, predictive maintenance, and personalized adaptability enhance patient comfort, functionality, and overall outcomes. The iterative feedback loop ensures continuous improvement, while simulations provide insights for advancing prosthetic materials and designs. The system’s robustness in real-time decision-making, personalization, and predictive capabilities positions it as a significant advancement in prosthetic technology, promoting autonomy and quality of life for individuals with limb loss or impairment.
 
-### **Shortcomings & Solutions**  
-| **Shortcoming**                     | **Solution**                                                                 |  
-|-------------------------------------|-----------------------------------------------------------------------------|  
-| **Class Imbalance**                 | Use SMOTE (`imblearn.over_sampling.SMOTE`) or adjust class weights in XGBoost. |  
-| **Missing Genetic Data**            | Impute using k-NN or matrix factorization (e.g., `IterativeImputer`).       |  
-| **Overfitting**                     | Regularize models (e.g., XGBoost `reg_lambda`, `max_depth`).                |  
-| **Small Dataset**                   | Use transfer learning (pre-train on TCGA, fine-tune on local data).         |  
-| **Black-Box Model**                 | Explain predictions with SHAP values (`shap.Explainer`).                   |  
+SCADA Integration and Architecture
+SCADA Integration
+Supervisory Control and Data Acquisition (SCADA) systems, traditionally employed in industrial settings, offer a valuable framework for integrating AI-powered digital twins into prosthetic implant management. By providing real-time data monitoring, alerting, and integration with AI and cloud systems, SCADA enhances the overall performance, adaptability, and safety of prosthetic devices.
 
----
+Key SCADA Functions in Prosthetic Implant Management:
 
-### **Key Takeaways**  
-1. **XGBoost** outperforms RandomForest in tabular data with proper hyperparameter tuning.  
-2. Always report **ROC-AUC** for medical applications (better than accuracy for imbalanced data).  
-3. Use **SHAP** to explain model decisions to clinicians.  
+Real-Time Data Acquisition: SCADA systems collect sensor data from prosthetic implants, including pressure, motion, temperature, and other relevant metrics. This data is essential for monitoring the prosthetic's interaction with biological tissues and assessing its performance.
+Data Visualization and Analysis: SCADA dashboards present collected data in a visually accessible format, enabling healthcare providers to monitor key performance indicators, identify anomalies, and make informed decisions.
+Alerting and Anomaly Detection: SCADA systems can be configured to detect deviations from normal operating parameters, triggering alerts to notify healthcare providers or patients of potential issues.
+AI and Cloud Systems: SCADA facilitates the transmission of sensor data to AI systems for analysis and the creation of digital twin models. Additionally, integration with cloud platforms enables scalable data storage, analysis, and machine learning applications.
+Feedback Loops and Adjustments: SCADA systems enable a continuous feedback loop between the prosthetic, AI, and patient. By monitoring performance data and user feedback, adjustments can be made to the prosthetic in real-time to optimize functionality and comfort.
+Rehabilitation and Adjustment Tracking: SCADA systems can track the progression of rehabilitation programs, identifying areas where adjustments may be necessary to ensure optimal prosthetic performance.
+Security and Compliance: SCADA systems can be implemented with robust security measures to protect sensitive patient data and ensure compliance with relevant regulations such as HIPAA and GDPR.
 
-Let me know if you need help implementing any of these solutions! 🚀
+Model Architecture and composition:
+The architecture of the AI-powered digital twin system for prosthetic implants involves a combination of hardware components (prosthetics, sensors, computing devices) and software components (AI algorithms, SCADA system, cloud storage, and the digital twin framework). These elements work together to monitor, analyse, and optimize the performance of prosthetic implants, creating a personalized and adaptive healthcare solution for patients.
+
+Below is a detailed explanation of both the software and hardware aspects of the system:
+Hardware Architecture
+
+The hardware architecture consists of the prosthetic device, embedded sensors, computing devices, and communication systems that enable data collection, processing, and interaction with the digital twin.
+
+a. Prosthetic Implant (Main Hardware)
+- Custom Prosthetic Design: The prosthetic limb is designed according to the patient's unique anatomical structure. This includes the socket, joint articulations, and the interface between the prosthetic and the residual limb.
+- Key Components:
+- Artificial Limb Components: These can include mechanical joints, actuators, and artificial skin-like covers.
+- Embedded Sensors: Sensors such as pressure, motion (accelerometers/gyroscopes), temperature, force, and strain sensors are embedded into the prosthetic to monitor the interaction between the biological tissue and the prosthetic device.
+- Actuators and Motors: For more advanced prosthetics (e.g., bionic limbs), actuators and motors provide the movement of joints, mimicking natural limb movement.
+
+b. Sensors and Wearable Devices
+- Wearable Sensors: These sensors continuously collect real-time data such as pressure, temperature, and motion. Data includes real-time force distribution, joint position, temperature variations, and overall prosthetic movement.
+- Types of Sensors:
+- IMUs (Inertial Measurement Units): To measure the orientation and movement of the prosthetic limb.
+- Force Sensors: To measure the pressure and load on various parts of the prosthetic device.
+- Strain Gauges: To measure stress/strain on the prosthetic during use.
+- Temperature Sensors: To measure temperature changes that might indicate an issue such as overheating of components.
+- Data Transmission: These sensors communicate with the local processing unit via Bluetooth, Zigbee, or other wireless communication protocols.
+
+c. Computing and Edge Devices
+- Embedded Computing Units: On-board microprocessors or embedded systems (like Raspberry Pi or Arduino) can process sensor data and send it to a central system for analysis. This enables real-time processing of some of the data directly at the prosthetic level.
+- Edge Computing: In certain cases, edge computing devices may perform local processing (such as data filtering and compression) before sending the data to the cloud or a remote server.
+
+d. Communication Network
+- Wireless Communication: The prosthetic device communicates with the cloud or on-premise systems using Wi-Fi, Bluetooth, or cellular networks. Real-time data is sent to the monitoring system (SCADA or cloud), allowing immediate analysis and feedback.
+- 5G/IoT Integration: 5G technology or other IoT-based networks can be employed to reduce latency and ensure faster communication between the prosthetic and monitoring systems.
+The software architecture consists of several key layers, which interact to process sensor data, create the digital twin, and manage the prosthetic device’s performance.
+
+a. Data Collection and Integration Layer
+- Sensors Data Acquisition: Data from sensors embedded in the prosthetic (such as motion, pressure, temperature, and force sensors) is collected and sent to the processing unit.
+- Data Preprocessing: This layer filters, cleans, and normalizes the data to remove noise and inconsistencies before it is transmitted to the next layer for analysis.
+
+b. AI and Machine Learning Layer
+- Data Analysis: Machine learning algorithms analyse the data received from sensors in real-time. These models can include:
+- Predictive Models: To predict potential issues like mechanical wear, comfort degradation, or discomfort.
+- Classification Algorithms: To categorize the data based on factors such as prosthetic fit, usage patterns, and environmental conditions.
+- Optimization Algorithms: These algorithms determine the most optimal settings for the prosthetic device, based on factors such as comfort, biomechanical compatibility, and durability.
+
+
+c. SCADA and Monitoring System Layer
+- SCADA System: A key component for managing and visualizing real-time data. The SCADA system monitors all the data streams coming from the prosthetic sensors and displays the status on a centralized dashboard.
+- Real-Time Data Visualization: Key metrics like pressure, motion, and temperature are visualized for clinicians, caregivers, or the patient.
+- Alerting and Anomaly Detection: SCADA detects anomalies such as malfunctions, excessive strain, or any issues with prosthetic alignment. Alerts are sent to the relevant stakeholders for timely intervention.
+
+d. Cloud and Data Storage Layer
+- Cloud-Based Data Storage: All collected data, including sensor information, patient health data, and prosthetic performance metrics, is stored in a secure cloud platform.
+- Data Synchronization: The prosthetic's performance data is continuously synchronized with the cloud, allowing both the patient and healthcare providers to access it remotely.
+- Backup and Redundancy: Cloud platforms ensure that patient data is backed up and securely stored in compliance with healthcare data protection regulations like HIPAA or GDPR.
+
+e. User Interface Layer
+- Patient and Caregiver Interface: Provides access to real-time data visualizations, performance insights, and feedback loops.
+- Healthcare Provider Interface: Allows healthcare professionals to monitor the prosthetic device's status, review performance logs, and recommend changes or adjustments.
+- AI-Assisted Customization Interface: Offers a personalized experience, where the patient or healthcare provider can fine-tune settings based on data-driven insights from the AI system.
+- Mobile Apps: These apps interface with the cloud and provide patients with detailed insights into their prosthetic’s performance and rehabilitation progress.
+
+
+E.	RESULTS AND ADVANTAGES: 
+Enhanced Monitoring: Real-time data monitoring enables early detection of anomalies and potential failures.
+Predictive Maintenance: By analysing historical data and identifying trends, SCADA systems can predict potential issues and proactively schedule maintenance.
+Optimized Functionality: SCADA-enabled feedback loops allow for continuous adjustments to the prosthetic, ensuring optimal performance and comfort.
+Improved Patient Outcomes: Enhanced monitoring, early detection of issues, and personalized adjustments contribute to improved patient satisfaction and overall quality of life.
+Data-Driven Decision Making: SCADA provides healthcare providers with data-driven insights to inform decision-making regarding prosthetic management and rehabilitation.
+
+
+
+F.	EXPANSION: 
+Expansion of Variables for Patent Coverage:
+1. Sensor Data Input Variables: These encompass the type and placement of sensors used to capture real-time physiological data (e.g., pressure, motion, temperature) from the patient's anatomy. The sensors provide critical input for the digital twin's predictive analysis and adaptive capabilities.
+   
+2. Machine Learning Algorithms: Variables related to the types of machine learning models utilized (e.g., supervised, unsupervised, reinforcement learning) and their specific functions in adapting prosthetic performance over time. This includes the ability to learn from patient data and self-optimize for improved biomechanical compatibility.
+   
+3. Prosthetic Design Parameters: Variables pertaining to the physical characteristics of the prosthetic, such as materials, structural design, and interface with biological tissues. These parameters influence how the digital twin predicts performance and makes adjustments.
+   
+4. Anatomical and Biomechanical Models: The digital twin relies on individualized models of the patient's skeletal system, muscles, and tendons. Variables should cover the accuracy and resolution of these models, which are crucial for personalized fitting and optimization.
+
+5. Real-Time Adjustment Mechanisms: The system's capacity to make real-time adjustments based on sensor feedback. Variables in this category cover the range and precision of the adjustments (e.g., fine-tuning joint movements, pressure distribution) enabled by the AI-driven digital twin.
+
+6. Patient-Specific Data: Variables related to the individual patient’s health status, lifestyle, activity levels, and adaptation over time. This data is necessary for ongoing customization and ensuring the prosthetic remains aligned with the patient’s evolving needs.
+
+
+G.        WORKING PROTOTYPE/ FORMULATION/ DESIGN/COMPOSITION: The following is the flow chart depicting the brief of the system:
+ 
+
+ 
+Figure 1 Flowchart for Prosthetic Implant System
+The following is the state diagram depicting the brief of the system:	
+ 
+ 
+Figure 2 State chart for Prosthetic Implant System
+The state diagram for the AI-powered Digital Twin system for Prosthetic Implants represents the various states that the system undergoes during its operation, along with the transitions between those states. Here's a brief explanation of each state:
+ 
+ 
+Figure 3 State Diagram for Prosthetic Implant System
+1. Idle
+- Initial State: This is the starting point of the system, where no actions are taking place yet.
+
+2. Data Collection
+- Action: Patient's anatomical data is collected using medical imaging techniques (e.g., MRI, CT scans). Sensor data from the prosthetic is also gathered to establish a baseline for the system.
+
+3. Sensor Data Collection
+- Action: Real-time data from various sensors embedded in the prosthetic (like pressure, motion, and temperature) is transmitted to the system for further analysis.
+
+4. Model Creation
+- Action: A 3D digital model of the patient's anatomy is created based on the collected data. This model represents the interaction between the biological tissues and the prosthetic.
+
+5. Digital Twin Initialization
+- Action: The digital twin (virtual model) of the patient's prosthetic and anatomical data is initialized. This enables real-time updates and analysis of the prosthetic's performance.
+
+6. Monitoring
+- Action: Continuous real-time monitoring begins, where the system tracks the prosthetic's functionality, the interaction with biological tissues, and overall performance.
+
+7. Anomaly Detected
+- Action: If an anomaly or issue (e.g., malfunction or discomfort) is detected, the system triggers a state where corrective actions can be initiated.
+
+8. Feedback Loop
+- Action: User feedback is collected, and based on this input, the system starts adjusting or refining its algorithms to improve the prosthetic's performance.
+
+9. Model Refinement
+- Action: The AI system refines the digital twin model based on the feedback received from the user, optimizing the prosthetic's interaction with the biological tissues.
+
+10. Normal Operation
+- Action: The prosthetic enters a state of normal operation, where everything functions as expected without any detected anomalies.
+
+11. End of Process
+- Action: Once the monitoring is complete, or if an anomaly is resolved, the process either returns to normal operation or ends.
+
+Transition Flow:
+- The state diagram shows the flow of actions from one state to another, triggered by events like data collection, anomaly detection, feedback, and real-time monitoring.
+- Anomalies trigger corrective actions, while continuous feedback allows for system optimization and improvements in prosthetic performance.
+
+This state diagram helps visualize how the system operates from the initial data collection to continuous monitoring and refinements, ensuring that the prosthetic is functioning optimally throughout its lifecycle.
+
+
+G. EXISTING DATA: NA
+
+
+4.	USE AND DISCLOSURE (IMPORTANT): Please answer the following questions:
+
+A.	Have you described or shown your invention/ design to anyone or in any conference?
+	YES (  )	NO (  )
+
+B.	Have you made any attempts to commercialize your invention (for example, have you approached any companies about purchasing or manufacturing your invention)?  	YES (  )	NO (  )
+
+C.	Has your invention been described in any printed publication, or any other form of media, such as the Internet?
+
+YES (  )	NO (  )
+
+D.	Do you have any collaboration with any other institute or organization on the same? Provide name and other details.	YES (  )	NO (  )
+
+E.	Name of Regulatory body or any other approvals if required. 
+I.	Drugs Controller General of India (DCGI)
+II.	Central Drugs Standard Control Organization (CDSCO)
+III.	Indian Council of Medical Research (ICMR)
+IV.	Ethics Committees (ECs)
+V.	Clinical Trials Registry of India (CTRI)
+
+	YES (  )
+NO (  )
+
+5. Provide links and dates for such actions if the information has been made public (Google, research papers, YouTube videos, etc.) before sharing with us. NA
+
+
+6. Provide the terms and conditions of the MOU also if the work is done in collaboration within or outside university (Any Industry, other Universities, or any other entity). NA
+
+7. Potential Chances of Commercialization.
+1. Growing Demand for Personalized Healthcare Solutions:  
+   With the increasing focus on personalized medicine and patient-specific treatments, AI-powered digital twin technology in prosthetics has significant commercial potential. As healthcare systems shift towards individualized care, prosthetic devices that can adapt in real-time to each patient’s unique anatomy and lifestyle offer a competitive edge.
+
+2. Expanding Market for Advanced Prosthetic Devices:  
+   The global prosthetics market is growing rapidly, driven by advances in materials, robotics, and AI. By offering dynamic adaptability and enhanced functionality, this invention has the potential to capture a significant share of the prosthetics market, especially for individuals with limb loss or impairment who demand more efficient, comfortable, and high-performance devices.
+
+3. Collaborative Opportunities with Healthcare Providers and Prosthetic Manufacturers:  
+   The technology can be licensed or co-developed with established prosthetic manufacturers, healthcare institutions, and rehabilitation centres, providing a pathway for integration into existing product lines or as an enhancement to current offerings. This collaborative model presents strong commercialization prospects through partnerships.
+
+4. High Potential for Integration with Wearable Technologies:  
+   With the rise of wearable health devices, the technology can expand beyond prosthetics to be integrated into broader health-monitoring platforms. By applying digital twin models to different parts of the musculoskeletal system, commercialization could reach adjacent markets such as orthopaedic implants, exoskeletons, and rehabilitation devices.
+
+5. Insurance and Healthcare Reimbursement Pathways:  
+   As healthcare systems become more inclined to support innovative, cost-effective solutions that improve patient outcomes and reduce long-term costs, the invention could benefit from reimbursement models and coverage by insurance providers, further driving adoption and market growth.
+
+6. Appeal to Military and Sports Rehabilitation Programs:  
+   Military veterans and athletes are major markets for advanced prosthetics. These groups have specific needs for high-performance, adaptive prosthetic solutions, creating a robust commercialization opportunity within defence and sports rehabilitation sectors.
+
+
+8. List of companies which can be contacted for commercialization along with the website link.
+ 1. ReapMind
+ReapMind specializes in digital twin technology tailored for healthcare applications, including prosthetics. They focus on enhancing patient care and optimizing systems.
+- Website: [reapmind.com] (https://reapmind.com)
+
+ 2. Wipro
+Wipro offers AI and digital twin solutions across various sectors, including healthcare. Their expertise can be leveraged for developing advanced prosthetic systems.
+- Website: [wipro.com] (https://www.wipro.com)
+
+ 3. TCS (Tata Consultancy Services)
+TCS provides digital solutions, including digital twin technology, aimed at improving operational efficiency in healthcare settings.
+- Website: [tcs.com] (https://www.tcs.com)
+
+ 4. Infosys
+Infosys is engaged in creating AI-driven solutions, including digital twins for healthcare applications that can enhance the design and functionality of prosthetics.
+- Website: [infosys.com] (https://www.infosys.com)
+
+ 5. Siemens Healthineers India
+Siemens Healthineers offers innovative healthcare technologies, including digital twin applications for personalized medicine and prosthetic development.
+- Website: [siemens-healthineers.com] (https://www.siemens-healthineers.com)
+
+ 6. Medtronic India
+Medtronic is a global leader in medical technology that utilizes advanced technologies, including digital twins, to improve device performance and patient outcomes.
+- Website: [medtronic.com] (https://www.medtronic.com/in-en/index.html)
+
+ 7. Qure.ai
+Qure.ai focuses on AI solutions for radiology but is also exploring the use of digital twins in personalized healthcare applications.
+- Website: [qure.ai] (https://qure.ai)
+
+ 8. Aster DM Healthcare
+Aster DM Healthcare integrates technology into their healthcare services, exploring innovations like digital twins for better patient management.
+- Website: [asterdmhealthcare.com] (https://www.asterdmhealthcare.com)
+
+9. Any basic patent which has been used and we need to pay royalty to them. NA
+
+10. FILING OPTIONS:  Please indicate the level of your work which can be considered for provisional/ complete/ PCT filings (Complete).
+
+11. KEYWORDS: Please provide right keywords for searching your invention.
+I.	AI-powered digital twins  
+II.	Prosthetic implants  
+III.	Real-time monitoring  
+IV.	Predictive analysis  
+V.	Machine learning in healthcare  
+VI.	Sensor-based feedback  
+VII.	Personalized prosthetics  
+VIII.	Biomechanical compatibility  
+IX.	Adaptive prosthetic systems  
+X.	Human anatomy modelling  
+XI.	Autonomous prosthetic adjustment  
+XII.	Prosthetic optimization  
+XIII.	Gait analysis  
+XIV.	Dynamic prosthetic adaptation  
+XV.	Material innovation in prosthetics  
+XVI.	Patient-specific customization  
+XVII.	Rehabilitation technology  
+XVIII.	Human-prosthetic interaction  
+XIX.	Sensor data integration  
+XX.	Predictive healthcare solutions 
+
+##### this is the new patent from which u have to change the content of the format which is provided above
+
